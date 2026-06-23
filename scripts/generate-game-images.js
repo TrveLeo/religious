@@ -1,12 +1,12 @@
 const { createCanvas } = require('canvas');
 const fs = require('fs');
 const path = require('path');
-const TERMO_WORDS = require('../termo-words.js');
-const CONEXO_SETS = require('../conexo-words.js');
+const TERMO_WORDS = require('../docs/termo-words.js');
+const CONEXO_SETS = require('../docs/conexo-words.js');
 const { dayOfYear, dateKey, capitalize } = require('./lib/dates.js');
 const { SIZE, baseBackground, drawHeader } = require('./lib/card-canvas.js');
 
-const OUTPUT_DIR = path.join(__dirname, '..', 'output');
+const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
 
 function seededRandom(seed) {
   let state = seed % 2147483647;

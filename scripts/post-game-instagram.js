@@ -8,7 +8,7 @@ const IG_ACCESS_TOKEN = process.env.IG_ACCESS_TOKEN;
 const IG_USER_ID = process.env.IG_USER_ID;
 const SITE_BASE_URL = process.env.SITE_BASE_URL;
 
-const OUTPUT_DIR = path.join(__dirname, '..', 'output');
+const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
 
 async function publishTodayGame() {
   if (!IG_ACCESS_TOKEN || !IG_USER_ID || !SITE_BASE_URL) {

@@ -5,16 +5,17 @@ Site estático com versículo + devocional do dia, dois jogos bíblicos (Termo e
 ## Estrutura
 
 ```
-index.html, termo.html, conexo.html   páginas do site
-style.css, termo.css, conexo.css      estilos
-app.js, termo.js, conexo.js           lógica de cada página
-content.js                            banco de devocionais (fonte única, usado pelo site e pelos scripts)
-termo-words.js, conexo-words.js       bancos de palavras dos jogos (fonte única)
-assets/                               imagens estáticas (ex: QR Code Pix)
-output/                               imagens e legendas geradas diariamente (servidas via GitHub Pages)
-scripts/                              automação Node (geração de imagem + publicação no Instagram)
-  lib/                                código compartilhado entre os scripts
-.github/workflows/                    GitHub Actions, rodam a automação todo dia
+docs/                                  tudo que é servido pelo GitHub Pages (fonte do site em /docs)
+  index.html, termo.html, conexo.html  páginas do site
+  style.css, termo.css, conexo.css      estilos
+  app.js, termo.js, conexo.js           lógica de cada página
+  content.js                            banco de devocionais (fonte única, usado pelo site e pelos scripts)
+  termo-words.js, conexo-words.js       bancos de palavras dos jogos (fonte única)
+  assets/                               imagens estáticas (ex: QR Code Pix)
+  output/                               imagens e legendas geradas diariamente
+scripts/                                automação Node (geração de imagem + publicação no Instagram)
+  lib/                                  código compartilhado entre os scripts
+.github/workflows/                      GitHub Actions, rodam a automação todo dia
 ```
 
 Todo conteúdo (`content.js`, `termo-words.js`, `conexo-words.js`) é compartilhado entre o site (browser) e os scripts (Node) através de `module.exports` condicional no fim de cada arquivo. Editar um desses arquivos atualiza tanto o site quanto os posts gerados.

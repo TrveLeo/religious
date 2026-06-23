@@ -1,13 +1,13 @@
 const { createCanvas, loadImage } = require('canvas');
 const fs = require('fs');
 const path = require('path');
-const DEVOTIONALS = require('../content.js');
+const DEVOTIONALS = require('../docs/content.js');
 const { dayOfYear, dateKey, capitalize } = require('./lib/dates.js');
 const { SIZE, baseBackground, drawFooter, wrapText } = require('./lib/card-canvas.js');
 
-const OUTPUT_DIR = path.join(__dirname, '..', 'output');
+const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
 const PIX_KEY = process.env.PIX_KEY || 'diariod777@gmail.com';
-const QR_CODE_PATH = path.join(__dirname, '..', 'assets', 'pix-qrcode.png');
+const QR_CODE_PATH = path.join(__dirname, '..', 'docs', 'assets', 'pix-qrcode.png');
 
 function todayEntry() {
   const now = new Date();
