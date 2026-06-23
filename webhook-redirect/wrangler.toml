@@ -1,0 +1,14 @@
+name = "devocional-diario-redirect"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# KV namespace usado para contar cliques diários (chaves no formato
+# clicks:bio:<YYYY-MM-DD> e clicks:pix:<YYYY-MM-DD>).
+#
+# O "id" abaixo é só um placeholder. Antes do primeiro deploy, rode dentro
+# desta pasta (webhook-redirect/):
+#   npx wrangler kv namespace create CLICKS
+# e cole o "id" retornado no lugar de "COLOQUE_O_ID_AQUI".
+[[kv_namespaces]]
+binding = "CLICKS"
+id = "COLOQUE_O_ID_AQUI"

@@ -90,3 +90,35 @@ Em produção esses valores ficam em **Settings → Secrets and variables → Ac
 
 - O token gerado via login direto do Instagram expira em ~60 dias e precisa ser renovado manualmente no painel do Meta for Developers.
 - O Termo do post revela a mesma palavra jogada no site no mesmo dia (decisão deliberada, sem defasagem).
+
+## Rastreamento de cliques
+
+Hoje não existe nenhuma forma de saber se as pessoas realmente clicam no "link da bio" do Instagram (que aponta para `https://trveleo.github.io/religious/`) ou escaneiam o QR Code do Pix. Sem esse número, é impossível saber se uma doação baixa é um problema de alcance (pouca gente vendo o post) ou de conversão (gente vendo mas não clicando/doando).
+
+`webhook-redirect/` contém um segundo Cloudflare Worker, separado do `webhook/` (aquele só responde a comentários com "amém"). Esse novo Worker funciona como um link intermediário: em vez de a bio do Instagram apontar direto para o site, ela passa a apontar para esse Worker, que conta o clique e aí sim redireciona para o destino final.
+
+Rotas:
+
+- `GET /bio` → soma 1 no contador do dia e redireciona para o site (`https://trveleo.github.io/religious/`).
+- `GET /pix` → soma 1 no contador do dia e redireciona para a página do Pix. Hoje não existe uma página dedicada ao Pix em `docs/` (só a imagem do QR Code em `docs/assets/pix-qrcode.png`), então por enquanto `/pix` também redireciona para a home do site; isso está documentado em comentário no código (`webhook-redirect/src/index.js`) e pode ser ajustado facilmente se um dia existir uma página própria.
+- Qualquer outro caminho → erro 404.
+
+Os contadores ficam guardados num namespace do Cloudflare Workers KV (binding `CLICKS`), em chaves como `clicks:bio:2026-06-23` e `clicks:pix:2026-06-23` (um contador por dia, por tipo de clique).
+
+### Como ativar isso (passo a passo, fora do código)
+
+Essa parte é configuração manual na conta da Cloudflare, feita pelo dono do projeto. Não tem como o código fazer isso sozinho:
+
+1. **Criar o namespace de KV**: dentro da pasta `webhook-redirect/`, rode `npx wrangler kv namespace create CLICKS`. A Cloudflare vai devolver um `id` (uma string longa).
+2. **Colar o id no `wrangler.toml`**: abra `webhook-redirect/wrangler.toml` e substitua `"COLOQUE_O_ID_AQUI"` pelo `id` que apareceu no passo anterior.
+3. **Fazer o deploy**: ainda dentro de `webhook-redirect/`, rode `npx wrangler deploy`. Isso vai publicar o Worker e mostrar a URL dele (algo como `devocional-diario-redirect.<subdomínio>.workers.dev`).
+4. **Atualizar o link da bio no Instagram**: trocar o link que está na bio do perfil para apontar para `https://<url-do-worker>/bio` em vez de ir direto para `https://trveleo.github.io/religious/`. É esse link na bio que vai gerar a contagem.
+5. **Gerar um token de API da Cloudflare com permissão de leitura de KV**: no painel da Cloudflare, em **Meu Perfil → Tokens de API**, criar um token com permissão de leitura ("Read") sobre Workers KV Storage. Esse token vai virar a variável `CLOUDFLARE_API_TOKEN` usada pelo script `fetch-click-stats.js` (junto com `CLOUDFLARE_ACCOUNT_ID`, o ID da conta Cloudflare, e `CLOUDFLARE_KV_NAMESPACE_ID`, o mesmo id criado no passo 1) para depois conseguir consultar quantos cliques aconteceram por dia.
+
+Depois de tudo configurado, roda com:
+
+```bash
+npm run fetch-click-stats
+```
+
+Isso lê os contadores direto da Cloudflare e salva um resumo em `docs/output/click-stats.json`, com a contagem de cliques no bio e no Pix por dia.
