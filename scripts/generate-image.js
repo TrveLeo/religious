@@ -1,10 +1,12 @@
-const { createCanvas, registerFont } = require('canvas');
+const { createCanvas, loadImage } = require('canvas');
 const fs = require('fs');
 const path = require('path');
 const DEVOTIONALS = require('../content.js');
 
 const SIZE = 1080;
 const OUTPUT_DIR = path.join(__dirname, '..', 'output');
+const PIX_KEY = process.env.PIX_KEY || 'diariod777@gmail.com';
+const QR_CODE_PATH = path.join(__dirname, '..', 'assets', 'pix-qrcode.png');
 
 function dayOfYear(date) {
   const start = new Date(date.getFullYear(), 0, 0);
@@ -114,6 +116,63 @@ function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+async function drawDonationCard() {
+  const canvas = createCanvas(SIZE, SIZE);
+  const ctx = canvas.getContext('2d');
+
+  const gradient = ctx.createLinearGradient(0, 0, SIZE, SIZE);
+  gradient.addColorStop(0, '#fdf6e3');
+  gradient.addColorStop(0.45, '#f2e2bd');
+  gradient.addColorStop(1, '#e8cf9e');
+  ctx.fillStyle = gradient;
+  ctx.fillRect(0, 0, SIZE, SIZE);
+
+  ctx.strokeStyle = '#a0522d';
+  ctx.lineWidth = 6;
+  ctx.strokeRect(40, 40, SIZE - 80, SIZE - 80);
+  ctx.strokeStyle = '#e3cfa3';
+  ctx.lineWidth = 2;
+  ctx.strokeRect(56, 56, SIZE - 112, SIZE - 112);
+
+  const centerX = SIZE / 2;
+
+  ctx.fillStyle = '#6b4226';
+  ctx.font = 'bold 44px Georgia, serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('Apoie este trabalho', centerX, 160);
+
+  ctx.fillStyle = '#9c7a4e';
+  ctx.font = '28px Georgia, serif';
+  ctx.fillText('Se este devocional te abençoou,', centerX, 215);
+  ctx.fillText('considere contribuir via Pix', centerX, 250);
+
+  const qrImage = await loadImage(QR_CODE_PATH);
+  const qrSize = 560;
+  const qrX = centerX - qrSize / 2;
+  const qrY = 300;
+
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(qrX - 16, qrY - 16, qrSize + 32, qrSize + 32);
+  ctx.strokeStyle = '#a0522d';
+  ctx.lineWidth = 3;
+  ctx.strokeRect(qrX - 16, qrY - 16, qrSize + 32, qrSize + 32);
+  ctx.drawImage(qrImage, qrX, qrY, qrSize, qrSize);
+
+  ctx.fillStyle = '#6b4226';
+  ctx.font = 'bold 32px Georgia, serif';
+  ctx.fillText('Chave Pix (e-mail)', centerX, qrY + qrSize + 60);
+
+  ctx.fillStyle = '#4a3420';
+  ctx.font = '30px Georgia, serif';
+  ctx.fillText(PIX_KEY, centerX, qrY + qrSize + 100);
+
+  ctx.fillStyle = '#9c7a4e';
+  ctx.font = 'italic 24px Georgia, serif';
+  ctx.fillText('Toda contribuição ajuda a manter este projeto no ar.', centerX, SIZE - 70);
+
+  return canvas;
+}
+
 function buildCaption(entry, date) {
   const dataStr = capitalize(date.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' }));
   return [
@@ -125,24 +184,31 @@ function buildCaption(entry, date) {
     '',
     `Devocional de ${dataStr}.`,
     '',
+    'Arrasta para o lado e veja como apoiar este projeto via Pix.',
+    '',
     '#devocional #biblia #fe #deus #versiculododia #jesus'
   ].join('\n');
 }
 
-function main() {
+async function main() {
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR);
 
   const { entry, date } = todayEntry();
-  const canvas = drawCard(entry, date);
-
   const dateKey = date.toISOString().slice(0, 10);
+
+  const devotionalCanvas = drawCard(entry, date);
+  const donationCanvas = await drawDonationCard();
+
   const imagePath = path.join(OUTPUT_DIR, `devocional-${dateKey}.png`);
+  const donationPath = path.join(OUTPUT_DIR, `doacao-${dateKey}.png`);
   const captionPath = path.join(OUTPUT_DIR, `devocional-${dateKey}.txt`);
 
-  fs.writeFileSync(imagePath, canvas.toBuffer('image/png'));
+  fs.writeFileSync(imagePath, devotionalCanvas.toBuffer('image/png'));
+  fs.writeFileSync(donationPath, donationCanvas.toBuffer('image/png'));
   fs.writeFileSync(captionPath, buildCaption(entry, date));
 
-  console.log(`Imagem gerada: ${imagePath}`);
+  console.log(`Imagem 1 (devocional) gerada: ${imagePath}`);
+  console.log(`Imagem 2 (doação) gerada: ${donationPath}`);
   console.log(`Legenda gerada: ${captionPath}`);
 }
 
