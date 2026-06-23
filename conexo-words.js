@@ -25,3 +25,7 @@ const CONEXO_SETS = [
     ]
   }
 ];
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = CONEXO_SETS;
+}

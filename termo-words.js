@@ -6,3 +6,7 @@ const TERMO_WORDS = [
   "PRECE", "VINHO", "TRIGO", "RUINA", "VIDAS", "TEMPO",
   "NOITE", "SINAL", "FOGOS", "PRATA", "OUROS", "MARES"
 ];
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = TERMO_WORDS;
+}

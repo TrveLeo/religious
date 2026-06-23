@@ -5,7 +5,9 @@
   "description": "Gerador de imagem diária do devocional para publicação no Instagram",
   "scripts": {
     "generate-image": "node scripts/generate-image.js",
-    "post-instagram": "node scripts/post-instagram.js"
+    "post-instagram": "node scripts/post-instagram.js",
+    "generate-game-images": "node scripts/generate-game-images.js",
+    "post-game-instagram": "node scripts/post-game-instagram.js"
   },
   "dependencies": {
     "canvas": "^2.11.2",
