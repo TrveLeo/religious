@@ -16,7 +16,9 @@
     "generate-trivia": "node scripts/generate-trivia.js",
     "post-trivia-instagram": "node scripts/post-trivia-instagram.js",
     "generate-reel": "node scripts/generate-reel.js",
-    "post-reel-instagram": "node scripts/post-reel-instagram.js"
+    "post-reel-instagram": "node scripts/post-reel-instagram.js",
+    "generate-impact-card": "node scripts/generate-impact-card.js",
+    "post-impact-instagram": "node scripts/post-impact-instagram.js"
   },
   "dependencies": {
     "canvas": "^2.11.2",
