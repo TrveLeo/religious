@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Devocional Diário</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Devocional Diário</h1>
+      <p id="data" class="data"></p>
+    </header>
+
+    <main>
+      <section class="card verse-card">
+        <h2>Versículo do Dia</h2>
+        <p id="verse-text" class="verse-text"></p>
+        <p id="verse-ref" class="verse-ref"></p>
+      </section>
+
+      <section class="card devotional-card">
+        <h2 id="devotional-title"></h2>
+        <p id="devotional-text" class="devotional-text"></p>
+      </section>
+    </main>
+
+    <section class="card game-link-card">
+      <h2>Jogo do Dia</h2>
+      <p>Desafie-se com os jogos bíblicos de hoje.</p>
+      <div class="game-buttons">
+        <a href="termo.html" class="play-button">🔤 Termo Bíblico</a>
+        <a href="conexo.html" class="play-button">🔗 Conexões Bíblicas</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Atualizado automaticamente todos os dias.</p>
+    </footer>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

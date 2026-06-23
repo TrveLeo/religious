@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conexões Bíblicas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="conexo.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Conexões Bíblicas</h1>
+      <p id="data" class="data"></p>
+    </header>
+
+    <main>
+      <section class="card conexo-card">
+        <p class="conexo-instructions">Agrupe as 16 palavras em 4 grupos de 4 com tema em comum.</p>
+        <div id="grid" class="grid"></div>
+        <div id="found-groups" class="found-groups"></div>
+        <div id="message" class="message"></div>
+        <div class="controls">
+          <button id="shuffle-btn" class="key">Embaralhar</button>
+          <button id="deselect-btn" class="key">Limpar seleção</button>
+          <button id="submit-btn" class="key wide">Confirmar grupo</button>
+        </div>
+        <p class="mistakes">Erros: <span id="mistakes">0</span> / 4</p>
+      </section>
+
+      <p class="back-link"><a href="index.html">&larr; Voltar ao devocional</a></p>
+    </main>
+  </div>
+
+  <script src="conexo-words.js"></script>
+  <script src="conexo.js"></script>
+</body>
+</html>

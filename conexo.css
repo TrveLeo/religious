@@ -1,0 +1,116 @@
+.conexo-instructions {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #6b4226;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  max-width: 480px;
+  margin: 0 auto 16px;
+}
+
+.tile {
+  aspect-ratio: 1.4;
+  border: 2px solid #e3cfa3;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #fffaf0;
+  color: #3e2c1c;
+  cursor: pointer;
+  padding: 4px;
+  user-select: none;
+  box-shadow: 0 2px 6px rgba(107, 66, 38, 0.08);
+  transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
+}
+
+.tile:hover {
+  box-shadow: 0 4px 10px rgba(107, 66, 38, 0.15);
+}
+
+.tile:hover {
+  background: #f3e4c0;
+}
+
+.tile.selected {
+  background: #a0522d;
+  color: #fff;
+  border-color: #a0522d;
+  transform: scale(0.96);
+}
+
+.tile.solved {
+  cursor: default;
+  pointer-events: none;
+}
+
+.tile.solved.yellow { background: #d4a017; color: #fff; border-color: #d4a017; }
+.tile.solved.green { background: #6b8e23; color: #fff; border-color: #6b8e23; }
+.tile.solved.blue { background: #4682b4; color: #fff; border-color: #4682b4; }
+.tile.solved.purple { background: #8e6bb8; color: #fff; border-color: #8e6bb8; }
+
+.found-groups {
+  max-width: 480px;
+  margin: 0 auto 16px;
+}
+
+.found-group {
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.found-group.yellow { background: #d4a017; }
+.found-group.green { background: #6b8e23; }
+.found-group.blue { background: #4682b4; }
+.found-group.purple { background: #8e6bb8; }
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.key {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #e3cfa3;
+  color: #3e2c1c;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.key:hover {
+  background: #d4b87a;
+}
+
+.key.wide {
+  padding: 10px 24px;
+  background: #a0522d;
+  color: #fff;
+}
+
+.key.wide:hover {
+  background: #6b4226;
+}
+
+.mistakes {
+  text-align: center;
+  color: #6b4226;
+}

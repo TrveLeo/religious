@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Termo Bíblico</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="termo.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Termo Bíblico</h1>
+      <p id="data" class="data"></p>
+    </header>
+
+    <main>
+      <section class="card termo-card">
+        <p class="termo-instructions">Adivinhe a palavra de 5 letras (tema bíblico) em até 6 tentativas.</p>
+        <div id="board" class="board"></div>
+        <div id="message" class="message"></div>
+        <div id="keyboard" class="keyboard"></div>
+      </section>
+
+      <p class="back-link"><a href="index.html">&larr; Voltar ao devocional</a></p>
+    </main>
+  </div>
+
+  <script src="termo-words.js"></script>
+  <script src="termo.js"></script>
+</body>
+</html>
