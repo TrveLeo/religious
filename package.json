@@ -14,7 +14,9 @@
     "generate-quote-card": "node scripts/generate-quote-card.js",
     "post-quote-instagram": "node scripts/post-quote-instagram.js",
     "generate-trivia": "node scripts/generate-trivia.js",
-    "post-trivia-instagram": "node scripts/post-trivia-instagram.js"
+    "post-trivia-instagram": "node scripts/post-trivia-instagram.js",
+    "generate-reel": "node scripts/generate-reel.js",
+    "post-reel-instagram": "node scripts/post-reel-instagram.js"
   },
   "dependencies": {
     "canvas": "^2.11.2",
