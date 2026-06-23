@@ -1,0 +1,13 @@
+{
+  "name": "devocional-diario-ig",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gerador de imagem diária do devocional para publicação no Instagram",
+  "scripts": {
+    "generate-image": "node scripts/generate-image.js",
+    "post-instagram": "node scripts/post-instagram.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2"
+  }
+}
