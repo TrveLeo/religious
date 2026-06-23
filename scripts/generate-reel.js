@@ -10,7 +10,9 @@ const { HOOKS, CTAS, pickByDay } = require('./lib/engagement.js');
 const WIDTH = 1080;
 const HEIGHT = 1920;
 const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
+const AUDIO_DIR = path.join(__dirname, '..', 'docs', 'assets', 'audio');
 const SECONDS_PER_FRAME = 4;
+const FADE_OUT_SECONDS = 1.5;
 
 function todayEntry(date) {
   const index = dayOfYear(date) % DEVOTIONALS.length;
@@ -106,23 +108,57 @@ function buildFrames(entry, date) {
   return [frame1, frame2, frame3];
 }
 
-function assembleVideo(framePaths, outputPath) {
+function pickAudioTrack(dayIndex) {
+  if (!fs.existsSync(AUDIO_DIR)) return null;
+
+  const tracks = fs.readdirSync(AUDIO_DIR)
+    .filter(name => name.toLowerCase().endsWith('.mp3'))
+    .sort();
+
+  if (tracks.length === 0) return null;
+
+  return path.join(AUDIO_DIR, pickByDay(tracks, dayIndex));
+}
+
+function assembleVideo(framePaths, outputPath, dayIndex) {
   const listPath = `${outputPath}.txt`;
   const listContent = framePaths
     .map(p => `file '${p}'\nduration ${SECONDS_PER_FRAME}`)
     .join('\n') + `\nfile '${framePaths[framePaths.length - 1]}'\n`;
   fs.writeFileSync(listPath, listContent);
 
-  execFileSync('ffmpeg', [
-    '-y',
-    '-f', 'concat',
-    '-safe', '0',
-    '-i', listPath,
-    '-vf', 'fps=30,format=yuv420p',
-    '-c:v', 'libx264',
-    '-pix_fmt', 'yuv420p',
-    outputPath
-  ]);
+  const totalDuration = framePaths.length * SECONDS_PER_FRAME;
+  const audioTrack = pickAudioTrack(dayIndex);
+
+  if (audioTrack) {
+    const fadeStart = Math.max(0, totalDuration - FADE_OUT_SECONDS);
+    execFileSync('ffmpeg', [
+      '-y',
+      '-f', 'concat',
+      '-safe', '0',
+      '-i', listPath,
+      '-stream_loop', '-1',
+      '-i', audioTrack,
+      '-vf', 'fps=30,format=yuv420p',
+      '-af', `afade=t=out:st=${fadeStart}:d=${FADE_OUT_SECONDS}`,
+      '-c:v', 'libx264',
+      '-pix_fmt', 'yuv420p',
+      '-c:a', 'aac',
+      '-shortest',
+      outputPath
+    ]);
+  } else {
+    execFileSync('ffmpeg', [
+      '-y',
+      '-f', 'concat',
+      '-safe', '0',
+      '-i', listPath,
+      '-vf', 'fps=30,format=yuv420p',
+      '-c:v', 'libx264',
+      '-pix_fmt', 'yuv420p',
+      outputPath
+    ]);
+  }
 
   fs.unlinkSync(listPath);
 }
@@ -162,7 +198,7 @@ function main() {
   });
 
   const videoPath = path.join(OUTPUT_DIR, `reel-${key}.mp4`);
-  assembleVideo(framePaths, videoPath);
+  assembleVideo(framePaths, videoPath, dayOfYear(date));
 
   framePaths.forEach(p => fs.unlinkSync(p));
 

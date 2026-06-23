@@ -26,7 +26,7 @@ Dois fluxos, em horários diferentes:
 
 - **Devocional** (`post-daily.yml`, 08:00 BRT): gera card do versículo + card de doação (Pix), publica como carrossel, e publica um Story anunciando o post.
 - **Secundário** (`post-game.yml`, 15:00 BRT): alterna por dia entre 4 tipos de conteúdo (dia do ano % 4): Termo sendo revelado letra por letra, tabuleiro de Conexões sem revelar grupos, card de citação minimalista, e trivia bíblica (pergunta + gabarito). Todos terminam com o card de doação.
-- **Reel** (`post-reel.yml`, quarta 16:00 BRT): slideshow em vídeo (sem áudio por enquanto) com o devocional do dia, formato vertical 9:16, via ffmpeg.
+- **Reel** (`post-reel.yml`, quarta 16:00 BRT): slideshow em vídeo com o devocional do dia, formato vertical 9:16, via ffmpeg. Se houver faixas MP3 em `docs/assets/audio/`, uma delas é escolhida por rotação diária e mixada no vídeo (com fade out no final); sem faixas, o vídeo sai silencioso como antes.
 - **Insights** (`fetch-insights.yml`, segunda 09:00 BRT): coleta métricas dos posts recentes via Graph API.
 
 ## Webhook de engajamento
