@@ -1,0 +1,7 @@
+name = "devocional-diario-webhook"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Secrets (não ficam aqui, são configurados via `wrangler secret put`):
+# - VERIFY_TOKEN: string qualquer escolhida por você, usada na verificação do webhook
+# - IG_ACCESS_TOKEN: o mesmo token usado nos scripts de publicação
