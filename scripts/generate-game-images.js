@@ -3,50 +3,10 @@ const fs = require('fs');
 const path = require('path');
 const TERMO_WORDS = require('../termo-words.js');
 const CONEXO_SETS = require('../conexo-words.js');
+const { dayOfYear, dateKey, capitalize } = require('./lib/dates.js');
+const { SIZE, baseBackground, drawHeader } = require('./lib/card-canvas.js');
 
-const SIZE = 1080;
 const OUTPUT_DIR = path.join(__dirname, '..', 'output');
-
-function dayOfYear(date) {
-  const start = new Date(date.getFullYear(), 0, 0);
-  return Math.floor((date - start) / 86400000);
-}
-
-function todayKey(date) {
-  return date.toISOString().slice(0, 10);
-}
-
-function capitalize(str) {
-  return str.charAt(0).toUpperCase() + str.slice(1);
-}
-
-function baseBackground(ctx) {
-  const gradient = ctx.createLinearGradient(0, 0, SIZE, SIZE);
-  gradient.addColorStop(0, '#fdf6e3');
-  gradient.addColorStop(0.45, '#f2e2bd');
-  gradient.addColorStop(1, '#e8cf9e');
-  ctx.fillStyle = gradient;
-  ctx.fillRect(0, 0, SIZE, SIZE);
-
-  ctx.strokeStyle = '#a0522d';
-  ctx.lineWidth = 6;
-  ctx.strokeRect(40, 40, SIZE - 80, SIZE - 80);
-  ctx.strokeStyle = '#e3cfa3';
-  ctx.lineWidth = 2;
-  ctx.strokeRect(56, 56, SIZE - 112, SIZE - 112);
-}
-
-function drawHeader(ctx, title, subtitle) {
-  const centerX = SIZE / 2;
-  ctx.fillStyle = '#6b4226';
-  ctx.font = 'bold 44px Georgia, serif';
-  ctx.textAlign = 'center';
-  ctx.fillText(title, centerX, 150);
-
-  ctx.fillStyle = '#9c7a4e';
-  ctx.font = 'italic 26px Georgia, serif';
-  ctx.fillText(subtitle, centerX, 195);
-}
 
 function seededRandom(seed) {
   let state = seed % 2147483647;
@@ -168,13 +128,13 @@ function drawConexoTeaser(set) {
   return canvas;
 }
 
-function buildTermoCaption(word, date) {
+function buildTermoCaption(date) {
   const dataStr = capitalize(date.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' }));
   return [
     'Termo Bíblico do dia',
     '',
-    `Acompanhe a palavra de hoje sendo revelada, letra por letra.`,
-    `Quer tentar adivinhar antes de ver o resultado? Jogue a versão completa no link da bio.`,
+    'Acompanhe a palavra de hoje sendo revelada, letra por letra.',
+    'Quer tentar adivinhar antes de ver o resultado? Jogue a versão completa no link da bio.',
     '',
     `Termo de ${dataStr}.`,
     '',
@@ -196,37 +156,38 @@ function buildConexoCaption(date) {
   ].join('\n');
 }
 
+function writeFrames(frames, key) {
+  frames.forEach((canvas, i) => {
+    const framePath = path.join(OUTPUT_DIR, `game-${key}-${i + 1}.png`);
+    fs.writeFileSync(framePath, canvas.toBuffer('image/png'));
+    console.log(`Frame ${i + 1} gerado: ${framePath}`);
+  });
+}
+
 function main() {
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR);
 
   const date = new Date();
-  const dateKey = todayKey(date);
+  const key = dateKey(date);
   const isTermoDay = dayOfYear(date) % 2 === 0;
 
+  const captionPath = path.join(OUTPUT_DIR, `game-${key}.txt`);
+  const metaPath = path.join(OUTPUT_DIR, `game-${key}.json`);
+
   if (isTermoDay) {
-    const { frames, word } = generateTermoFrames(date);
-    frames.forEach((canvas, i) => {
-      const framePath = path.join(OUTPUT_DIR, `game-${dateKey}-${i + 1}.png`);
-      fs.writeFileSync(framePath, canvas.toBuffer('image/png'));
-      console.log(`Frame ${i + 1} gerado: ${framePath}`);
-    });
-    const captionPath = path.join(OUTPUT_DIR, `game-${dateKey}.txt`);
-    fs.writeFileSync(captionPath, buildTermoCaption(word, date));
-    const metaPath = path.join(OUTPUT_DIR, `game-${dateKey}.json`);
+    const { frames } = generateTermoFrames(date);
+    writeFrames(frames, key);
+    fs.writeFileSync(captionPath, buildTermoCaption(date));
     fs.writeFileSync(metaPath, JSON.stringify({ type: 'termo', frameCount: frames.length }));
-    console.log(`Legenda gerada: ${captionPath}`);
   } else {
     const setIndex = dayOfYear(date) % CONEXO_SETS.length;
     const canvas = drawConexoTeaser(CONEXO_SETS[setIndex]);
-    const imagePath = path.join(OUTPUT_DIR, `game-${dateKey}-1.png`);
-    fs.writeFileSync(imagePath, canvas.toBuffer('image/png'));
-    const captionPath = path.join(OUTPUT_DIR, `game-${dateKey}.txt`);
+    writeFrames([canvas], key);
     fs.writeFileSync(captionPath, buildConexoCaption(date));
-    const metaPath = path.join(OUTPUT_DIR, `game-${dateKey}.json`);
     fs.writeFileSync(metaPath, JSON.stringify({ type: 'conexo', frameCount: 1 }));
-    console.log(`Imagem gerada: ${imagePath}`);
-    console.log(`Legenda gerada: ${captionPath}`);
   }
+
+  console.log(`Legenda gerada: ${captionPath}`);
 }
 
 main();
