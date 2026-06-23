@@ -18,7 +18,8 @@
     "generate-reel": "node scripts/generate-reel.js",
     "post-reel-instagram": "node scripts/post-reel-instagram.js",
     "generate-impact-card": "node scripts/generate-impact-card.js",
-    "post-impact-instagram": "node scripts/post-impact-instagram.js"
+    "post-impact-instagram": "node scripts/post-impact-instagram.js",
+    "post-threads": "node scripts/post-threads.js"
   },
   "dependencies": {
     "canvas": "^2.11.2",
