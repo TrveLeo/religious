@@ -93,8 +93,8 @@ function main() {
   const key = dateKey(date);
   const canvas = drawStory(entry, date);
 
-  const storyPath = path.join(OUTPUT_DIR, `story-${key}.png`);
-  fs.writeFileSync(storyPath, canvas.toBuffer('image/png'));
+  const storyPath = path.join(OUTPUT_DIR, `story-${key}.jpg`);
+  fs.writeFileSync(storyPath, canvas.toBuffer('image/jpeg', { quality: 0.92 }));
   console.log(`Story gerado: ${storyPath}`);
 }
 

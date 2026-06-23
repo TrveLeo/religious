@@ -16,13 +16,13 @@ async function publishTodayStory() {
   }
 
   const key = dateKey(new Date());
-  const storyPath = path.join(OUTPUT_DIR, `story-${key}.png`);
+  const storyPath = path.join(OUTPUT_DIR, `story-${key}.jpg`);
 
   if (!fs.existsSync(storyPath)) {
     throw new Error('Story de hoje não encontrado. Rode "npm run generate-story" antes.');
   }
 
-  const imageUrl = `${SITE_BASE_URL}/output/story-${key}.png`;
+  const imageUrl = `${SITE_BASE_URL}/output/story-${key}.jpg`;
 
   console.log(`Criando story a partir de: ${imageUrl}`);
   const created = await graphRequest('POST', `${IG_USER_ID}/media`, {
