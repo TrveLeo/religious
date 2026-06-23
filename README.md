@@ -29,6 +29,10 @@ Dois fluxos, em horários diferentes:
 - **Reel** (`post-reel.yml`, quarta 16:00 BRT): slideshow em vídeo (sem áudio por enquanto) com o devocional do dia, formato vertical 9:16, via ffmpeg.
 - **Insights** (`fetch-insights.yml`, segunda 09:00 BRT): coleta métricas dos posts recentes via Graph API.
 
+## Webhook de engajamento
+
+`webhook/` contém um Cloudflare Worker que responde automaticamente a comentários com "amém"/"amem", via webhook do Instagram (campo `comments`). Hospedado em `devocional-diario-webhook.<subdomínio>.workers.dev`, fora do fluxo de deploy do GitHub Actions (deploy manual via `npx wrangler deploy` dentro de `webhook/`). Secrets (`IG_ACCESS_TOKEN`, `VERIFY_TOKEN`) configurados via `wrangler secret put`, não versionados.
+
 Cada workflow: gera as imagens → comita no repo (para o GitHub Pages servir a URL pública) → espera o deploy → publica via Graph API.
 
 ### Rodar manualmente
