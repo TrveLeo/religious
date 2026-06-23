@@ -8,7 +8,9 @@
     "post-instagram": "node scripts/post-instagram.js",
     "generate-game-images": "node scripts/generate-game-images.js",
     "post-game-instagram": "node scripts/post-game-instagram.js",
-    "fetch-insights": "node scripts/fetch-insights.js"
+    "fetch-insights": "node scripts/fetch-insights.js",
+    "generate-story": "node scripts/generate-story.js",
+    "post-story-instagram": "node scripts/post-story-instagram.js"
   },
   "dependencies": {
     "canvas": "^2.11.2",
