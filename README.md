@@ -24,8 +24,9 @@ Todo conteúdo (`content.js`, `termo-words.js`, `conexo-words.js`) é compartilh
 
 Dois fluxos, em horários diferentes:
 
-- **Devocional** (`post-daily.yml`, 08:00 BRT): gera card do versículo + card de doação (Pix), publica como carrossel.
-- **Jogo** (`post-game.yml`, 15:00 BRT): alterna por dia. Dias pares publicam o Termo do dia sendo revelado letra por letra (carrossel), dias ímpares publicam o tabuleiro de Conexões do dia sem revelar os grupos.
+- **Devocional** (`post-daily.yml`, 08:00 BRT): gera card do versículo + card de doação (Pix), publica como carrossel, e publica um Story anunciando o post.
+- **Secundário** (`post-game.yml`, 15:00 BRT): alterna por dia entre 4 tipos de conteúdo (dia do ano % 4): Termo sendo revelado letra por letra, tabuleiro de Conexões sem revelar grupos, card de citação minimalista, e trivia bíblica (pergunta + gabarito). Todos terminam com o card de doação.
+- **Insights** (`fetch-insights.yml`, segunda 09:00 BRT): coleta métricas dos posts recentes via Graph API.
 
 Cada workflow: gera as imagens → comita no repo (para o GitHub Pages servir a URL pública) → espera o deploy → publica via Graph API.
 

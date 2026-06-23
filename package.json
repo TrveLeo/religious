@@ -10,7 +10,11 @@
     "post-game-instagram": "node scripts/post-game-instagram.js",
     "fetch-insights": "node scripts/fetch-insights.js",
     "generate-story": "node scripts/generate-story.js",
-    "post-story-instagram": "node scripts/post-story-instagram.js"
+    "post-story-instagram": "node scripts/post-story-instagram.js",
+    "generate-quote-card": "node scripts/generate-quote-card.js",
+    "post-quote-instagram": "node scripts/post-quote-instagram.js",
+    "generate-trivia": "node scripts/generate-trivia.js",
+    "post-trivia-instagram": "node scripts/post-trivia-instagram.js"
   },
   "dependencies": {
     "canvas": "^2.11.2",
