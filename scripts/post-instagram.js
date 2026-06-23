@@ -88,14 +88,35 @@ async function publishToday() {
   });
 
   console.log(`Carrossel criado: ${carousel.id}`);
-  console.log('Publicando...');
+  console.log('Aguardando processamento...');
+  await waitUntilReady(carousel.id);
 
+  console.log('Publicando...');
   const published = await graphRequest('POST', `${IG_USER_ID}/media_publish`, {
     creation_id: carousel.id,
     access_token: IG_ACCESS_TOKEN
   });
 
   console.log(`Publicado com sucesso! Post ID: ${published.id}`);
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function waitUntilReady(mediaId, attempts = 15, intervalMs = 4000) {
+  for (let i = 0; i < attempts; i++) {
+    const status = await graphRequest('GET', mediaId, {
+      fields: 'status_code',
+      access_token: IG_ACCESS_TOKEN
+    });
+    if (status.status_code === 'FINISHED') return;
+    if (status.status_code === 'ERROR') {
+      throw new Error(`Processamento da mídia falhou: ${JSON.stringify(status)}`);
+    }
+    await sleep(intervalMs);
+  }
+  throw new Error('Tempo esgotado esperando o carrossel ficar pronto.');
 }
 
 publishToday().catch(err => {
