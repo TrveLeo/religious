@@ -5,6 +5,7 @@ const TERMO_WORDS = require('../docs/termo-words.js');
 const CONEXO_SETS = require('../docs/conexo-words.js');
 const { dayOfYear, dateKey, capitalize } = require('./lib/dates.js');
 const { SIZE, baseBackground, drawHeader } = require('./lib/card-canvas.js');
+const { drawDonationCard } = require('./lib/donation-card.js');
 
 const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
 
@@ -138,6 +139,8 @@ function buildTermoCaption(date) {
     '',
     `Termo de ${dataStr}.`,
     '',
+    'Arrasta até o fim e veja como apoiar este projeto via Pix.',
+    '',
     '#termo #jogodaspalavras #biblia #devocional #fe'
   ].join('\n');
 }
@@ -152,6 +155,8 @@ function buildConexoCaption(date) {
     '',
     `Conexões de ${dataStr}.`,
     '',
+    'Arrasta até o fim e veja como apoiar este projeto via Pix.',
+    '',
     '#conexoes #jogodaspalavras #biblia #devocional #fe'
   ].join('\n');
 }
@@ -164,7 +169,7 @@ function writeFrames(frames, key) {
   });
 }
 
-function main() {
+async function main() {
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR);
 
   const date = new Date();
@@ -173,18 +178,21 @@ function main() {
 
   const captionPath = path.join(OUTPUT_DIR, `game-${key}.txt`);
   const metaPath = path.join(OUTPUT_DIR, `game-${key}.json`);
+  const donationCanvas = await drawDonationCard();
 
   if (isTermoDay) {
     const { frames } = generateTermoFrames(date);
-    writeFrames(frames, key);
+    const allFrames = [...frames, donationCanvas];
+    writeFrames(allFrames, key);
     fs.writeFileSync(captionPath, buildTermoCaption(date));
-    fs.writeFileSync(metaPath, JSON.stringify({ type: 'termo', frameCount: frames.length }));
+    fs.writeFileSync(metaPath, JSON.stringify({ type: 'termo', frameCount: allFrames.length }));
   } else {
     const setIndex = dayOfYear(date) % CONEXO_SETS.length;
     const canvas = drawConexoTeaser(CONEXO_SETS[setIndex]);
-    writeFrames([canvas], key);
+    const allFrames = [canvas, donationCanvas];
+    writeFrames(allFrames, key);
     fs.writeFileSync(captionPath, buildConexoCaption(date));
-    fs.writeFileSync(metaPath, JSON.stringify({ type: 'conexo', frameCount: 1 }));
+    fs.writeFileSync(metaPath, JSON.stringify({ type: 'conexo', frameCount: allFrames.length }));
   }
 
   console.log(`Legenda gerada: ${captionPath}`);
