@@ -6,6 +6,7 @@ const CONEXO_SETS = require('../docs/conexo-words.js');
 const { dayOfYear, dateKey, capitalize } = require('./lib/dates.js');
 const { SIZE, baseBackground, drawHeader } = require('./lib/card-canvas.js');
 const { drawDonationCard } = require('./lib/donation-card.js');
+const { CTAS, pickByDay } = require('./lib/engagement.js');
 
 const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
 
@@ -131,7 +132,10 @@ function drawConexoTeaser(set) {
 
 function buildTermoCaption(date) {
   const dataStr = capitalize(date.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' }));
+  const cta = pickByDay(CTAS, dayOfYear(date));
   return [
+    'Quantas tentativas você precisaria pra acertar essa?',
+    '',
     'Termo Bíblico do dia',
     '',
     'Acompanhe a palavra de hoje sendo revelada, letra por letra.',
@@ -139,6 +143,7 @@ function buildTermoCaption(date) {
     '',
     `Termo de ${dataStr}.`,
     '',
+    cta,
     'Arrasta até o fim e veja como apoiar este projeto via Pix.',
     '',
     '#termo #jogodaspalavras #biblia #devocional #fe'
@@ -147,7 +152,10 @@ function buildTermoCaption(date) {
 
 function buildConexoCaption(date) {
   const dataStr = capitalize(date.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' }));
+  const cta = pickByDay(CTAS, dayOfYear(date) + 1);
   return [
+    'Consegue achar os 4 grupos antes de rolar até o fim?',
+    '',
     'Conexões Bíblicas do dia',
     '',
     '16 palavras, 4 grupos escondidos. Consegue encontrar a lógica de cada um?',
@@ -155,6 +163,7 @@ function buildConexoCaption(date) {
     '',
     `Conexões de ${dataStr}.`,
     '',
+    cta,
     'Arrasta até o fim e veja como apoiar este projeto via Pix.',
     '',
     '#conexoes #jogodaspalavras #biblia #devocional #fe'

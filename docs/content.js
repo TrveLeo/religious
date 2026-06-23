@@ -185,6 +185,96 @@ const DEVOTIONALS = [
     ref: "Gênesis 2:18",
     title: "Feitos para comunidade",
     text: "Essa frase aparece logo depois da criação do homem, num contexto onde tudo que Deus tinha feito até então é chamado de bom. A solidão é a primeira coisa explicitamente chamada de 'não boa' nas Escrituras.\n\nIsso diz bastante: desde o começo, a comunhão não aparece como opcional ou secundária, é parte do projeto original de Deus para a humanidade. A gente não foi feito para autossuficiência relacional.\n\nEm uma cultura que costuma elogiar a independência, esse versículo lembra o contrário: buscar e cuidar de relacionamentos saudáveis não é fraqueza ou carência, é estar alinhado com o propósito original. Hoje, pense em investir tempo de verdade numa conexão que tem sido deixada de lado."
+  },
+  {
+    verse: "Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia.",
+    ref: "Salmos 46:1",
+    title: "Refúgio em tempo real",
+    text: "Esse salmo provavelmente foi escrito num contexto de ameaça concreta à cidade de Jerusalém, não numa reflexão tranquila e distante sobre a fé. A palavra 'presente' no final do versículo é o detalhe que muda tudo: não é um socorro que chega depois, é um socorro que já está ali no momento da angústia.\n\nIsso contraria a expectativa comum de que precisamos esperar a tempestade passar pra sentir o cuidado de Deus. O salmista descreve o contrário: o refúgio está disponível durante a tempestade, não só depois dela.\n\nSe hoje você está no meio de uma angústia real, talvez a pergunta não seja 'quando isso vai passar', mas 'onde está o refúgio disponível agora mesmo'. Buscar abrigo no meio da tempestade é diferente de esperar ela acabar pra só então buscar."
+  },
+  {
+    verse: "Finalmente, irmãos, tudo o que é verdadeiro, tudo o que é honesto, tudo o que é justo, tudo o que é puro, tudo o que é amável, tudo o que é de boa fama, se há alguma virtude, e se há algum louvor, nisso pensai.",
+    ref: "Filipenses 4:8",
+    title: "Onde a mente descansa",
+    text: "Paulo escreve essa instrução logo depois de falar sobre ansiedade e paz, como se estivesse completando o pensamento: não basta entregar a preocupação, é preciso também escolher onde a mente vai habitar depois disso.\n\nA lista que ele dá não é sobre otimismo forçado ou ignorar problemas reais. É sobre direção de atenção. A mente sempre está pensando em algo, a pergunta é se esse algo edifica ou consome.\n\nIsso é mais prático do que parece: o que você tem alimentado nos últimos dias, sem perceber, através do que assiste, lê ou repete internamente? Hoje, escolha de propósito um pensamento bom pra sustentar, em vez de deixar a mente vagar pro que é mais fácil de ruminar."
+  },
+  {
+    verse: "Ora, a fé é o firme fundamento das coisas que se esperam, e a prova das coisas que se não veem.",
+    ref: "Hebreus 11:1",
+    title: "Fé como fundamento, não como sentimento",
+    text: "Essa definição de fé abre um capítulo inteiro de exemplos de pessoas que agiram sem ver o resultado final, só confiando na promessa. Não é uma fé baseada em emoção do momento, é descrita como fundamento, algo estrutural.\n\nIsso muda a forma de entender momentos em que a fé parece fraca ou ausente. Sentimento de certeza vai e volta, mas fundamento é o que sustenta mesmo quando o sentimento não está presente.\n\nSe hoje sua fé parece mais frágil do que de costume, talvez o problema não seja a fé em si, mas a expectativa de que ela devesse sempre vir acompanhada de uma sensação forte. Você pode agir com base no fundamento, mesmo sem sentir nada de especial."
+  },
+  {
+    verse: "Tende por motivo de toda a alegria o passardes por várias tentações, sabendo que a prova da vossa fé produz a paciência.",
+    ref: "Tiago 1:2-4",
+    title: "Sentido nas provações",
+    text: "Tiago escreve para uma comunidade espalhada e enfrentando dificuldades reais, e a instrução de 'considerar motivo de alegria' não é ingenuidade, é uma reformulação de propósito. A prova não é descrita como um fim em si, mas como um processo que produz algo: paciência.\n\nIsso não significa que a dor da provação deva ser minimizada, significa que ela pode ser olhada com outro foco, o do que está sendo formado durante o processo, não só o que está sendo perdido.\n\nÉ difícil sentir alegria genuína no meio de uma dificuldade real. Mas talvez seja possível enxergar, ainda que com esforço, o que essa fase está formando em você que uma fase tranquila não formaria."
+  },
+  {
+    verse: "Deleita-te também no Senhor, e ele te concederá os desejos do teu coração.",
+    ref: "Salmos 37:4",
+    title: "Desejos alinhados",
+    text: "Esse versículo costuma ser lido como uma promessa de que Deus vai dar tudo o que a gente quer, mas o verbo 'deleitar-se' no início muda o sentido. Não é sobre pedir e receber, é sobre uma proximidade que naturalmente realinha o que a gente deseja.\n\nQuando a relação com Deus se torna o centro do prazer, os desejos do coração tendem a se aproximar do que Ele também quer, não porque foram forçados, mas porque a proximidade naturalmente molda o que valorizamos.\n\nIsso pede uma pergunta honesta: os desejos que você tem hoje nasceram da proximidade com Deus, ou de outras fontes de comparação e pressão? Vale a pena revisitar de onde vêm os próprios desejos antes de pedir que sejam realizados."
+  },
+  {
+    verse: "E eis que eu estou convosco todos os dias, até a consumação dos séculos.",
+    ref: "Mateus 28:20",
+    title: "Companhia sem prazo de validade",
+    text: "Essa é a última frase de Jesus no Evangelho de Mateus, dita logo depois de uma comissão grande: ir, ensinar, batizar. A promessa de companhia vem junto com uma tarefa que parecia maior do que os discípulos conseguiriam sustentar sozinhos.\n\nO detalhe 'todos os dias' importa porque exclui exceções. Não é uma promessa de presença nos dias bons ou nos dias de oração mais intensa, é presença constante, incluindo os dias comuns, cansados ou sem energia espiritual aparente.\n\nSe hoje parece um dia qualquer, sem nada de especial acontecendo espiritualmente, vale lembrar que a promessa não exclui justamente os dias assim. A presença não depende de o dia parecer significativo."
+  },
+  {
+    verse: "Perto está o Senhor dos que têm o coração quebrantado, e salva os contritos de espírito.",
+    ref: "Salmos 34:18",
+    title: "Proximidade na dor, não na força",
+    text: "Esse versículo inverte uma expectativa comum: que precisamos estar fortes e organizados pra merecer a proximidade de Deus. Aqui, é justamente o coração quebrantado que recebe a promessa de proximidade.\n\nIsso sugere que a fragilidade não afasta Deus, ao contrário do que muitas vezes sentimos quando estamos mal. Há uma tendência de se esconder espiritualmente justamente nos momentos em que mais se precisaria de proximidade, por vergonha de não estar bem.\n\nSe hoje seu coração está mais quebrantado do que de costume, isso não é motivo pra se afastar da oração ou da fé, é exatamente a condição que esse versículo descreve como mais próxima de Deus, não mais distante."
+  },
+  {
+    verse: "O coração alegre serve de bom remédio, mas o espírito abatido seca os ossos.",
+    ref: "Provérbios 17:22",
+    title: "O corpo sente o que a alma carrega",
+    text: "Esse provérbio reconhece algo que a ciência confirmaria séculos depois: o estado emocional afeta o corpo de forma concreta, não é só uma questão de disposição. 'Secar os ossos' é uma forma vívida de descrever esse desgaste físico do sofrimento prolongado.\n\nIsso valida que cuidar da alegria não é superficialidade, é também cuidado com a saúde integral. Buscar momentos genuínos de alegria não compete com a espiritualidade, faz parte dela.\n\nHoje, ao invés de tratar a busca por alegria como algo menos importante que outras disciplinas espirituais, considere ela como parte do cuidado que Deus também valoriza. Pergunte-se: o que tem trazido alegria genuína pra você ultimamente, e quando foi a última vez que você priorizou isso de propósito?"
+  },
+  {
+    verse: "Tudo tem o seu tempo determinado, e há tempo para todo propósito debaixo do céu.",
+    ref: "Eclesiastes 3:1",
+    title: "Estações que não se apressam",
+    text: "Eclesiastes é um livro que examina a vida com honestidade quase desconfortável, sem respostas fáceis. Esse versículo, seguido por uma lista de opostos (plantar e colher, chorar e rir, calar e falar), reconhece que a vida se move em estações, não numa linha reta de progresso constante.\n\nIsso desafia a pressa de querer estar sempre na estação de colheita, sem reconhecer que plantar, esperar e até perder também fazem parte do ciclo completo. Tentar pular uma estação geralmente custa mais do que atravessá-la.\n\nEm que estação você está agora? Se for uma estação de espera ou perda, talvez o convite não seja apressar a próxima, mas reconhecer que essa estação também tem propósito, mesmo que o propósito só fique claro depois."
+  },
+  {
+    verse: "Mas Deus prova o seu amor para conosco, pelo fato de ter Cristo morrido por nós, sendo nós ainda pecadores.",
+    ref: "Romanos 5:8",
+    title: "Amor que não espera mérito",
+    text: "Esse versículo marca uma sequência temporal importante: o amor de Deus se manifestou antes de qualquer mudança de comportamento da nossa parte, não depois. Isso inverte uma lógica comum de que o amor precisa ser conquistado primeiro.\n\nNa prática, muita gente vive a fé como se precisasse se arrumar primeiro para merecer proximidade com Deus, mas esse texto descreve o oposto: a proximidade chegou exatamente quando menos era merecida.\n\nSe você tem se sentido distante de Deus por não estar 'bom o suficiente', esse versículo lembra que essa nunca foi a condição. O amor que te alcançou não esperou sua melhora, foi isso que tornou a melhora possível depois."
+  },
+  {
+    verse: "E não nos cansemos de fazer o bem, porque a seu tempo ceifaremos, se não houvermos desfalecido.",
+    ref: "Gálatas 6:9",
+    title: "Colheita que demora mas chega",
+    text: "Paulo escreve isso numa carta cheia de correções e desafios para uma comunidade dividida, reconhecendo implicitamente que fazer o bem de forma consistente é cansativo, especialmente quando o resultado não aparece rápido.\n\nA condição dada, 'se não houvermos desfalecido', sugere que o risco real não é fazer o mal, é simplesmente parar de fazer o bem por exaustão, antes que a colheita apareça. É um risco silencioso, sem grande drama, só cansaço acumulado.\n\nSe você tem feito o bem sem ver retorno visível, esse versículo não promete que o retorno virá no seu prazo, promete que existe um tempo certo pra ele. A pergunta de hoje é: o que te ajudaria a continuar sem desfalecer enquanto esse tempo não chega?"
+  },
+  {
+    verse: "Os meus olhos se levantam para os montes, de onde vem o meu socorro. O meu socorro vem do Senhor, que fez os céus e a terra.",
+    ref: "Salmos 121:1-2",
+    title: "Olhar pra cima antes de buscar em outro lugar",
+    text: "Esse salmo provavelmente era cantado por peregrinos subindo até Jerusalém, atravessando terreno difícil e até perigoso. Olhar para os montes podia significar tanto admirar a paisagem quanto reconhecer onde se escondiam bandidos.\n\nA resposta do salmista resolve a ambiguidade: o socorro não vem do terreno em si, vem de quem criou o terreno. Isso desloca a fonte de segurança de uma leitura das circunstâncias para uma confiança em quem está acima delas.\n\nQuando a primeira reação a um problema é olhar pra ele e calcular riscos, vale a pergunta desse salmo: pra onde os olhos se levantam primeiro? Antes de buscar solução nas circunstâncias, há espaço pra buscar em quem está acima delas."
+  },
+  {
+    verse: "Porque Deus não nos deu o espírito de temor, mas de fortaleza, e de amor, e de moderação.",
+    ref: "2 Timóteo 1:7",
+    title: "Um espírito que não é de medo",
+    text: "Paulo escreve essa carta a Timóteo, um líder jovem, possivelmente intimidado pela responsabilidade e pela oposição que enfrentava. A afirmação não nega que o medo existe, mas declara que ele não é a identidade que foi dada por Deus.\n\nIsso é diferente de dizer 'não tenha medo', que costuma soar vazio quando o medo já está presente. É mais como dizer: esse medo que você sente não reflete o que foi colocado em você, existe outra coisa disponível, mais verdadeira sobre quem você é.\n\nSe o medo tem dominado suas decisões recentes, esse versículo convida a perguntar: o que mudaria se eu agisse a partir da fortaleza, do amor e da moderação que também foram colocados em mim, em vez de agir só a partir do medo que sinto?"
+  },
+  {
+    verse: "Porque pela graça sois salvos, mediante a fé, e isto não vem de vós, é dom de Deus.",
+    ref: "Efésios 2:8-9",
+    title: "Um dom, não uma conquista",
+    text: "Esse versículo está no centro de uma das tensões mais antigas da fé cristã: até que ponto a salvação depende do nosso esforço. Paulo é direto: nem a fé em si é descrita como mérito próprio, é apresentada como dom.\n\nIsso retira da equação qualquer cálculo de quanto você já fez o suficiente pra merecer. Ao mesmo tempo, pode ser desconfortável pra quem está acostumado a medir o próprio valor pelo desempenho, inclusive o desempenho espiritual.\n\nSe você tem vivido a fé como uma lista de tarefas pra se sentir digno, esse versículo é um convite a descansar numa base diferente. Não é sobre parar de agir bem, é sobre parar de tratar a ação como a origem do valor que você já recebeu de graça."
+  },
+  {
+    verse: "O amor é paciente, é benigno; o amor não arde em ciúmes, não se ufana, não se ensoberbece.",
+    ref: "1 Coríntios 13:4-7",
+    title: "Uma definição que incomoda",
+    text: "Esse texto é citado com frequência em casamentos, mas Paulo o escreveu num contexto de conflito numa igreja dividida por egos e comparações. Não é uma descrição poética de sentimento, é quase uma lista de verificação prática sobre como o amor se comporta de fato.\n\nLido fora do contexto romântico, o texto se torna mais desafiador: ele descreve como tratar pessoas difíceis na comunidade, não só pessoas amadas por escolha. Paciência e ausência de ciúme valem tanto pra um cônjuge quanto pra um colega de trabalho difícil.\n\nHoje, ao invés de aplicar esse texto só a relações afetivas, tente aplicá-lo a alguém com quem a convivência é mais tensa. O amor descrito aqui não pede sentimento positivo primeiro, pede comportamento consistente mesmo sem ele."
   }
 ];
 

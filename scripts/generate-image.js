@@ -5,6 +5,7 @@ const DEVOTIONALS = require('../docs/content.js');
 const { dayOfYear, dateKey, capitalize } = require('./lib/dates.js');
 const { SIZE, baseBackground, drawFooter, wrapText } = require('./lib/card-canvas.js');
 const { drawDonationCard } = require('./lib/donation-card.js');
+const { HOOKS, CTAS, pickByDay } = require('./lib/engagement.js');
 
 const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
 
@@ -66,8 +67,14 @@ function drawDevotionalCard(entry, date) {
 }
 
 function buildCaption(entry, date) {
+  const dayIndex = dayOfYear(date);
   const dataStr = capitalize(date.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' }));
+  const hook = pickByDay(HOOKS, dayIndex);
+  const cta = pickByDay(CTAS, dayIndex);
+
   return [
+    hook,
+    '',
     `${entry.title}`,
     '',
     `"${entry.verse}" (${entry.ref})`,
@@ -76,6 +83,7 @@ function buildCaption(entry, date) {
     '',
     `Devocional de ${dataStr}.`,
     '',
+    cta,
     'Arrasta para o lado e veja como apoiar este projeto via Pix.',
     '',
     '#devocional #biblia #fe #deus #versiculododia #jesus'
