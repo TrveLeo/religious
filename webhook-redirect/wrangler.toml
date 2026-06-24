@@ -11,4 +11,4 @@ compatibility_date = "2024-01-01"
 # e cole o "id" retornado no lugar de "COLOQUE_O_ID_AQUI".
 [[kv_namespaces]]
 binding = "CLICKS"
-id = "COLOQUE_O_ID_AQUI"
+id = "e54e14da68bc4373a2f5f2dc2ca5600f"

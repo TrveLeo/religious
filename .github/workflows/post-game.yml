@@ -26,15 +26,16 @@ jobs:
       - name: Escolher tipo de conteúdo do dia
         id: pick
         run: |
-          DAY_MOD=$(( $(date -u +%j) % 4 ))
+          DAY_MOD=$(( $(date -u +%j) % 5 ))
           case $DAY_MOD in
             0) TYPE="game" ;;   # Termo (dias pares dentro do script)
             1) TYPE="quote" ;;
             2) TYPE="game" ;;   # Conexões (dias ímpares dentro do script)
             3) TYPE="trivia" ;;
+            4) TYPE="impact" ;;
           esac
           echo "type=$TYPE" >> "$GITHUB_OUTPUT"
-          echo "Tipo escolhido: $TYPE (dia do ano % 4 = $DAY_MOD)"
+          echo "Tipo escolhido: $TYPE (dia do ano % 5 = $DAY_MOD)"
 
       - name: Gerar imagens do dia
         run: |
@@ -42,6 +43,7 @@ jobs:
             game) node scripts/generate-game-images.js ;;
             quote) node scripts/generate-quote-card.js ;;
             trivia) node scripts/generate-trivia.js ;;
+            impact) node scripts/generate-impact-card.js ;;
           esac
         env:
           PIX_KEY: ${{ secrets.PIX_KEY }}
@@ -62,6 +64,7 @@ jobs:
             game) URL="${{ secrets.SITE_BASE_URL }}/output/game-${DATE_KEY}-1.png" ;;
             quote) URL="${{ secrets.SITE_BASE_URL }}/output/quote-${DATE_KEY}-1.png" ;;
             trivia) URL="${{ secrets.SITE_BASE_URL }}/output/trivia-${DATE_KEY}-1.png" ;;
+            impact) URL="${{ secrets.SITE_BASE_URL }}/output/impact-${DATE_KEY}-1.png" ;;
           esac
           for i in $(seq 1 30); do
             if curl -sfI "$URL" > /dev/null; then
@@ -79,6 +82,7 @@ jobs:
             game) node scripts/post-game-instagram.js ;;
             quote) node scripts/post-quote-instagram.js ;;
             trivia) node scripts/post-trivia-instagram.js ;;
+            impact) node scripts/post-impact-instagram.js ;;
           esac
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
