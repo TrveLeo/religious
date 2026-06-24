@@ -41,6 +41,9 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
+      - name: Instalar ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
       - name: Gerar reel do dia
         run: node scripts/generate-reel.js
 
