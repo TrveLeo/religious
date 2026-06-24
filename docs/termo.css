@@ -110,3 +110,27 @@
   text-decoration: none;
   font-weight: bold;
 }
+
+@media (max-width: 480px) {
+  .board {
+    max-width: 100%;
+    gap: 6px;
+  }
+
+  .row {
+    gap: 6px;
+  }
+
+  .cell {
+    font-size: 1.2rem;
+  }
+
+  .key {
+    padding: 8px 8px;
+    font-size: 0.75rem;
+  }
+
+  .key.wide {
+    padding: 8px 10px;
+  }
+}

@@ -114,3 +114,29 @@
   text-align: center;
   color: #6b4226;
 }
+
+@media (max-width: 480px) {
+  .grid {
+    max-width: 100%;
+    gap: 6px;
+  }
+
+  .tile {
+    font-size: 0.7rem;
+    padding: 2px;
+  }
+
+  .found-groups,
+  .found-group {
+    max-width: 100%;
+  }
+
+  .key {
+    padding: 8px 10px;
+    font-size: 0.75rem;
+  }
+
+  .key.wide {
+    padding: 8px 16px;
+  }
+}
