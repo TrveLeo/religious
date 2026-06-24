@@ -74,6 +74,8 @@ function buildCaption(date) {
     '',
     'Não importa o valor, todo apoio é bem-vindo e faz diferença. Vale o que você puder dar com o coração.',
     '',
+    'Os recursos também ajudam a melhorar a infraestrutura e a criar uma newsletter pra chegar até você de outras formas.',
+    '',
     cta,
     'Arrasta até o fim e veja como apoiar via Pix, se Deus colocar isso no seu coração.',
     '',
