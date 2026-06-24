@@ -12,7 +12,8 @@ const POINTS = [
   'Hospedagem e domínio do site, que ficam no ar todos os dias do ano.',
   'O tempo dedicado a escrever cada devocional com calma e cuidado.',
   'A manutenção dos jogos (Termo e Conexões) e das ferramentas usadas aqui.',
-  'Pequenos custos de automação que ajudam a publicar todo santo dia.'
+  'Pequenos custos de automação que ajudam a publicar todo santo dia.',
+  'Melhorias na infraestrutura e a criação de uma newsletter pra chegar até você de outras formas.'
 ];
 
 function drawImpactCard() {
@@ -70,6 +71,8 @@ function buildCaption(date) {
     'Esse projeto não tem patrocínio nem propaganda. Ele se mantém com tempo e com a ajuda de quem quiser contribuir.',
     '',
     'Sua contribuição via Pix ajuda a manter o site no ar, os jogos funcionando e os devocionais sendo escritos todos os dias.',
+    '',
+    'Não importa o valor, todo apoio é bem-vindo e faz diferença. Vale o que você puder dar com o coração.',
     '',
     cta,
     'Arrasta até o fim e veja como apoiar via Pix, se Deus colocar isso no seu coração.',
