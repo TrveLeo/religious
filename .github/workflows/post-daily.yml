@@ -3,13 +3,31 @@ name: Publicação diária no Instagram
 on:
   schedule:
     - cron: "0 11 * * *" # 08:00 no horário de Brasília (UTC-3)
+    - cron: "15 11 * * *" # fallback: 08:15, caso o disparo das 08:00 atrase/falhe
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 jobs:
+  guard:
+    runs-on: ubuntu-latest
+    outputs:
+      already_ran: ${{ steps.check.outputs.already_ran }}
+    steps:
+      - name: Verificar se já publicou hoje
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          COUNT=$(gh api "repos/${{ github.repository }}/actions/workflows/post-daily.yml/runs?status=success&per_page=10" \
+            --jq "[.workflow_runs[] | select(.created_at | startswith(\"$TODAY\")) | select(.id != ${{ github.run_id }})] | length")
+          echo "already_ran=$([ "$COUNT" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
   post:
+    needs: guard
+    if: needs.guard.outputs.already_ran != 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

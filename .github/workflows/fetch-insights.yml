@@ -3,6 +3,7 @@ name: Coleta semanal de insights do Instagram
 on:
   schedule:
     - cron: "0 12 * * 1" # toda segunda, 09:00 no horário de Brasília (UTC-3)
+    - cron: "15 12 * * 1" # fallback: 09:15, caso o disparo das 09:00 atrase/falhe
   workflow_dispatch: {}
 
 permissions:
