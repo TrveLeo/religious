@@ -1,4 +1,4 @@
-name = "devocional-diario-redirect"
+name = "dd-link"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 
