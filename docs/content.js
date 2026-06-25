@@ -750,6 +750,240 @@ const DEVOTIONALS = [
     title: "Correr olhando para frente",
     text: "O autor compara a vida a uma corrida e dá duas dicas. A primeira é correr com paciência, porque é uma prova longa, não um tiro de cem metros. A segunda é para onde olhar: para Jesus, não para os próprios pés nem para os corredores ao lado.\n\nQuem corre olhando para baixo tropeça. Quem corre comparando-se aos outros perde o ritmo. O foco no alvo certo sustenta o movimento quando as forças fraquejam.\n\nHoje, se você está cansado no meio da sua corrida, vale checar para onde está olhando. Talvez a exaustão venha de fixar o olhar no lugar errado. Reorientar a vista para frente costuma devolver fôlego para seguir."
   },
+  {
+    verse: "Bendize, ó minha alma, ao Senhor, e não te esqueças de nenhum de seus benefícios.",
+    ref: "Salmos 103:2",
+    title: "Contra o esquecimento",
+    text: "O salmista fala consigo mesmo, quase se cobrando: não te esqueças. Ele sabe que esquecer o bem recebido é fácil. A memória humana guarda mágoa com facilidade e deixa a gratidão escorrer.\n\nLembrar dos benefícios é um exercício ativo, não automático. Exige parar e nomear o que deu certo, o que foi cuidado, o que sustentou você até aqui, mesmo nos dias em que parece que nada presta.\n\nHoje, vale fazer esse exercício de propósito. Listar, ainda que mentalmente, alguns benefícios que você costuma esquecer. A gratidão raramente surge sozinha, ela nasce de uma memória que se recusa a esquecer o bem."
+  },
+  {
+    verse: "Espera no Senhor, anima-te, e ele fortalecerá o teu coração.",
+    ref: "Salmos 27:14",
+    title: "Coragem na espera",
+    text: "Esperar costuma esvaziar a coragem. Quanto mais demora, mais a gente se desanima e cogita desistir. Esse salmo junta duas coisas que parecem opostas: esperar e, ao mesmo tempo, se animar.\n\nA promessa não é que a espera será curta. É que, dentro dela, o coração pode ser fortalecido. A força não vem de o resultado chegar logo, vem de confiar enquanto ele não chega.\n\nHoje, se você está cansado de esperar, talvez o convite não seja forçar uma resposta, e sim pedir coragem para a espera em si. Há um fortalecimento disponível justamente no trecho que parece só tempo perdido."
+  },
+  {
+    verse: "Instruir-te-ei e te ensinarei o caminho que deves seguir; guiar-te-ei com os meus olhos.",
+    ref: "Salmos 32:8",
+    title: "Guiado de perto",
+    text: "A imagem aqui é delicada: ser guiado com os olhos, como quem acompanha alguém de perto, atento a cada passo. Não é um mapa entregue de longe, é uma orientação presente, próxima.\n\nA gente costuma querer ver o caminho inteiro de uma vez. Mas a promessa é de instrução contínua, passo a passo, na medida em que se anda. Guia que olha não some, ele acompanha o trajeto.\n\nHoje, se você não sabe bem que direção tomar, vale lembrar que orientação não é só um plano pronto. É uma presença que guia ao longo do caminho. Você pode começar a andar confiando que não está sem direção."
+  },
+  {
+    verse: "Porque o Senhor Deus é sol e escudo; ele dará graça e glória.",
+    ref: "Salmos 84:11",
+    title: "Sol e escudo",
+    text: "O salmo usa duas imagens que se completam. Sol, que aquece, ilumina, faz crescer. E escudo, que protege, defende, resguarda. Deus é descrito como os dois: o que faz florescer e o que protege.\n\nA gente costuma precisar de um ou de outro em momentos diferentes. Há dias de querer calor e luz, e há dias de só querer proteção. Esse versículo afirma que não é preciso escolher, os dois cuidados estão no mesmo lugar.\n\nHoje, dependendo de como você acordou, talvez precise mais do sol ou mais do escudo. Vale lembrar que ambos estão disponíveis, e que o cuidado de Deus se adapta ao que o seu momento pede."
+  },
+  {
+    verse: "Ensina-nos a contar os nossos dias, de tal maneira que alcancemos corações sábios.",
+    ref: "Salmos 90:12",
+    title: "O valor do tempo curto",
+    text: "Contar os dias parece mórbido à primeira vista, mas o salmo aponta para o contrário: lembrar que o tempo é limitado produz sabedoria. Quem esquece que a vida é breve tende a desperdiçá-la em coisas pequenas.\n\nNão é viver com medo da morte, é viver com consciência do valor de cada dia. Saber que o tempo não é infinito ajuda a escolher melhor onde gastá-lo.\n\nHoje, vale uma pergunta simples: se os dias são contados, este aqui está sendo gasto no que importa? Não para criar culpa, mas para reorientar. Contar os dias costuma devolver peso ao que a pressa faz parecer banal."
+  },
+  {
+    verse: "O Senhor cumprirá o que respeita a mim; a tua benignidade, ó Senhor, dura para sempre.",
+    ref: "Salmos 138:8",
+    title: "Ele termina o que começa",
+    text: "Há uma confiança serena nesse versículo: o Senhor cumprirá o que diz respeito a mim. Não é a pessoa garantindo que vai dar conta de tudo sozinha, é a certeza de que Deus não abandona o que começou.\n\nIsso alivia o peso de achar que tudo depende só do seu esforço. Você faz a sua parte, mas o desfecho não está apenas nas suas mãos. Há Alguém comprometido em completar a obra.\n\nHoje, se você teme não dar conta, não conseguir terminar o que começou, vale descansar nessa promessa. O cumprimento do que importa não depende exclusivamente da sua força. Deus se ocupa em concluir."
+  },
+  {
+    verse: "Perto está o Senhor de todos os que o invocam, de todos os que o invocam em verdade.",
+    ref: "Salmos 145:18",
+    title: "Perto de quem chama",
+    text: "A distância de Deus, muitas vezes, é mais sensação do que realidade. Esse salmo afirma que ele está perto de quem o invoca. A proximidade não depende de você se sentir digno, depende de você chamar.\n\nRepare na expressão em verdade. Não é sobre orações bonitas ou palavras certas, é sobre sinceridade. Um chamado honesto, mesmo desajeitado, encontra um Deus que já está por perto.\n\nHoje, se você sente Deus distante, talvez a saída não seja esperar se sentir melhor para então orar. Pode ser simplesmente chamar, de verdade, do jeito que dá. A proximidade prometida é para quem invoca, não para quem já está pronto."
+  },
+  {
+    verse: "Em qualquer tempo que eu temer, hei de confiar em ti.",
+    ref: "Salmos 56:3",
+    title: "Confiar mesmo com medo",
+    text: "Esse versículo é honesto de um jeito raro. Ele não diz nunca mais vou ter medo. Diz quando eu temer, vou confiar. Assume que o medo virá e propõe o que fazer com ele, em vez de fingir que ele não existe.\n\nIsso desfaz a ideia de que fé e medo não podem coexistir. Dá para sentir medo e, ao mesmo tempo, escolher confiar. A confiança não é a ausência do medo, é uma decisão tomada apesar dele.\n\nHoje, se você está com medo de algo, não precisa se cobrar por isso nem esperar o medo passar. Dá para fazer como o salmista: no exato momento do temor, voltar a confiar. As duas coisas cabem juntas."
+  },
+  {
+    verse: "Ele sara os quebrantados de coração e lhes ata as feridas.",
+    ref: "Salmos 147:3",
+    title: "Cuidado com a ferida",
+    text: "A imagem é de alguém que cuida de feridas com atenção, atando cada uma. Não é um cuidado distante nem genérico. É próximo, paciente, voltado especificamente para o coração quebrado.\n\nFeridas emocionais costumam ser invisíveis, e por isso pouco cuidadas. A gente esconde, segue em frente, finge que cicatrizou. Esse versículo afirma que há Alguém atento justamente ao que a gente disfarça.\n\nHoje, se você carrega um coração machucado, vale lembrar que ele não passa despercebido. Existe um cuidado voltado para o que dói por dentro. Curar leva tempo, mas você não precisa atar suas feridas sozinho."
+  },
+  {
+    verse: "Os que semeiam em lágrimas segarão com alegria.",
+    ref: "Salmos 126:5",
+    title: "Semear chorando",
+    text: "O salmo fala de um tipo específico de semeadura: a que é feita em lágrimas. Há épocas em que a gente planta sem nenhuma vontade, fazendo o certo enquanto chora, sem ver perspectiva de colheita.\n\nA promessa não é que o choro some na hora de plantar. É que ele não terá a palavra final. A semente lançada em lágrimas pode, no tempo certo, virar uma colheita de alegria.\n\nHoje, se você está semeando chorando, fazendo o que precisa ser feito mesmo sem ânimo, isso não é em vão. O esforço derramado em lágrimas costuma não se perder. Há uma colheita que ainda não apareceu, mas está sendo preparada."
+  },
+  {
+    verse: "Entrega o teu caminho ao Senhor; confia nele, e ele tudo fará.",
+    ref: "Salmos 37:5",
+    title: "Soltar o caminho",
+    text: "Entregar o caminho é diferente de abandoná-lo. Não é parar de agir, é parar de carregar sozinho o peso de garantir cada resultado. Você anda, mas com as mãos mais abertas.\n\nA dificuldade está em confiar de verdade, não só na boca. Confiar é aceitar que parte do desfecho está fora do seu controle, e que isso não é motivo de desespero, e sim de descanso.\n\nHoje, se há um caminho que você vem tentando controlar até a exaustão, experimente entregá-lo. Fazer a sua parte e soltar o resto. O cansaço, muitas vezes, não vem de andar, vem de tentar segurar o que não cabe nas suas mãos."
+  },
+  {
+    verse: "A palavra branda quebranta os ossos; o falar suave acalma a ira.",
+    ref: "Provérbios 25:15",
+    title: "Suavidade que move",
+    text: "O provérbio aponta um paradoxo. A palavra suave, que parece fraca, tem força para quebrantar até o que é duro. Não é a gritaria que vence resistências, é a brandura persistente.\n\nA gente costuma achar que firmeza é sinônimo de aspereza, que para ser levado a sério precisa endurecer o tom. Esse texto sugere o contrário: a suavidade, longe de ser fraqueza, costuma abrir portas que a dureza fecha.\n\nHoje, numa situação tensa, vale testar a palavra branda em vez do tom afiado. Não como manipulação, mas como sabedoria. Falar suave costuma alcançar o que o grito só endurece."
+  },
+  {
+    verse: "Aquele que confia nas suas riquezas cairá, mas os justos reverdecerão como a folhagem.",
+    ref: "Provérbios 11:28",
+    title: "Onde botar a confiança",
+    text: "O provérbio compara duas bases de confiança. Quem se apoia nas riquezas tem um chão instável, que pode ruir a qualquer momento. Quem confia no caminho certo é comparado a folhagem que reverdece.\n\nNão é uma condenação ao dinheiro em si, é um alerta sobre transformá-lo em fundamento. Riqueza é instável demais para sustentar a alma. Quem ancora a vida nela acaba refém de algo que não controla.\n\nHoje, vale perguntar onde você tem colocado sua segurança. Se ela depende totalmente do que pode ser perdido num revés, talvez valha buscar um chão mais firme. Há uma estabilidade que não murcha quando as circunstâncias mudam."
+  },
+  {
+    verse: "Em todo o tempo ama o amigo, e na angústia se faz o irmão.",
+    ref: "Provérbios 17:17",
+    title: "Amizade que aparece no aperto",
+    text: "Esse provérbio define amizade verdadeira pelo que ela faz na hora difícil. Muita gente acompanha nos dias bons. O amigo descrito aqui é o que se faz presente justamente na angústia, quando ajudar custa algo.\n\nIsso serve de espelho em dois sentidos. Convida a valorizar quem fica nos seus dias ruins, e também a ser esse tipo de presença para os outros, não desaparecendo quando a coisa aperta.\n\nHoje, vale lembrar de quem esteve com você nos momentos difíceis e agradecer. E vale perguntar de quem você tem se aproximado nos apertos. Amizade que vale costuma se medir mais na angústia do que na festa."
+  },
+  {
+    verse: "O que encobre as suas transgressões nunca prosperará; mas o que as confessa e deixa alcançará misericórdia.",
+    ref: "Provérbios 28:13",
+    title: "Encobrir cansa",
+    text: "O provérbio descreve dois caminhos. Encobrir o erro, que parece seguro mas mina por dentro, e confessar, que parece arriscado mas abre espaço para a misericórdia. Repare que não basta confessar, é confessar e deixar.\n\nEsconder uma falta exige energia constante: manter a aparência, controlar a narrativa, viver com medo de ser descoberto. Esse desgaste silencioso costuma custar mais do que a verdade custaria.\n\nHoje, se há algo que você vem encobrindo, vale considerar o peso de continuar escondendo. Trazer à luz e abandonar o erro não é só honestidade, é alívio. A misericórdia espera do outro lado da confissão, não do disfarce."
+  },
+  {
+    verse: "Os teus ouvidos ouvirão a palavra do que está por detrás de ti, dizendo: este é o caminho, andai por ele.",
+    ref: "Isaías 30:21",
+    title: "Uma voz que orienta",
+    text: "A imagem é de uma voz vinda de trás, apontando a direção: este é o caminho. Não é uma orientação que tira a sua liberdade de andar, é uma indicação para quem está disposto a ouvir e seguir.\n\nMuitas vezes a orientação de Deus é discreta assim, mais um sussurro que reorienta do que um letreiro luminoso. Quem corre sem parar para escutar acaba não ouvindo a voz que estava ali o tempo todo.\n\nHoje, se você está numa encruzilhada, talvez a direção não venha de um sinal espetacular, e sim de uma voz suave que pede atenção. Vale diminuir o ritmo o suficiente para conseguir escutá-la."
+  },
+  {
+    verse: "Como um pastor, apascentará o seu rebanho; entre os seus braços recolherá os cordeirinhos.",
+    ref: "Isaías 40:11",
+    title: "Cuidado com os mais frágeis",
+    text: "Isaías acabou de descrever a grandeza imensa de Deus e, logo em seguida, usa essa imagem terna: um pastor que recolhe os cordeirinhos nos braços. A força e a ternura aparecem juntas, sem contradição.\n\nÉ significativo que o cuidado se volte especialmente para os mais frágeis, os filhotes, os que não conseguem acompanhar o ritmo. Não é um cuidado só para os fortes, é atenção redobrada para quem está cansado.\n\nHoje, se você se sente fraco demais, lento demais, sem forças para acompanhar, essa imagem é para você. O cuidado de Deus não exige que você seja forte. Ele recolhe nos braços justamente quem não dá conta de andar sozinho."
+  },
+  {
+    verse: "Bem-aventurado o homem que confia no Senhor, e cuja esperança é o Senhor.",
+    ref: "Jeremias 17:7",
+    title: "Raízes perto da água",
+    text: "Logo depois desse versículo, Jeremias compara quem confia em Deus a uma árvore plantada junto às águas, que não teme o calor e não deixa de dar fruto na seca. A imagem é de estabilidade que vem da fonte certa.\n\nO segredo da árvore não é nunca enfrentar seca, é ter raízes em contato com a água. Por isso ela resiste quando o calor aperta. A confiança funciona como essas raízes, ligando a vida a algo que não seca.\n\nHoje, se você sente que vem uma estação de seca, vale checar onde estão suas raízes. Quem está enraizado na fonte certa atravessa o calor sem secar. A diferença não é a ausência de seca, é de onde se tira a água."
+  },
+  {
+    verse: "Com amor eterno te amei; por isso com benignidade te atraí.",
+    ref: "Jeremias 31:3",
+    title: "Um amor que não começou hoje",
+    text: "Deus descreve o próprio amor como eterno, ou seja, sem ponto de partida nem de chegada. Não é um amor que surgiu quando você se comportou bem nem que vai embora quando você falha. Ele já existia antes.\n\nIsso muda a base de tudo. Você não conquista esse amor com bom desempenho nem o perde com um erro. Ele não depende da sua performance, porque não começou por causa dela.\n\nHoje, se você se sente amado apenas quando acerta, vale ouvir isso de novo: o amor é eterno e atrai com benignidade. Não é prêmio por mérito, é a constante que estava ali antes de qualquer coisa que você fizesse."
+  },
+  {
+    verse: "Ainda que a figueira não floresça, todavia eu me alegrarei no Senhor.",
+    ref: "Habacuque 3:17-18",
+    title: "Alegria que não depende da colheita",
+    text: "Habacuque faz uma lista do que pode dar errado: figueira sem flor, videira sem uva, campos sem produção. E mesmo diante de tudo isso, ele decide se alegrar no Senhor. A alegria dele não está amarrada à colheita.\n\nIsso é radical. Não é negar a perda, ele a nomeia com clareza. É descobrir uma fonte de alegria que não depende dos resultados. Quando a alegria está ligada só ao que se colhe, ela some na primeira frustração.\n\nHoje, se a sua colheita não veio como esperava, esse versículo não pede que você finja contentamento. Ele aponta para uma alegria mais profunda, que sobrevive à falta. Difícil, mas possível, e mais firme do que a alegria que só aparece quando tudo dá certo."
+  },
+  {
+    verse: "Bem-aventurados os pacificadores, porque eles serão chamados filhos de Deus.",
+    ref: "Mateus 5:9",
+    title: "Construir paz dá trabalho",
+    text: "Jesus não abençoa os que apenas evitam conflito, e sim os pacificadores, os que constroem paz ativamente. Há uma diferença grande entre fugir da briga e trabalhar para reconciliar o que está quebrado.\n\nFazer paz costuma ser desconfortável. Exige mediar, ouvir os dois lados, abrir mão de ter razão, às vezes levar pedrada dos dois lados. Não é a postura passiva de quem só quer sossego, é um esforço corajoso.\n\nHoje, talvez exista uma relação ou uma situação onde você poderia ser pacificador, não fugindo nem alimentando o conflito, mas buscando reconciliação. É um dos caminhos pelos quais, segundo Jesus, a gente se parece com Deus."
+  },
+  {
+    verse: "Tudo quanto vós quereis que os homens vos façam, fazei-lho também vós a eles.",
+    ref: "Mateus 7:12",
+    title: "Uma régua simples",
+    text: "Jesus oferece uma régua quase universal de conduta: trate os outros como você gostaria de ser tratado. É simples de entender e difícil de praticar, porque exige se colocar no lugar do outro o tempo todo.\n\nO interessante é que a régua começa em você. Não é como os outros me tratam, é como eu gostaria de ser tratado. Isso tira a desculpa de revidar na mesma moeda quando alguém age mal.\n\nHoje, antes de uma atitude com alguém, vale passar pela régua: eu gostaria de receber isso? Não é uma fórmula mágica, mas costuma corrigir muita coisa. Tratar como se gostaria de ser tratado simplifica boa parte das decisões do dia."
+  },
+  {
+    verse: "Não se vendem dois passarinhos por uma moeda? E nenhum deles cairá em terra sem a vontade de vosso Pai.",
+    ref: "Mateus 10:29-31",
+    title: "Atenção aos detalhes pequenos",
+    text: "Jesus usa o exemplo dos passarinhos, animais baratos, quase sem valor no comércio da época, para falar de cuidado. Se nem um deles passa despercebido, quanto mais a vida de uma pessoa.\n\nO argumento vai do pequeno para o grande. Se Deus se importa com o que parece insignificante, então o seu medo, sua dor, seu detalhe esquecido também estão no campo de visão dele. Nada é pequeno demais para receber atenção.\n\nHoje, se você sente que seus problemas são miúdos demais para importarem, ou grandes demais para serem notados, esse texto fala dos dois jeitos. O mesmo cuidado que acompanha o passarinho acompanha você, com ainda mais atenção."
+  },
+  {
+    verse: "Amarás o teu próximo como a ti mesmo.",
+    ref: "Marcos 12:31",
+    title: "A medida do amor ao próximo",
+    text: "Jesus coloca o amor ao próximo lado a lado com o amor a Deus, como se fossem inseparáveis. E a medida proposta é interessante: como a ti mesmo. O cuidado consigo vira referência para o cuidado com o outro.\n\nIsso pressupõe um cuidado saudável com a própria vida, não egoísmo, mas também não autoabandono. Quem se trata com desprezo costuma ter dificuldade de amar bem os outros, porque dá do que tem.\n\nHoje, vale olhar para os dois lados dessa medida. Você tem amado o próximo de verdade? E tem se tratado com a mesma dignidade que deseja oferecer? Os dois cuidados andam juntos, um costuma sustentar o outro."
+  },
+  {
+    verse: "E, como vós quereis que os homens vos façam, da mesma maneira lhes fazei vós também.",
+    ref: "Lucas 6:31",
+    title: "Começar pelo gesto",
+    text: "Lucas registra a mesma régua de ouro, mas no contexto de amar até os inimigos. Não é só tratar bem quem trata bem você, é dar o primeiro passo, oferecer o que você gostaria de receber, mesmo sem garantia de retorno.\n\nIsso quebra o ciclo de revanche. Em vez de esperar o outro mudar para então agir melhor, você muda a sua atitude primeiro. O gesto bom não fica refém de o outro merecer.\n\nHoje, se há uma relação travada na espera de quem dá o primeiro passo, talvez esse passo seja seu. Não por fraqueza, mas por escolha. Tratar o outro como você gostaria de ser tratado às vezes precisa começar antes de o outro merecer."
+  },
+  {
+    verse: "Um novo mandamento vos dou: que vos ameis uns aos outros, como eu vos amei.",
+    ref: "João 13:34",
+    title: "A régua é o amor de Cristo",
+    text: "Jesus dá um mandamento que parece antigo, amar uns aos outros, mas acrescenta algo novo: como eu vos amei. A medida não é mais o quanto você consegue, é o amor que Cristo demonstrou.\n\nIsso eleva muito a régua. O amor de Jesus incluiu paciência, serviço, perdão e até entrega. Amar nesse nível não brota do esforço humano sozinho, brota de quem primeiro experimentou esse amor.\n\nHoje, se amar bem parece alto demais, vale lembrar a ordem das coisas. Não é amar para ser aceito, é amar a partir de um amor já recebido. A régua é alta, mas a fonte para alcançá-la não é a sua força, e sim o amor que você recebeu primeiro."
+  },
+  {
+    verse: "Não se turbe o vosso coração; credes em Deus, crede também em mim.",
+    ref: "João 14:1",
+    title: "Um coração que não se turba",
+    text: "Jesus diz isso a discípulos prestes a viver o pior momento de suas vidas. Não é uma frase para um dia tranquilo, é dita à beira de uma tempestade. E o antídoto que ele oferece para o coração turbado é a confiança.\n\nTurbação é aquela agitação interna que tira o chão, que faz o coração disparar de medo. Jesus não manda simplesmente acalmar, ele aponta para onde ancorar: credes em Deus, crede também em mim.\n\nHoje, se o seu coração anda turbado, talvez não dê para desligar a agitação na força. Mas dá para escolher onde se apoiar. A confiança não acaba com a tempestade, ela dá uma âncora para o coração no meio dela."
+  },
+  {
+    verse: "Eu sou a videira, vós as varas; quem está em mim, e eu nele, esse dá muito fruto.",
+    ref: "João 15:5",
+    title: "Fruto vem da conexão",
+    text: "Jesus usa a imagem da videira e dos ramos. O ramo não produz fruto se esforçando, ele produz por estar ligado à videira. A seiva passa pela conexão, não pela tensão de querer muito.\n\nIsso desafia a lógica do puro esforço. A gente tenta produzir bons frutos na vida na base da força de vontade, e cansa. Esse texto sugere que o segredo está antes do esforço: permanecer ligado à fonte.\n\nHoje, se você se sente improdutivo ou seco, talvez a solução não seja se esforçar mais, e sim cuidar da conexão. Fruto é consequência de permanecer ligado, não de tentar com mais força. Ramo separado da videira não dá nada."
+  },
+  {
+    verse: "Ninguém tem maior amor do que este: de dar alguém a sua vida pelos seus amigos.",
+    ref: "João 15:13",
+    title: "Amor que se entrega",
+    text: "Jesus define o amor maior não por sentimento, mas por entrega. Dar a vida pelo outro é a forma extrema, mas o princípio vale para gestos menores: amar de verdade custa algo, envolve abrir mão de si.\n\nA gente costuma associar amor a receber, a se sentir bem. Esse versículo aponta para o outro lado: o amor que mais marca é o que se dispõe a sacrificar conforto pelo bem de alguém.\n\nHoje, amar alguém talvez não exija dar a vida, mas pode pedir dar o seu tempo, sua paciência, sua atenção quando seria mais fácil não dar. Esses pequenos gestos de entrega são, em escala menor, do mesmo material do amor maior."
+  },
+  {
+    verse: "Mais bem-aventurada coisa é dar do que receber.",
+    ref: "Atos 20:35",
+    title: "A alegria de dar",
+    text: "Essa frase, atribuída a Jesus, vai contra a intuição. A gente costuma achar que a felicidade está em receber, em acumular, em ser servido. Mas a experiência de quem dá costuma confirmar o contrário.\n\nDar tira o foco de si e o coloca no outro, e nisso há uma alegria que receber não oferece. Não é uma alegria barata, é a satisfação de ter sido útil, de ter aliviado algo na vida de alguém.\n\nHoje, vale experimentar essa bem-aventurança na prática. Dar algo, tempo, ajuda, atenção, sem esperar retorno. Quem dá costuma sair mais cheio do que quem só recebe. A generosidade tem um efeito sobre quem a pratica."
+  },
+  {
+    verse: "Nem a morte, nem a vida, nem coisa alguma nos poderá separar do amor de Deus.",
+    ref: "Romanos 8:38-39",
+    title: "Nada separa",
+    text: "Paulo faz uma lista exaustiva do que poderia, em tese, separar alguém do amor de Deus: morte, vida, anjos, presente, futuro. E conclui que nada disso consegue. O amor de Deus é descrito como inseparável.\n\nIsso fala direto ao medo de ser abandonado. A gente teme que um erro grande, uma fase de afastamento, uma fé fraca, possam cortar o vínculo. Paulo afirma que não há nada com poder de fazer isso.\n\nHoje, se você teme ter ido longe demais, ou que algo possa te separar de Deus, vale ouvir essa lista. Ela foi feita para não deixar brecha. Nada, nem o seu pior momento, tem poder de te separar desse amor."
+  },
+  {
+    verse: "O Espírito ajuda as nossas fraquezas; intercede por nós com gemidos inexprimíveis.",
+    ref: "Romanos 8:26",
+    title: "Quando faltam palavras",
+    text: "Há momentos em que a gente quer orar e não sabe o que dizer. A dor é grande demais, a confusão também, e as palavras não vêm. Paulo descreve exatamente essa situação e oferece um alívio: o Espírito intercede.\n\nIsso significa que a oração não depende da sua eloquência. Quando você não consegue formular nada, há Alguém traduzindo os gemidos que você nem sabe expressar. A falta de palavras não é falta de oração.\n\nHoje, se você quer orar mas só consegue um suspiro ou um silêncio cheio de dor, isso basta. Não é preciso achar as palavras certas. O Espírito ajuda justamente na fraqueza, levando adiante o que você não consegue dizer."
+  },
+  {
+    verse: "Procuremos, pois, as coisas que servem para a paz e para a edificação de uns para com os outros.",
+    ref: "Romanos 14:19",
+    title: "Buscar o que constrói",
+    text: "Paulo escreve para uma comunidade dividida por discussões sobre detalhes. Em vez de alimentar a disputa, ele propõe um critério: buscar o que serve para a paz e para edificar. Nem tudo que se pode discutir vale a briga.\n\nIsso é prático. Diante de um conflito, vale perguntar: isso constrói ou só destrói? Ter razão num ponto pequeno não compensa quebrar uma relação. Edificar é diferente de vencer.\n\nHoje, se você está prestes a entrar numa discussão, vale passar pelo filtro de Paulo. Algumas batalhas não valem o estrago. Procurar o que constrói, em vez do que só prova um ponto, costuma preservar o que realmente importa."
+  },
+  {
+    verse: "Agora, pois, permanecem a fé, a esperança e o amor, estes três; mas o maior destes é o amor.",
+    ref: "1 Coríntios 13:13",
+    title: "O que permanece",
+    text: "Paulo termina seu grande capítulo sobre o amor destacando três coisas que permanecem: fé, esperança e amor. Muita coisa que a gente valoriza é passageira. Essas três atravessam o tempo, e a maior delas é o amor.\n\nÉ um bom critério para a vida. No fim, o que vai ter valido a pena não será o acúmulo de conquistas, e sim quanto de fé, esperança e amor a gente cultivou e ofereceu.\n\nHoje, vale uma pergunta simples sobre onde você tem investido energia. Muito do que parece urgente é passageiro. Fé, esperança e amor permanecem. Vale priorizar o que dura, especialmente o amor, que segue sendo o maior."
+  },
+  {
+    verse: "Bendito seja o Pai das misericórdias, que nos consola em toda a nossa tribulação.",
+    ref: "2 Coríntios 1:3-4",
+    title: "Consolado para consolar",
+    text: "Paulo descreve um ciclo interessante. Deus consola na tribulação, e esse consolo recebido capacita a pessoa a consolar os outros que passam por algo parecido. A dor vivida vira recurso de cuidado.\n\nIsso dá um sentido inesperado ao sofrimento. O que você atravessou e no que foi consolado não fica só para você. Vira capacidade de chegar perto de quem sofre de um jeito que só quem passou por algo semelhante consegue.\n\nHoje, se você já recebeu consolo numa fase difícil, talvez exista alguém vivendo algo parecido agora. O conforto que você recebeu pode transbordar. A própria dor, uma vez consolada, costuma se transformar em ponte para cuidar de outra pessoa."
+  },
+  {
+    verse: "Cada um contribua segundo propôs no seu coração, porque Deus ama ao que dá com alegria.",
+    ref: "2 Coríntios 9:7",
+    title: "Dar com leveza",
+    text: "Paulo fala sobre generosidade e faz uma observação sobre o coração de quem dá. Não é a quantia que importa mais, é a disposição. Deus ama quem dá com alegria, não por obrigação ou pressão.\n\nIsso tira a generosidade do terreno do peso e da culpa. Dar contrariado, só para cumprir tabela, perde o sentido. A beleza do dar está em fazê-lo de coração, com leveza, como quem tem o prazer de repartir.\n\nHoje, se você for ajudar alguém ou contribuir com algo, vale checar o coração. Não dá para forçar alegria, mas dá para dar daquilo que realmente brota de você, sem pressão. Generosidade alegre abençoa quem recebe e também quem dá."
+  },
+  {
+    verse: "Sede uns para com os outros amáveis, e suportai-vos uns aos outros em amor.",
+    ref: "Efésios 4:2",
+    title: "Suportar com amor",
+    text: "Paulo lista qualidades para a convivência: humildade, mansidão, paciência, e suportar uns aos outros em amor. Repare que suportar aparece de novo, como se conviver bem incluísse inevitavelmente aguentar diferenças.\n\nMas o detalhe é o em amor. Não é suportar com cara feia, contando os defeitos do outro, e sim com paciência genuína. Suportar sem amor vira ressentimento acumulado; com amor, vira maturidade.\n\nHoje, com alguém que te irrita, vale tentar suportar de outro jeito, não engolindo em silêncio com mágoa, mas exercitando uma paciência que vem do amor. Toda relação próxima exige isso de vez em quando, e o tom faz toda a diferença."
+  },
+  {
+    verse: "Esquecendo-me das coisas que atrás ficam, prossigo para o alvo.",
+    ref: "Filipenses 3:13-14",
+    title: "Não ficar preso atrás",
+    text: "Paulo fala em esquecer o que ficou para trás. Não é negar o passado, é não deixar que ele prenda você. Tanto os fracassos quanto as glórias antigas podem virar âncoras que impedem de seguir em frente.\n\nGente que vive remoendo erros antigos paralisa. Gente que vive das conquistas passadas estaciona. Os dois prendem no que já foi, em vez de liberar para o que ainda pode ser.\n\nHoje, se algo do passado vem te puxando para trás, seja uma culpa ou uma saudade do que era, vale a postura de Paulo. Sem apagar a história, prosseguir para o alvo. O que ficou atrás não precisa decidir para onde você ainda pode ir."
+  },
+  {
+    verse: "Lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós.",
+    ref: "1 Pedro 5:7",
+    title: "Por que entregar a ansiedade",
+    text: "Pedro não manda só largar a ansiedade, ele dá um motivo: porque ele tem cuidado de vós. A entrega faz sentido por causa de quem está do outro lado. Você não joga seu peso no vazio, joga em alguém que se importa.\n\nEssa razão muda tudo. Entregar a ansiedade a algo indiferente seria inútil. Mas entregá-la a Alguém que cuida de você é descanso. O peso vai para mãos que se interessam pelo seu bem.\n\nHoje, se a ansiedade está te consumindo, vale lembrar não só do mandamento de lançá-la, mas do motivo. Há cuidado do outro lado. Você não está pedindo para o nada, está confiando seu peso a quem genuinamente se importa com você."
+  },
 ];
 
 if (typeof module !== 'undefined' && module.exports) {
