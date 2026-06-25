@@ -984,6 +984,228 @@ const DEVOTIONALS = [
     title: "Por que entregar a ansiedade",
     text: "Pedro não manda só largar a ansiedade, ele dá um motivo: porque ele tem cuidado de vós. A entrega faz sentido por causa de quem está do outro lado. Você não joga seu peso no vazio, joga em alguém que se importa.\n\nEssa razão muda tudo. Entregar a ansiedade a algo indiferente seria inútil. Mas entregá-la a Alguém que cuida de você é descanso. O peso vai para mãos que se interessam pelo seu bem.\n\nHoje, se a ansiedade está te consumindo, vale lembrar não só do mandamento de lançá-la, mas do motivo. Há cuidado do outro lado. Você não está pedindo para o nada, está confiando seu peso a quem genuinamente se importa com você."
   },
+  {
+    verse: "O Senhor é o meu pastor; nada me faltará.",
+    ref: "Salmos 23:1",
+    title: "Descansa, ele cuida",
+    text: "Talvez você tenha acordado hoje fazendo contas, somando o que falta, sentindo que precisa dar conta de tudo sozinho. Respira. Esse versículo começa lembrando quem é o pastor antes de falar do que não vai faltar.\n\nA confiança não nasce de você ser forte o bastante, nasce de saber quem caminha à sua frente. O pastor conhece o caminho, os perigos e o ritmo de cada ovelha, inclusive o seu cansaço.\n\nHoje, em vez de carregar tudo, experimente uma oração simples: Senhor, hoje eu confio que você cuida do que me falta. Deixe que essa verdade te acompanhe pelo dia, como uma mão firme no ombro."
+  },
+  {
+    verse: "Deus amou o mundo de tal maneira que deu o seu Filho unigênito.",
+    ref: "João 3:16",
+    title: "Amado antes de merecer",
+    text: "Esse é talvez o versículo mais conhecido da Bíblia, e por isso a gente quase deixa de senti-lo. Mas pare um instante e deixe a frase te alcançar pessoalmente: você foi tão amado a ponto de Deus dar o que tinha de mais precioso.\n\nNão diz que Deus amou os que mereciam, os arrumados, os sem falhas. Diz que amou o mundo, com tudo o que há de quebrado nele, e você faz parte desse mundo amado.\n\nHoje, se a voz interna anda dizendo que você não é digno, ouça outra mais alta. Antes de qualquer conquista sua, antes de qualquer acerto, você já era alvo desse amor. Descanse nisso como quem finalmente pode parar de provar o próprio valor."
+  },
+  {
+    verse: "Lançai sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós.",
+    ref: "1 Pedro 5:7",
+    title: "Uma oração para a noite",
+    text: "Tem noites em que a gente deita e a mente não desliga. As preocupações vêm em fila, uma puxando a outra, e o sono foge. Pedro fala direto a esse coração agitado, com uma ternura quase de quem arruma um filho para dormir.\n\nLançar a ansiedade é como abrir as mãos e deixar o peso cair em outro colo. Não some o problema, mas muda quem o segura durante a madrugada. Você não precisa vigiar tudo sozinho até o amanhecer.\n\nHoje, antes de dormir, tente entregar nome por nome o que te aflige: isto eu deixo contigo, Senhor. Feche os olhos confiando que Alguém que não dorme vai cuidar do que você não consegue resolver deitado na cama."
+  },
+  {
+    verse: "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.",
+    ref: "Mateus 11:28",
+    title: "Você pode chegar cansado",
+    text: "Não há letra miúda nesse convite. Jesus não pede que você melhore primeiro, nem que esconda o cansaço para parecer mais forte. Ele chama exatamente quem está no fim das forças, do jeito que está.\n\nÀs vezes a gente trata Deus como mais uma cobrança, mais um lugar onde precisa dar conta. Esse versículo desfaz isso com delicadeza. Não é um chamado para trabalhar mais, é um convite para descansar.\n\nHoje, se você está exausto por dentro, aceite o convite sem rodeios. Apenas vá, em oração, e diga: cheguei cansado. O alívio prometido aqui não é prêmio para os fortes, é presente para os que admitem que não aguentam mais sozinhos."
+  },
+  {
+    verse: "A paz vos deixo, a minha paz vos dou; não se turbe o vosso coração, nem se atemorize.",
+    ref: "João 14:27",
+    title: "Recebe a paz que ele dá",
+    text: "Há uma paz que a gente tenta fabricar à força, controlando tudo, prevendo cada risco. Ela cansa e nunca chega de vez. A paz que Jesus oferece é de outra natureza: ela é dada, não conquistada.\n\nRepare que é um presente. Ninguém ganha presente por mérito, recebe de graça. A sua tarefa não é produzir essa calma, é abrir as mãos e aceitá-la, mesmo no meio do que ainda não está resolvido.\n\nHoje, no meio da correria, faça uma pausa de poucos segundos e respire essa verdade: a paz dele já está disponível para mim. Não precisa esperar tudo se acalmar lá fora para deixar o coração descansar por dentro."
+  },
+  {
+    verse: "Buscai primeiro o reino de Deus, e a sua justiça, e todas estas coisas vos serão acrescentadas.",
+    ref: "Mateus 6:33",
+    title: "Quando o coração se dispersa",
+    text: "É fácil o coração se espalhar em mil preocupações: contas, futuro, o que os outros pensam, o que falta. A gente acorda já correndo atrás de tantas coisas que esquece de buscar a única que centra todas as outras.\n\nJesus não está pedindo que você ignore as necessidades reais. Ele está oferecendo um centro de gravidade. Quando o reino ocupa o primeiro lugar, o resto encontra seu tamanho certo e para de pesar tanto.\n\nHoje, antes de mergulhar na lista de tarefas, ofereça o dia: Senhor, hoje quero te buscar primeiro. Não é uma fórmula para conseguir mais coisas, é um jeito de viver o dia com o coração ancorado no que de fato sustenta."
+  },
+  {
+    verse: "Ainda que eu ande pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo.",
+    ref: "Salmos 23:4",
+    title: "No vale, você não está só",
+    text: "O salmo não promete desviar do vale. Promete companhia dentro dele. Há momentos da vida que são exatamente isso, vales escuros que a gente precisa atravessar, não contornar.\n\nO que muda tudo é a pequena frase tu estás comigo. O medo não some porque o vale ficou menos escuro, some porque você descobre que não o atravessa sozinho. A presença é mais forte que a sombra.\n\nHoje, se você está num desses vales, ouça isso como um sussurro para o seu coração: eu estou contigo. Não precisa fingir coragem que não tem. Basta dar o próximo passo sabendo que há Alguém caminhando ao seu lado no escuro."
+  },
+  {
+    verse: "Tu és o meu refúgio; tu me preservarás da angústia.",
+    ref: "Salmos 32:7",
+    title: "Um lugar para se esconder",
+    text: "Todo mundo precisa de um lugar seguro, um canto onde dá para baixar a guarda e respirar. O salmista descobriu esse lugar não num endereço, mas numa Pessoa: tu és o meu refúgio.\n\nRefúgio é onde a gente corre quando a tempestade chega. Não é um lugar para morar fingindo que o mundo não existe, é onde se recobra o fôlego para depois voltar a enfrentar o que precisa ser enfrentado.\n\nHoje, se a angústia apertou, você não precisa segurar tudo por fora. Corra para o refúgio em oração, mesmo que com poucas palavras. Há um abrigo sempre aberto, esperando você chegar para descansar o coração cansado."
+  },
+  {
+    verse: "Sê forte e corajoso; não temas, nem te espantes, porque o Senhor teu Deus é contigo.",
+    ref: "Josué 1:9",
+    title: "Coragem emprestada",
+    text: "Deus repete o mesmo a Josué várias vezes, como quem sabe que a gente esquece rápido: sê forte, sê corajoso. E logo dá o motivo, que não é a força de Josué, e sim a presença dele.\n\nQue alívio descobrir que a coragem pedida não precisa brotar de você. Ela é, de certo modo, emprestada. Você se anima porque Alguém maior está junto, não porque deixou de sentir medo.\n\nHoje, diante daquilo que te assusta, não espere o medo desaparecer para agir. Vá, levando a presença de Deus como companhia. A coragem cristã raramente é sentir-se forte; quase sempre é dar o passo confiando em quem caminha contigo."
+  },
+  {
+    verse: "Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento.",
+    ref: "Provérbios 3:5",
+    title: "Quando você não entende",
+    text: "Há dias em que a gente vira a situação de todos os ângulos e nada faz sentido. A cabeça cansa de tentar montar um quebra-cabeça sem todas as peças. Esse provérbio chega como um respiro: você não precisa entender tudo para confiar.\n\nConfiar de todo o coração é soltar a exigência de ter todas as respostas. É reconhecer, com humildade, que a sua visão é parcial e que existe Alguém que enxerga o quadro inteiro.\n\nHoje, se você está esgotado de tentar entender, faça uma oração simples: Senhor, eu não compreendo, mas confio em ti. Descansar não significa parar de pensar, significa parar de carregar sozinho o peso de prever o que só Deus conhece."
+  },
+  {
+    verse: "A alegria do Senhor é a vossa força.",
+    ref: "Neemias 8:10",
+    title: "Força que vem da alegria",
+    text: "Esse versículo foi dito a um povo que chorava ao ouvir a Palavra, tomado de tristeza pelos próprios erros. E a orientação surpreende: não é hora de se afundar na culpa, mas de encontrar força na alegria do Senhor.\n\nNote que não é a sua alegria que sustenta, é a dele. Mesmo quando você não consegue se sentir feliz, existe uma alegria em Deus, do tipo que vem de saber-se amado e perdoado, capaz de devolver forças.\n\nHoje, se você está sem ânimo, não tente fabricar alegria do nada. Volte-se para a fonte. Lembre de que você é amado apesar de tudo, e deixe essa alegria, que não depende do seu humor, te dar força para seguir."
+  },
+  {
+    verse: "Bem-aventurados os que têm fome e sede de justiça, porque eles serão fartos.",
+    ref: "Mateus 5:6",
+    title: "A fome certa",
+    text: "Jesus chama de bem-aventurado quem tem fome e sede de justiça. É uma imagem forte: não um interesse leve, mas um desejo profundo, como o de quem realmente precisa comer e beber.\n\nHá uma boa notícia escondida aí. Se dentro de você existe uma inquietação por um mundo mais justo, por viver de forma mais reta, isso não é defeito, é fome santa. E ela tem promessa: será saciada.\n\nHoje, se você sente esse incômodo com o que está errado em você e ao redor, não o silencie. Apresente-o a Deus: Senhor, eu tenho fome de fazer o certo. Essa fome é um bom sinal, e ela não ficará sem resposta para sempre."
+  },
+  {
+    verse: "Não se turbe o vosso coração; na casa de meu Pai há muitas moradas.",
+    ref: "João 14:1-2",
+    title: "Há lugar para você",
+    text: "Jesus consola discípulos assustados falando de casa, de moradas preparadas. É uma linguagem de pertencimento, de quem garante: há um lugar reservado, você não vai ficar de fora.\n\nMuita gente carrega por dentro a sensação de não pertencer a lugar nenhum, de estar sempre sobrando. Esse versículo fala diretamente a essa ferida. Existe uma casa onde há espaço com o seu nome.\n\nHoje, se você se sente deslocado, sem lugar, deixe essa promessa te alcançar. Há morada preparada para você, e quem prepara é Alguém que te ama. Você é esperado. Carregue essa certeza como quem sabe que tem para onde voltar."
+  },
+  {
+    verse: "Clama a mim, e responder-te-ei, e anunciar-te-ei coisas grandes e firmes que não sabes.",
+    ref: "Jeremias 33:3",
+    title: "O convite de clamar",
+    text: "Deus faz um convite quase ousado: clama a mim. Não é só permissão para orar, é um chamado ativo, como quem diz fala comigo, eu quero te ouvir. E ainda promete responder com coisas que você nem imagina.\n\nA gente às vezes ora pequeno, com medo de incomodar ou de pedir demais. Mas esse versículo abre espaço para uma oração mais corajosa, sustentada não pela sua dignidade, mas pela disposição de Deus em responder.\n\nHoje, leve a Deus aquilo que você nem ousa colocar em palavras. Clame. Não porque você merece resposta, mas porque Ele convidou. Há um Pai do outro lado, atento, pronto a revelar caminhos que hoje ainda estão escondidos de você."
+  },
+  {
+    verse: "O Senhor pelejará por vós, e vos calareis.",
+    ref: "Êxodo 14:14",
+    title: "Quando a luta não é sua",
+    text: "O povo estava encurralado, mar à frente, exército atrás, e a orientação foi inesperada: fiquem quietos, o Senhor pelejará. Há horas em que a fé não é fazer mais, é parar de se debater e confiar.\n\nIsso é difícil para quem está acostumado a resolver tudo na própria força. Calar-se aqui não é passividade derrotada, é a confiança ativa de quem reconhece que aquela batalha específica não cabe nos seus braços.\n\nHoje, se você está exausto de lutar contra algo que não consegue controlar, talvez o convite seja descansar. Diga em oração: Senhor, essa luta eu entrego a ti. Há momentos em que o ato mais corajoso de fé é confiar e aquietar o coração."
+  },
+  {
+    verse: "Eu sou o pão da vida; aquele que vem a mim não terá fome.",
+    ref: "João 6:35",
+    title: "O que realmente sacia",
+    text: "A gente passa a vida tentando preencher um vazio interior com coisas que não saciam: aprovação, conquistas, distrações. Funcionam por instantes, e a fome volta, às vezes maior. Jesus se oferece como o pão que sacia de verdade.\n\nNote que é uma fome da alma, não do estômago. Há um lugar dentro de cada um que só Deus preenche, e tentar enchê-lo com outra coisa é como comer e continuar com fome.\n\nHoje, se você anda buscando satisfação onde ela nunca chega de vez, vale redirecionar a fome. Em oração, apresente esse vazio: Senhor, só você me sacia. Há um alimento para a alma que não depende da próxima conquista, e ele está disponível agora."
+  },
+  {
+    verse: "Mas os que esperam no Senhor renovarão as suas forças.",
+    ref: "Isaías 40:31",
+    title: "Quando a força acaba",
+    text: "Tem dias em que a gente simplesmente não tem mais de onde tirar. O tanque seca, e até as tarefas pequenas parecem montanhas. Isaías fala justamente desse esgotamento, e aponta para uma força que vem de fora.\n\nO segredo está numa palavra: esperar. Não é uma espera passiva e amarga, é confiar enquanto se aguarda. E a promessa é linda: a força não vem do seu esforço, vem da entrega de quem reconhece o próprio limite.\n\nHoje, se você está sem forças, não se cobre por isso. Pare, respire e ore: Senhor, eu não tenho mais, renova as minhas forças. Há um fôlego que só se recebe quando a gente finalmente admite que o próprio acabou."
+  },
+  {
+    verse: "Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia.",
+    ref: "Salmos 46:1",
+    title: "Socorro que está perto",
+    text: "Repare na expressão bem presente. Deus não é descrito como um socorro distante, que talvez chegue depois, e sim como uma ajuda perto, à mão, disponível justamente na hora da angústia.\n\nNo aperto, a sensação costuma ser de solidão, de que ninguém entende ou pode ajudar. Esse salmo desmente esse sentimento. Bem no meio do caos, há um refúgio e uma fortaleza ao alcance.\n\nHoje, se a angústia te encontrou, lembre que o socorro não está longe. Não é preciso achar as palavras certas nem esperar o momento ideal. Apenas chame, ali mesmo onde você está. Deus se descreve como ajuda presente, não como promessa para um dia distante."
+  },
+  {
+    verse: "Porque eu sei os planos que tenho para vós, planos de paz e não de mal.",
+    ref: "Jeremias 29:11",
+    title: "Confiança no que não se vê",
+    text: "Quando a vida não sai como a gente esperava, é fácil concluir que está tudo perdido, que não há rumo. Esse versículo, dito a um povo longe de casa e sem perspectiva, afirma o contrário: existe um plano, e ele é de paz.\n\nO que conforta não é a promessa de que tudo será fácil, mas de que há intenção boa por trás da história, mesmo quando você não enxerga o desenho completo. Você não está à deriva.\n\nHoje, se o seu caminho parece confuso, descanse na ideia de que Alguém conhece o fim que você ainda não vê. Ore: Senhor, eu não entendo o trajeto, mas confio na tua intenção. Os planos dele continuam de pé mesmo nos dias em que os seus desmoronam."
+  },
+  {
+    verse: "Cantai ao Senhor um cântico novo, porque fez maravilhas.",
+    ref: "Salmos 98:1",
+    title: "Motivo para cantar",
+    text: "O salmo convida a um cântico novo. Novo porque a misericórdia de Deus não envelhece, ela se renova, e cada dia traz razões frescas para gratidão, se a gente parar para enxergar.\n\nÀs vezes a vida fica cinza não porque faltam motivos de alegria, mas porque a gente parou de notá-los. O cântico novo nasce de um olhar atento, que reconhece as pequenas maravilhas escondidas no comum.\n\nHoje, antes de listar o que falta, tente nomear uma maravilha, por menor que pareça: um fôlego, um afeto, um sol na janela. Deixe a gratidão virar canto, mesmo que silencioso. Quem aprende a enxergar o bem encontra motivo para cantar até nos dias comuns."
+  },
+  {
+    verse: "Eu estarei convosco todos os dias, até à consumação dos séculos.",
+    ref: "Mateus 28:20",
+    title: "Todos os dias",
+    text: "São as últimas palavras de Jesus nesse evangelho, e ele escolhe terminar com uma promessa de companhia. Não diz estarei nos dias bons, ou quando vocês merecerem. Diz todos os dias, sem exceção.\n\nIsso inclui os dias em que você sente fé e os dias em que duvida, os dias de vitória e os de fracasso. A presença prometida não oscila conforme o seu desempenho. Ela é constante, fiel, diária.\n\nHoje, seja qual for o tipo de dia que você está vivendo, agarre essa palavra. Você não está sozinho neste, nem estará no de amanhã. Ore com simplicidade: obrigado, Senhor, porque hoje também você está comigo. Essa companhia é para todos os dias, inclusive este."
+  },
+  {
+    verse: "Bendize, ó minha alma, ao Senhor, e tudo o que há em mim bendiga o seu santo nome.",
+    ref: "Salmos 103:1",
+    title: "Acordar a alma",
+    text: "O salmista fala com a própria alma, quase a sacudindo: bendize ao Senhor. Há algo de honesto nisso. Às vezes a gratidão não vem sozinha, precisa ser despertada de propósito, como quem chama a alma para fora do desânimo.\n\nLouvar não é fingir que está tudo bem. É escolher voltar os olhos para o bem que existe, mesmo no meio do que dói. É uma decisão que, aos poucos, reorganiza o coração de dentro para fora.\n\nHoje, se a sua alma anda adormecida, baixa, sem brilho, faça como o salmista. Convide-a a louvar: vamos, alma, lembra do bem que recebeste. Não é negar a dor, é não deixar que ela tenha a última palavra sobre o seu dia."
+  },
+  {
+    verse: "O choro pode durar uma noite, mas a alegria vem pela manhã.",
+    ref: "Salmos 30:5",
+    title: "Segura até a manhã",
+    text: "Se você está no meio de uma noite de choro, talvez essa promessa pareça distante demais. A dor tem essa força de convencer a gente de que será sempre assim. Mas o salmo insiste: a noite tem fim.\n\nDeus não despreza o seu choro nem manda você fingir alegria. Ele apenas garante que o sofrimento não é o seu endereço permanente. A manhã virá, talvez não amanhã, mas virá.\n\nHoje, se a madrugada parece longa, não desista antes do amanhecer. Em oração, entregue suas lágrimas: Senhor, eu seguro firme até a tua manhã chegar. Há uma alegria a caminho, e ela costuma encontrar quem teve coragem de atravessar a noite sem soltar a mão de Deus."
+  },
+  {
+    verse: "Vós sois sal da terra; mas se o sal for insípido, com que se há de salgar?",
+    ref: "Mateus 5:13",
+    title: "Você faz diferença onde está",
+    text: "Sal é pouco em quantidade, mas muda o sabor de tudo. Jesus usa essa imagem para falar dos seus seguidores: você não precisa ser muitos nem grandioso para impactar o ambiente ao seu redor.\n\nMuita gente acha que só faz diferença quem tem grande plataforma ou influência. Mas o sal age de perto, no prato, no contato. É na sua casa, no seu trabalho, nas conversas comuns que o seu jeito de viver tempera o ambiente.\n\nHoje, não subestime o seu lugar pequeno. Uma palavra gentil, um gesto íntegro, uma presença de paz já salgam o mundo ao redor. Ore para não perder o sabor: Senhor, faze de mim sal onde eu estou. O pouco, no lugar certo, transforma o todo."
+  },
+  {
+    verse: "Aquietai-vos e sabei que eu sou Deus.",
+    ref: "Salmos 46:10",
+    title: "Permissão para parar",
+    text: "Vivemos correndo, com a sensação de que parar é luxo ou preguiça. Esse versículo chega quase como uma ordem amorosa: aquieta-te. Há sabedoria em desacelerar, não como fuga, mas para reencontrar o chão.\n\nNa correria, a gente perde de vista quem está no controle e passa a agir como se tudo dependesse de si. O aquietar devolve a perspectiva: eu sou Deus, não você. E isso, longe de ser ameaça, é descanso.\n\nHoje, dê a si mesmo a permissão de parar por alguns minutos. Respire, em silêncio, e repita devagar: tu és Deus, eu posso descansar. Nem tudo precisa ser resolvido por você agora. Aquietar o coração é, muitas vezes, o começo de enxergar com mais clareza."
+  },
+  {
+    verse: "Porque pela graça sois salvos, por meio da fé, e isto não vem de vós, é dom de Deus.",
+    ref: "Efésios 2:8",
+    title: "Você pode parar de pagar",
+    text: "Existe um cansaço próprio de quem vive tentando merecer amor, sempre achando que falta um pouco para ser aceito. Esse versículo desarma essa corrida de uma vez: a salvação é dom, presente, não pagamento.\n\nDom não se conquista nem se devolve com juros. Ele se recebe de mãos abertas. Isso pode até incomodar quem se acostumou a medir o próprio valor pelo quanto faz, mas é a porta para um descanso profundo.\n\nHoje, se você está exausto de tentar provar que é digno, ouça com o coração: já foi pago, já foi dado. Em vez de mais esforço, ofereça gratidão: obrigado, Senhor, porque eu não preciso comprar o que você me deu de graça."
+  },
+  {
+    verse: "Não temas, porque eu te remi; chamei-te pelo teu nome; tu és meu.",
+    ref: "Isaías 43:1",
+    title: "Chamado pelo nome",
+    text: "Há uma intimidade enorme nesse versículo. Deus não fala com a multidão de forma genérica, ele diz chamei-te pelo teu nome. Você não é um número, um rosto perdido na multidão. Você é conhecido, individualmente.\n\nNum mundo que muitas vezes te trata como mais um, essa palavra é um bálsamo. Existe Alguém que sabe o seu nome, a sua história, as suas feridas, e ainda assim diz: tu és meu.\n\nHoje, se você se sente invisível ou esquecido, deixe esse versículo te encontrar pessoalmente. Coloque o seu próprio nome na frase e ouça: não temas, eu te chamei, tu és meu. Você pertence a Alguém que te conhece de verdade e não te solta."
+  },
+  {
+    verse: "Deita o teu pão sobre as águas, porque depois de muitos dias o acharás.",
+    ref: "Eclesiastes 11:1",
+    title: "Semeia mesmo sem ver",
+    text: "A imagem é curiosa: lançar pão sobre as águas, um gesto que parece desperdício, sem retorno garantido. Mas o texto promete que, depois de muitos dias, você o reencontra. É um convite a fazer o bem mesmo sem ver fruto imediato.\n\nA gente quer resultado rápido, prova de que valeu a pena. Esse versículo pede paciência e confiança. Bondade, esforço, oração lançados hoje podem demorar a voltar, mas raramente se perdem de vez.\n\nHoje, continue semeando o bem mesmo sem aplauso nem retorno visível. Aquela ajuda, aquela oração persistente, aquele cuidado silencioso não são em vão. Confie no tempo de Deus: depois de muitos dias, o que foi lançado com fé costuma reaparecer de formas que você nem esperava."
+  },
+  {
+    verse: "Lâmpada para os meus pés é a tua palavra, e luz para o meu caminho.",
+    ref: "Salmos 119:105",
+    title: "Luz para o próximo passo",
+    text: "Uma lâmpada para os pés não ilumina o horizonte inteiro, ilumina onde você vai pisar agora. É uma imagem honesta de como a orientação de Deus costuma funcionar: o suficiente para o próximo passo, não o mapa completo.\n\nIsso frustra quem quer ver tudo de antemão, mas também alivia. Você não precisa enxergar o fim para começar a andar. Basta a luz do passo seguinte, e ela se renova conforme você caminha.\n\nHoje, se você não sabe o que vem lá na frente, não se paralise por isso. Pergunte a Deus apenas sobre o próximo passo e dê-o com confiança. A Palavra é lâmpada para os pés, e a luz vai aparecendo na medida em que você avança, não antes."
+  },
+  {
+    verse: "O Senhor é bom, ele serve de fortaleza no dia da angústia.",
+    ref: "Naum 1:7",
+    title: "Lembrar que ele é bom",
+    text: "No meio da dificuldade, uma das primeiras coisas que a gente esquece é a bondade de Deus. A dor sussurra que talvez ele não se importe. Esse versículo, surgido num livro pesado, reafirma com firmeza: o Senhor é bom.\n\nE não é uma bondade abstrata, distante do sofrimento. É bondade que se faz fortaleza justamente no dia da angústia. Ele não fica de fora dos seus dias difíceis, ele se torna abrigo dentro deles.\n\nHoje, se você tem duvidado do cuidado de Deus, repita devagar essa verdade até o coração ouvir: o Senhor é bom. Ore a partir disso: Senhor, mesmo sem entender, escolho confiar que você é bom. A bondade dele é o chão firme quando tudo o mais balança."
+  },
+  {
+    verse: "Em paz me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.",
+    ref: "Salmos 4:8",
+    title: "Dormir em paz",
+    text: "Esse é um dos versículos mais doces para o fim do dia. O salmista não diz que dorme em paz porque resolveu todos os problemas, e sim porque sabe quem o guarda enquanto ele descansa.\n\nO sono é um ato de confiança. Fechar os olhos é admitir que você não está no controle por algumas horas, que alguém precisa cuidar enquanto você se entrega. E há Alguém que cuida sem nunca cochilar.\n\nHoje, ao deitar, entregue o dia e o amanhã: Senhor, eu durmo porque você vela. Você não precisa carregar as preocupações para a cama. A segurança que permite dormir em paz não vem de tudo estar resolvido, vem de quem segura o mundo enquanto você descansa."
+  },
+  {
+    verse: "Bem-aventurados os mansos, porque eles herdarão a terra.",
+    ref: "Mateus 5:5",
+    title: "A força da mansidão",
+    text: "O mundo costuma premiar os que empurram, gritam mais alto e passam por cima. Jesus inverte tudo: os mansos é que herdarão a terra. Mansidão aqui não é fraqueza, é força sob controle, gentileza que escolhe não ferir.\n\nÉ preciso muita firmeza interior para ser manso, para não revidar cada provocação, para não precisar vencer toda discussão. O manso confia que não precisa se impor à força, porque a herança vem de Deus, não da disputa.\n\nHoje, numa situação que pede revide, experimente a mansidão. Não como covardia, mas como confiança. Ore: Senhor, dá-me a tua mansidão. Quem aprende a ser gentil mesmo quando poderia ser duro carrega uma força que o mundo não entende, mas que Deus abençoa."
+  },
+  {
+    verse: "Tudo posso naquele que me fortalece.",
+    ref: "Filipenses 4:13",
+    title: "Força para o que vier",
+    text: "Paulo escreveu isso da prisão, depois de dizer que aprendeu a viver contente tanto na fartura quanto na falta. O tudo posso, portanto, não é poder para conquistar o que quiser, é força para atravessar qualquer situação.\n\nIsso muda o tom da promessa. Não é um Deus que garante só vitórias, é um Deus que sustenta você na alta e na baixa, no dia bom e no difícil. A força prometida é para permanecer de pé, não para nunca cair.\n\nHoje, seja qual for o seu cenário, abundância ou aperto, há uma força disponível que não vem de você. Ore: Senhor, me fortalece para viver bem este momento. Você não precisa dar conta sozinho; a capacidade que falta pode ser recebida de quem prometeu fortalecer."
+  },
+  {
+    verse: "Deus enxugará de seus olhos toda lágrima; e não haverá mais morte, nem pranto.",
+    ref: "Apocalipse 21:4",
+    title: "A promessa do fim das lágrimas",
+    text: "Esse versículo descreve um futuro em que Deus, com as próprias mãos, enxuga cada lágrima. Não é um conforto distante e frio, é uma imagem terna, de proximidade, de um cuidado que se inclina sobre quem chorou.\n\nA fé cristã não nega a dor do presente, mas a coloca dentro de uma história que termina bem. As lágrimas de hoje são reais, mas não são eternas. Há um dia marcado em que o pranto deixa de existir.\n\nHoje, se você tem chorado muito, deixe essa esperança te alcançar. A sua dor não foi esquecida nem terá a palavra final. Ore: Senhor, sustenta-me até esse dia. Existe um futuro onde a própria mão de Deus seca o rosto de quem sofreu, e isso dá forças para o presente."
+  },
+  {
+    verse: "Achega-te a Deus, e ele se achegará a ti.",
+    ref: "Tiago 4:8",
+    title: "Dar um passo na direção dele",
+    text: "Tiago descreve uma reciprocidade simples e encorajadora: achega-te a Deus, e ele se achega a ti. Não é preciso percorrer toda a distância sozinho. Basta dar um passo na direção dele, e ele vem ao seu encontro.\n\nQuem se sente longe de Deus muitas vezes acha que precisa primeiro se consertar para depois se aproximar. Esse versículo inverte: aproxime-se como está, e a aproximação dele faz o resto. O movimento de Deus responde ao seu.\n\nHoje, se você sente uma distância, não espere se sentir digno. Dê o seu pequeno passo: uma oração curta, um momento de silêncio, um abrir o coração. Ele prometeu se achegar. A reaproximação com Deus quase sempre começa com um gesto pequeno e sincero da nossa parte."
+  },
+  {
+    verse: "Os que confiam no Senhor são como o monte de Sião, que não se abala.",
+    ref: "Salmos 125:1",
+    title: "Firmeza que não vem de você",
+    text: "O salmo compara quem confia em Deus a um monte que não se abala. É uma imagem de estabilidade, mas note a fonte: a firmeza não vem da força de quem confia, vem daquilo em que se confia.\n\nA gente tenta ser inabalável na base do controle, e desaba na primeira surpresa. O monte não se sustenta sozinho, ele é firme por natureza, por onde está plantado. Confiar é se enraizar nesse chão que não se move.\n\nHoje, se você se sente instável, sacudido por tudo, talvez o problema não seja falta de esforço, e sim onde você tem se apoiado. Ore: Senhor, eu me firmo em ti. A estabilidade que dura não nasce de você nunca tremer, nasce de estar ancorado em quem não treme nunca."
+  },
+  {
+    verse: "Ele dá força ao cansado e multiplica as forças ao que não tem nenhum vigor.",
+    ref: "Isaías 40:29",
+    title: "Para quem não tem mais nada",
+    text: "Repare em quem é o destinatário dessa promessa: o cansado, o que não tem nenhum vigor. Não é para os fortes que ainda têm reserva, é para quem chegou ao zero, esgotado, sem saber de onde tirar o próximo passo.\n\nIsso é uma boa notícia justamente nos piores dias. Deus não espera você se recuperar para então ajudar. É na fraqueza extrema, no fim das forças, que a força dele se torna mais necessária e mais visível.\n\nHoje, se você sente que não tem mais nada para dar, esse versículo é seu. Não finja vigor que não tem. Apresente o seu vazio: Senhor, eu não tenho mais forças, multiplica as tuas em mim. É exatamente para quem chegou ao limite que essa promessa foi escrita."
+  },
 ];
 
 if (typeof module !== 'undefined' && module.exports) {
