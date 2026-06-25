@@ -4,6 +4,11 @@
   "private": true,
   "description": "Gerador de imagem diária do devocional para publicação no Instagram",
   "scripts": {
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "vitest run --config vitest.backend.config.js",
+    "test:frontend": "vitest run --config vitest.frontend.config.js",
+    "test:backend:cov": "vitest run --config vitest.backend.config.js --coverage",
+    "test:frontend:cov": "vitest run --config vitest.frontend.config.js --coverage",
     "generate-image": "node scripts/generate-image.js",
     "post-instagram": "node scripts/post-instagram.js",
     "generate-game-images": "node scripts/generate-game-images.js",
@@ -25,5 +30,10 @@
   "dependencies": {
     "canvas": "^2.11.2",
     "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.9",
+    "jsdom": "^29.1.1",
+    "vitest": "^4.1.9"
   }
 }

@@ -68,6 +68,8 @@ async function handleWebhookEvent(payload, env, ctx) {
   }
 }
 
+export { normalize, pickReply, hashString, handleWebhookEvent, TRIGGER_WORDS, REPLIES };
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);

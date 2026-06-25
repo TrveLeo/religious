@@ -1,0 +1,32 @@
+name: Testes backend (Node)
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # node-canvas (dependência) compila bindings nativos; precisa das libs
+      # de sistema (cairo/pango/etc) pra os testes de geração de imagem.
+      - name: Instalar libs do canvas
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
+
+      - name: Instalar dependências
+        run: npm ci --legacy-peer-deps
+
+      - name: Rodar testes backend com cobertura
+        run: npm run test:backend:cov

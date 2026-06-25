@@ -210,4 +210,6 @@ async function main() {
   console.log(`Legenda gerada: ${captionPath}`);
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = { buildTermoCaption, buildConexoCaption };

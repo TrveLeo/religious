@@ -8,19 +8,20 @@ function todayKey() {
   return `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()}`;
 }
 
-function setOfTheDay() {
-  const now = new Date();
-  const index = dayOfYear(now) % CONEXO_SETS.length;
-  return CONEXO_SETS[index];
+function setOfTheDay(sets, date) {
+  const list = sets || (typeof CONEXO_SETS !== 'undefined' ? CONEXO_SETS : []);
+  const d = date || new Date();
+  const index = dayOfYear(d) % list.length;
+  return list[index];
 }
 
-const SET = setOfTheDay();
+const SET = (typeof CONEXO_SETS !== 'undefined') ? setOfTheDay() : null;
 const MAX_MISTAKES = 4;
 const STORAGE_KEY = `conexo-biblico-${todayKey()}`;
 
-let allWords = SET.categories.flatMap(cat => cat.words.map(w => ({ word: w, category: cat.name })));
+let allWords = SET ? SET.categories.flatMap(cat => cat.words.map(w => ({ word: w, category: cat.name }))) : [];
 
-let state = loadState();
+let state = (SET && typeof localStorage !== 'undefined') ? loadState() : null;
 
 function loadState() {
   const saved = localStorage.getItem(STORAGE_KEY);
@@ -131,18 +132,24 @@ function render() {
   });
 }
 
-document.getElementById('shuffle-btn').addEventListener('click', () => {
-  state.order = shuffle(state.order);
-  saveState();
+if (typeof document !== 'undefined' && document.getElementById('grid')) {
+  document.getElementById('shuffle-btn').addEventListener('click', () => {
+    state.order = shuffle(state.order);
+    saveState();
+    render();
+  });
+
+  document.getElementById('deselect-btn').addEventListener('click', () => {
+    state.selected = [];
+    saveState();
+    render();
+  });
+
+  document.getElementById('submit-btn').addEventListener('click', submitGroup);
+
   render();
-});
+}
 
-document.getElementById('deselect-btn').addEventListener('click', () => {
-  state.selected = [];
-  saveState();
-  render();
-});
-
-document.getElementById('submit-btn').addEventListener('click', submitGroup);
-
-render();
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { dayOfYear, setOfTheDay, shuffle };
+}

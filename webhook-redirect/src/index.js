@@ -14,6 +14,8 @@ async function incrementCounter(kv, kind) {
   await kv.put(key, String(count + 1));
 }
 
+export { todayKey, incrementCounter, SITE_URL, PIX_URL };
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);

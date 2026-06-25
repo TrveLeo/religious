@@ -8,19 +8,20 @@ function todayKey() {
   return `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()}`;
 }
 
-function wordOfTheDay() {
-  const now = new Date();
-  const index = dayOfYear(now) % TERMO_WORDS.length;
-  return TERMO_WORDS[index];
+function wordOfTheDay(words, date) {
+  const list = words || (typeof TERMO_WORDS !== 'undefined' ? TERMO_WORDS : []);
+  const d = date || new Date();
+  const index = dayOfYear(d) % list.length;
+  return list[index];
 }
 
-const WORD = wordOfTheDay();
+const WORD = (typeof TERMO_WORDS !== 'undefined') ? wordOfTheDay() : '';
 const MAX_ATTEMPTS = 6;
 const WORD_LEN = 5;
 
 const STORAGE_KEY = `termo-biblico-${todayKey()}`;
 
-let state = loadState();
+let state = (typeof localStorage !== 'undefined') ? loadState() : { guesses: [], current: "", finished: false, won: false };
 
 function loadState() {
   const saved = localStorage.getItem(STORAGE_KEY);
@@ -95,18 +96,19 @@ function showMessage(msg) {
   document.getElementById('message').textContent = msg;
 }
 
-function evaluateGuess(guess) {
-  const result = new Array(WORD_LEN).fill('absent');
-  const wordLetters = WORD.split("");
-  const used = new Array(WORD_LEN).fill(false);
+function evaluateGuess(guess, word = WORD) {
+  const len = word.length;
+  const result = new Array(len).fill('absent');
+  const wordLetters = word.split("");
+  const used = new Array(len).fill(false);
 
-  for (let i = 0; i < WORD_LEN; i++) {
+  for (let i = 0; i < len; i++) {
     if (guess[i] === wordLetters[i]) {
       result[i] = 'correct';
       used[i] = true;
     }
   }
-  for (let i = 0; i < WORD_LEN; i++) {
+  for (let i = 0; i < len; i++) {
     if (result[i] === 'correct') continue;
     const idx = wordLetters.findIndex((l, j) => l === guess[i] && !used[j]);
     if (idx !== -1) {
@@ -164,12 +166,18 @@ function render() {
   }
 }
 
-document.addEventListener('keydown', (e) => {
-  const key = e.key.toUpperCase();
-  if (key === 'ENTER') handleKey('ENTER');
-  else if (key === 'BACKSPACE') handleKey('←');
-  else if (/^[A-Z]$/.test(key)) handleKey(key);
-});
+if (typeof document !== 'undefined' && document.getElementById('board')) {
+  document.addEventListener('keydown', (e) => {
+    const key = e.key.toUpperCase();
+    if (key === 'ENTER') handleKey('ENTER');
+    else if (key === 'BACKSPACE') handleKey('←');
+    else if (/^[A-Z]$/.test(key)) handleKey(key);
+  });
 
-buildKeyboard();
-render();
+  buildKeyboard();
+  render();
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { dayOfYear, wordOfTheDay, evaluateGuess };
+}
