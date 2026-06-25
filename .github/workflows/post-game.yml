@@ -4,7 +4,12 @@ on:
   schedule:
     - cron: "0 18 * * *" # 15:00 no horário de Brasília (UTC-3)
     - cron: "15 18 * * *" # fallback: 15:15, caso o disparo das 15:00 atrase/falhe
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      type:
+        description: "Forçar tipo (quote, game, trivia, impact, reveal, poll, weekly). Vazio = rotação por data."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -27,7 +32,7 @@ jobs:
 
   post:
     needs: guard
-    if: needs.guard.outputs.already_ran != 'true'
+    if: needs.guard.outputs.already_ran != 'true' || github.event.inputs.type != ''
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -44,6 +49,13 @@ jobs:
       - name: Escolher tipo de conteúdo do dia
         id: pick
         run: |
+          # Override manual via workflow_dispatch (pra testar um formato).
+          FORCED="${{ github.event.inputs.type }}"
+          if [ -n "$FORCED" ]; then
+            echo "type=$FORCED" >> "$GITHUB_OUTPUT"
+            echo "Tipo forçado: $FORCED"
+            exit 0
+          fi
           # Card de citação (quote) sai com mais frequência: é o formato mais
           # salvo/compartilhado, principal motor de descoberta orgânica.
           # Os formatos interativos (reveal, poll, weekly) entram pra puxar
