@@ -1,10 +1,15 @@
-name: Publicação semanal de Reel no Instagram
+name: Publicação diária de Reel no Instagram
 
 on:
   schedule:
-    - cron: "0 19 * * 3" # toda quarta, 16:00 no horário de Brasília (UTC-3)
-    - cron: "15 19 * * 3" # fallback: 16:15, caso o disparo das 16:00 atrase/falhe
-  workflow_dispatch: {}
+    - cron: "0 19 * * *" # 16:00 no horário de Brasília (UTC-3)
+    - cron: "15 19 * * *" # fallback: 16:15, caso o disparo das 16:00 atrase/falhe
+  workflow_dispatch:
+    inputs:
+      type:
+        description: "Forçar tipo (devotional, quote, trivia, reveal, impact, poll, weekly). Vazio = rotação por data."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -27,7 +32,7 @@ jobs:
 
   post:
     needs: guard
-    if: needs.guard.outputs.already_ran != 'true'
+    if: needs.guard.outputs.already_ran != 'true' || github.event.inputs.type != ''
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -44,15 +49,33 @@ jobs:
       - name: Instalar ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
+      - name: Escolher tipo de conteúdo do dia
+        id: pick
+        run: |
+          FORCED="${{ github.event.inputs.type }}"
+          if [ -n "$FORCED" ]; then
+            echo "type=$FORCED" >> "$GITHUB_OUTPUT"
+            echo "Tipo forçado: $FORCED"
+            exit 0
+          fi
+          # Ciclo de 7 tipos, rotação separada do post-game (que usa % 14).
+          TYPES=(devotional quote trivia reveal impact poll weekly)
+          TYPE=${TYPES[$(( $(date -u +%j) % 7 ))]}
+          echo "type=$TYPE" >> "$GITHUB_OUTPUT"
+          echo "Tipo escolhido: $TYPE (dia do ano % 7 = $(( $(date -u +%j) % 7 )))"
+
       - name: Gerar reel do dia
         run: node scripts/generate-reel.js
+        env:
+          REEL_TYPE: ${{ steps.pick.outputs.type }}
+          PIX_KEY: ${{ secrets.PIX_KEY }}
 
       - name: Commitar reel gerado
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/output/
-          git diff --staged --quiet || git commit -m "chore(content): gera reel semanal"
+          git diff --staged --quiet || git commit -m "chore(content): gera reel diário (${{ steps.pick.outputs.type }})"
           git pull --rebase origin main
           git push
 
