@@ -6,6 +6,7 @@ const DEVOTIONALS = require('../docs/content.js');
 const { dayOfYear, dateKey, capitalize } = require('./lib/dates.js');
 const { wrapText } = require('./lib/card-canvas.js');
 const { HOOKS, CTAS, pickByDay } = require('./lib/engagement.js');
+const { buildHashtags } = require('./lib/hashtags.js');
 
 const WIDTH = 1080;
 const HEIGHT = 1920;
@@ -179,7 +180,7 @@ function buildCaption(entry, date) {
     '',
     cta,
     '',
-    '#devocional #biblia #fe #deus #reels #jesus'
+    buildHashtags('reel', dayIndex)
   ].join('\n');
 }
 

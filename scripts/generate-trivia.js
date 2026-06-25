@@ -6,6 +6,7 @@ const { dayOfYear, dateKey } = require('./lib/dates.js');
 const { SIZE, baseBackground, drawHeader, wrapText } = require('./lib/card-canvas.js');
 const { drawDonationCard } = require('./lib/donation-card.js');
 const { HOOKS, CTAS, pickByDay } = require('./lib/engagement.js');
+const { buildHashtags } = require('./lib/hashtags.js');
 
 const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
 const LETTERS = ['A', 'B', 'C', 'D'];
@@ -116,7 +117,7 @@ function buildCaption(trivia, date) {
     cta,
     'Arrasta até o fim e veja como apoiar este projeto via Pix.',
     '',
-    '#triviabiblica #biblia #fe #quiz #devocional'
+    buildHashtags('trivia', dayIndex)
   ].join('\n');
 }
 

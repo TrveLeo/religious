@@ -44,16 +44,20 @@ jobs:
       - name: Escolher tipo de conteúdo do dia
         id: pick
         run: |
-          DAY_MOD=$(( $(date -u +%j) % 5 ))
+          # Card de citação (quote) sai com mais frequência: é o formato mais
+          # salvo/compartilhado, principal motor de descoberta orgânica.
+          DAY_MOD=$(( $(date -u +%j) % 7 ))
           case $DAY_MOD in
-            0) TYPE="game" ;;   # Termo (dias pares dentro do script)
-            1) TYPE="quote" ;;
-            2) TYPE="game" ;;   # Conexões (dias ímpares dentro do script)
+            0) TYPE="quote" ;;
+            1) TYPE="game" ;;   # Termo / Conexões (alterna dentro do script)
+            2) TYPE="quote" ;;
             3) TYPE="trivia" ;;
-            4) TYPE="impact" ;;
+            4) TYPE="quote" ;;
+            5) TYPE="game" ;;
+            6) TYPE="impact" ;;
           esac
           echo "type=$TYPE" >> "$GITHUB_OUTPUT"
-          echo "Tipo escolhido: $TYPE (dia do ano % 5 = $DAY_MOD)"
+          echo "Tipo escolhido: $TYPE (dia do ano % 7 = $DAY_MOD)"
 
       - name: Gerar imagens do dia
         run: |

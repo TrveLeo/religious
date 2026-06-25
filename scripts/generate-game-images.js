@@ -7,6 +7,7 @@ const { dayOfYear, dateKey, capitalize } = require('./lib/dates.js');
 const { SIZE, baseBackground, drawHeader } = require('./lib/card-canvas.js');
 const { drawDonationCard } = require('./lib/donation-card.js');
 const { CTAS, pickByDay } = require('./lib/engagement.js');
+const { buildHashtags } = require('./lib/hashtags.js');
 
 const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
 
@@ -147,7 +148,7 @@ function buildTermoCaption(date) {
     'Arrasta até o fim e veja como apoiar este projeto via Pix.',
     'Chave Pix (e-mail): diariod777@gmail.com',
     '',
-    '#termo #jogodaspalavras #biblia #devocional #fe'
+    buildHashtags('game', dayOfYear(date))
   ].join('\n');
 }
 
@@ -168,7 +169,7 @@ function buildConexoCaption(date) {
     'Arrasta até o fim e veja como apoiar este projeto via Pix.',
     'Chave Pix (e-mail): diariod777@gmail.com',
     '',
-    '#conexoes #jogodaspalavras #biblia #devocional #fe'
+    buildHashtags('conexo', dayOfYear(date))
   ].join('\n');
 }
 
