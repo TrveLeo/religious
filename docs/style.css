@@ -281,51 +281,124 @@ footer {
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
-  margin: 8px 0 26px;
+  margin: 4px 0 28px;
 }
 
-.share-label { color: #9c7a4e; font-size: 0.92rem; }
+.share-label {
+  color: #9c7a4e;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-right: 2px;
+}
 
 .share-btn {
-  display: inline-block;
-  padding: 8px 18px;
-  background: rgba(255, 250, 240, 0.92);
-  border: 1px solid #e3cfa3;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 20px;
   border-radius: 999px;
-  color: #6b4226;
   font-family: inherit;
   font-size: 0.9rem;
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
-  transition: background 0.15s, transform 0.15s;
+  border: 1px solid transparent;
+  transition: transform 0.15s, box-shadow 0.15s, background 0.15s;
 }
 
-.share-btn:hover { background: #fff; transform: translateY(-1px); }
+.share-btn::before { font-size: 1.05em; line-height: 1; }
+
+/* WhatsApp: verde da marca */
+a.share-btn {
+  background: #25d366;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+}
+a.share-btn::before { content: "💬"; }
+a.share-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 14px rgba(37, 211, 102, 0.4); }
+
+/* Copiar link: contorno na cor da marca */
+.copy-link {
+  background: rgba(255, 250, 240, 0.92);
+  color: #6b4226;
+  border-color: #d8c094;
+}
+.copy-link::before { content: "🔗"; }
+.copy-link:hover { transform: translateY(-2px); background: #fff; box-shadow: 0 4px 12px rgba(107, 66, 38, 0.15); }
 
 /* ---- Arquivo de devocionais ---- */
-.archive-list { list-style: none; }
+.archive-list {
+  list-style: none;
+  counter-reset: devo;
+}
 
-.archive-list li { margin-bottom: 10px; }
+.archive-list li {
+  counter-increment: devo;
+  margin-bottom: 12px;
+}
 
 .archive-list a {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: 14px;
-  padding: 14px 18px;
-  background: rgba(255, 250, 240, 0.92);
+  padding: 16px 20px 16px 56px;
+  background: rgba(255, 250, 240, 0.94);
   border: 1px solid #e3cfa3;
-  border-radius: 12px;
+  border-left: 4px solid #a0522d;
+  border-radius: 14px;
   text-decoration: none;
   color: #4a3420;
-  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 2px 6px rgba(107, 66, 38, 0.06);
+  transition: transform 0.15s, box-shadow 0.15s, border-left-color 0.15s;
+}
+
+.archive-list a::before {
+  content: counter(devo);
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  min-width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #9c7a4e;
+  background: #f6ead0;
+  border-radius: 50%;
 }
 
 .archive-list a:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(107, 66, 38, 0.12);
+  border-left-color: #d4a017;
+  box-shadow: 0 8px 20px rgba(107, 66, 38, 0.14);
 }
 
-.arc-title { font-weight: bold; color: #6b4226; }
-.arc-ref { color: #9c7a4e; font-size: 0.88rem; white-space: nowrap; }
+.arc-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 1.08rem;
+  color: #6b4226;
+}
+
+.arc-ref {
+  flex-shrink: 0;
+  color: #8a6d44;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background: #f2e2bd;
+  padding: 4px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.archive-count {
+  text-align: center;
+  color: #9c7a4e;
+  font-style: italic;
+  margin-bottom: 22px;
+}

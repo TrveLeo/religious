@@ -163,6 +163,7 @@ ${headTags({ title: `Arquivo de devocionais | ${SITE_NAME}`, description: 'Todos
       <p class="data">Todos os devocionais publicados</p>
     </header>
     <main>
+      <p class="archive-count">${devotionals.length} devocionais para ler e reler</p>
       <ul class="archive-list">
 ${items}
       </ul>
