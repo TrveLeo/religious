@@ -4,10 +4,16 @@ import { buildCaption as quoteCaption } from '../../scripts/generate-quote-card.
 import { buildTermoCaption, buildConexoCaption } from '../../scripts/generate-game-images.js';
 import { buildCaption as triviaCaption } from '../../scripts/generate-trivia.js';
 import { buildCaption as impactCaption } from '../../scripts/generate-impact-card.js';
+import { buildCaption as revealCaption } from '../../scripts/generate-reveal.js';
+import { buildCaption as weeklyCaption } from '../../scripts/generate-weekly-plan.js';
+import { buildCaption as pollCaption } from '../../scripts/generate-poll-card.js';
 
 const date = new Date('2026-06-24T12:00:00Z');
 const entry = { title: 'Título', verse: 'Versículo de teste', ref: 'João 3:16', text: 'Corpo do devocional.' };
 const trivia = { question: 'Quem construiu a arca?', options: ['Noé'], correctIndex: 0, explanation: 'Noé.' };
+const reveal = { label: 'Complete o versículo', prompt: 'O Senhor é o meu pastor, ___.', answer: 'nada me faltará', explanation: 'Salmos 23:1.' };
+const poll = { theme: 'Você ora mais...', a: 'De manhã', b: 'À noite' };
+const weekEntries = Array.from({ length: 7 }, (_, i) => ({ ref: `Salmos ${i + 1}:1` }));
 
 function hashtagLine(caption) {
   return caption.split('\n').find(l => l.trim().startsWith('#')) || '';
@@ -43,5 +49,25 @@ describe('legendas (buildCaption)', () => {
   it('impacto: legenda menciona apoio e chave Pix', () => {
     const cap = impactCaption(date);
     expect(cap).toContain('diariod777@gmail.com');
+  });
+
+  it('reveal: inclui o desafio e hashtags', () => {
+    const cap = revealCaption(reveal, date);
+    expect(cap).toContain('Complete o versículo');
+    expect(hashtagLine(cap)).toContain('#triviabiblica');
+  });
+
+  it('poll: inclui as duas opções e pede voto nos comentários', () => {
+    const cap = pollCaption(poll, date);
+    expect(cap).toContain('De manhã');
+    expect(cap).toContain('À noite');
+    expect(cap.toLowerCase()).toContain('comenta');
+  });
+
+  it('plano semanal: lista os 7 versículos e pede salvar', () => {
+    const cap = weeklyCaption(weekEntries, date);
+    expect(cap).toContain('Salmos 1:1');
+    expect(cap).toContain('Salmos 7:1');
+    expect(hashtagLine(cap).split(' ').length).toBeGreaterThanOrEqual(15);
   });
 });

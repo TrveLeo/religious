@@ -5,7 +5,7 @@ const DEVOTIONALS = require('../docs/content.js');
 const { dayOfYear, dateKey, capitalize } = require('./lib/dates.js');
 const { SIZE, baseBackground, drawFooter, wrapText } = require('./lib/card-canvas.js');
 const { drawDonationCard } = require('./lib/donation-card.js');
-const { HOOKS, CTAS, pickByDay } = require('./lib/engagement.js');
+const { HOOKS, CTAS, COMMENT_BAIT, SAVE_BAIT, pickByDay } = require('./lib/engagement.js');
 const { buildHashtags } = require('./lib/hashtags.js');
 
 const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
@@ -72,6 +72,8 @@ function buildCaption(entry, date) {
   const dataStr = capitalize(date.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' }));
   const hook = pickByDay(HOOKS, dayIndex);
   const cta = pickByDay(CTAS, dayIndex);
+  const commentBait = pickByDay(COMMENT_BAIT, dayIndex);
+  const saveBait = pickByDay(SAVE_BAIT, dayIndex);
 
   return [
     hook,
@@ -84,6 +86,8 @@ function buildCaption(entry, date) {
     '',
     `Devocional de ${dataStr}.`,
     '',
+    commentBait,
+    saveBait,
     cta,
     'Arrasta para o lado e veja como apoiar este projeto via Pix.',
     'Chave Pix (e-mail): diariod777@gmail.com',
