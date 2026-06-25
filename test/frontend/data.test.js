@@ -15,6 +15,19 @@ describe('integridade dos dados de conteúdo', () => {
     }
   });
 
+  it('devocionais: variedade de versículos alta (poucas repetições)', () => {
+    const refs = DEVOTIONALS.map(d => d.ref);
+    const unique = new Set(refs).size;
+    // Repetição permitida, mas baixa: ao menos 85% das refs distintas.
+    expect(unique / refs.length).toBeGreaterThanOrEqual(0.85);
+  });
+
+  it('devocionais: sem travessão no texto (convenção de tom)', () => {
+    for (const d of DEVOTIONALS) {
+      expect(d.text.includes('—')).toBe(false);
+    }
+  });
+
   it('palavras do Termo têm exatamente 5 letras e são maiúsculas', () => {
     expect(TERMO_WORDS.length).toBeGreaterThan(0);
     for (const w of TERMO_WORDS) {

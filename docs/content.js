@@ -275,7 +275,241 @@ const DEVOTIONALS = [
     ref: "1 Coríntios 13:4-7",
     title: "Uma definição que incomoda",
     text: "Esse texto é citado com frequência em casamentos, mas Paulo o escreveu num contexto de conflito numa igreja dividida por egos e comparações. Não é uma descrição poética de sentimento, é quase uma lista de verificação prática sobre como o amor se comporta de fato.\n\nLido fora do contexto romântico, o texto se torna mais desafiador: ele descreve como tratar pessoas difíceis na comunidade, não só pessoas amadas por escolha. Paciência e ausência de ciúme valem tanto pra um cônjuge quanto pra um colega de trabalho difícil.\n\nHoje, ao invés de aplicar esse texto só a relações afetivas, tente aplicá-lo a alguém com quem a convivência é mais tensa. O amor descrito aqui não pede sentimento positivo primeiro, pede comportamento consistente mesmo sem ele."
-  }
+  },
+  {
+    verse: "O Senhor é o meu pastor; de nada terei falta. Em verdes pastos me faz repousar.",
+    ref: "Salmos 23:1-2",
+    title: "Repouso que vem de fora",
+    text: "A imagem do pastor que faz repousar é interessante porque ovelha não descansa fácil. Ela só deita quando se sente segura, sem fome e sem medo. O descanso aqui não nasce do animal, nasce do cuidado de quem está por perto.\n\nA gente tende a achar que precisa resolver tudo antes de conseguir descansar. Mas esse texto sugere o contrário: o repouso vem porque alguém está cuidando, não porque acabaram os problemas.\n\nHoje, talvez o convite não seja correr mais, e sim confiar que existe um cuidado maior sustentando o que você não dá conta de carregar sozinho."
+  },
+  {
+    verse: "Aquietai-vos e sabei que eu sou Deus.",
+    ref: "Salmos 46:10",
+    title: "O valor de parar",
+    text: "Esse versículo aparece no meio de um salmo que fala de terra tremendo e montes caindo no mar. Não é um convite ao silêncio porque está tudo calmo, é um convite a se aquietar justamente quando tudo parece desmoronar.\n\nAquietar não é fingir que o problema não existe. É parar de tentar controlar cada detalhe e reconhecer que existe Alguém maior que a confusão do momento.\n\nSe hoje sua cabeça está cheia de barulho, talvez o passo mais corajoso seja o de parar por um instante e lembrar quem está no controle, mesmo quando você não está."
+  },
+  {
+    verse: "Lança o teu cuidado sobre o Senhor, e ele te susterá.",
+    ref: "Salmos 55:22",
+    title: "Onde colocar o peso",
+    text: "Carregar preocupação sozinho cansa de um jeito que pouca gente percebe. A gente se acostuma com o peso e acha que ele faz parte de quem somos. Esse versículo oferece outra possibilidade: existe onde colocar esse peso.\n\nLançar o cuidado não significa ficar passivo. Significa parar de agir como se tudo dependesse só da sua força. É reconhecer um limite e entregar o que excede esse limite.\n\nHoje, pode ser que o cansaço que você sente não seja por falta de capacidade, e sim por estar segurando algo que não foi feito para você segurar sozinho."
+  },
+  {
+    verse: "O coração alegre aformoseia o rosto, mas pela dor do coração o espírito se abate.",
+    ref: "Provérbios 15:13",
+    title: "O que transparece",
+    text: "Esse provérbio observa algo simples e verdadeiro: o que vai por dentro acaba aparecendo por fora. Não dá para separar completamente o coração do rosto, o que se sente do que se mostra.\n\nIsso não é um convite a forçar uma alegria que você não tem. É mais um lembrete de cuidar do interior, porque é dali que tudo brota. Ignorar a dor do coração não a faz sumir, só a empurra para outro lugar.\n\nTalvez hoje valha menos esforço em parecer bem e mais atenção ao que está pesando por dentro. Cuidar da raiz costuma mudar mais do que ajustar a aparência."
+  },
+  {
+    verse: "Confia ao Senhor as tuas obras, e teus pensamentos serão estabelecidos.",
+    ref: "Provérbios 16:3",
+    title: "Planejar e entregar",
+    text: "Há uma tensão antiga entre planejar e confiar. Alguns acham que confiar em Deus é não planejar nada. Esse provérbio mostra outra coisa: você faz suas obras, traça seus caminhos, e ao mesmo tempo entrega tudo isso.\n\nConfiar as obras ao Senhor não é desistir de pensar, é não transformar o próprio plano num ídolo. É seguir com as mãos abertas, pronto para ajustar a rota se for preciso.\n\nHoje, se você tem um projeto no coração, vale fazer a sua parte com dedicação e, ao mesmo tempo, soltar o controle do resultado. Os dois cabem na mesma mão."
+  },
+  {
+    verse: "Mais vale o fim das coisas do que o seu princípio; melhor é o paciente de espírito do que o altivo de espírito.",
+    ref: "Eclesiastes 7:8",
+    title: "O peso da paciência",
+    text: "O autor de Eclesiastes não é otimista barato. Ele observou a vida de perto e concluiu que o começo animado de algo vale menos do que a forma como esse algo termina. E que terminar bem exige paciência.\n\nA gente vive numa cultura que celebra o início: a ideia nova, o impulso, a empolgação. Mas é a paciência que sustenta um projeto, um relacionamento ou uma fé até o fim.\n\nSe hoje você está no meio de algo que perdeu o brilho do começo, isso não é necessariamente fracasso. Pode ser exatamente o trecho em que a paciência faz o trabalho que a empolgação não conseguiria."
+  },
+  {
+    verse: "Os que esperam no Senhor renovarão as suas forças, subirão com asas como águias.",
+    ref: "Isaías 40:31",
+    title: "Esperar sem secar",
+    text: "Esperar costuma ser visto como tempo perdido. A gente quer pular essa parte e chegar logo no resultado. Mas Isaías apresenta a espera como o lugar onde a força é renovada, não onde ela se esgota.\n\nA diferença está em como se espera. Esperar reclamando seca por dentro. Esperar confiando, ainda que doído, abre espaço para receber uma força que não vem de você.\n\nHoje, se a espera parece estar consumindo suas energias, talvez valha repensar a postura dentro dela. Há uma espera que cansa e há uma espera que prepara para voar."
+  },
+  {
+    verse: "Não temas, porque eu sou contigo; não te assombres, porque eu sou o teu Deus.",
+    ref: "Isaías 41:10",
+    title: "A raiz da coragem",
+    text: "Repare que a razão para não temer não é a ausência do perigo. O texto não diz que tudo vai dar certo de forma fácil. Diz outra coisa: não temas porque eu sou contigo.\n\nA coragem bíblica raramente é a sensação de que nada pode dar errado. É a certeza de não estar sozinho no que pode dar errado. Companhia muda completamente a experiência do medo.\n\nSe hoje você encara algo que assusta, o convite não é fingir que não tem medo. É lembrar de quem está ao seu lado enquanto você atravessa o que precisa atravessar."
+  },
+  {
+    verse: "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.",
+    ref: "Mateus 11:28-29",
+    title: "Um convite, não uma cobrança",
+    text: "Jesus não diz vinde a mim quando vocês melhorarem. Ele chama justamente os cansados e oprimidos, no estado em que estão. O convite parte de onde a pessoa realmente está, não de onde ela gostaria de estar.\n\nMuita gente acha que precisa se ajeitar primeiro para depois se aproximar de Deus. Esse texto inverte a ordem: chega cansado mesmo, chega oprimido, e é aí que o alívio começa.\n\nHoje, se você sente que está no limite, talvez não seja hora de se cobrar mais. Talvez seja exatamente o momento de aceitar um convite que não exige que você chegue pronto."
+  },
+  {
+    verse: "Buscai primeiro o reino de Deus e a sua justiça, e todas estas coisas vos serão acrescentadas.",
+    ref: "Mateus 6:33",
+    title: "Uma questão de ordem",
+    text: "Esse versículo não despreza as necessidades práticas. Pouco antes, Jesus fala de comida, roupa, das preocupações reais da vida. O que ele propõe não é ignorar essas coisas, é uma ordem para elas.\n\nQuando o secundário vira prioridade, a vida fica ansiosa, sempre correndo atrás. Buscar primeiro o reino é deixar o centro com quem deve ocupar o centro, e confiar que o resto encontra seu lugar.\n\nHoje, vale uma pergunta honesta: o que está no primeiro lugar das suas buscas? Reorganizar a ordem costuma trazer mais paz do que conseguir mais coisas."
+  },
+  {
+    verse: "Bem-aventurados os que choram, porque eles serão consolados.",
+    ref: "Mateus 5:4",
+    title: "Espaço para o choro",
+    text: "É estranho ouvir que quem chora é bem-aventurado. A lógica do mundo diz o contrário: feliz é quem não sofre. Mas Jesus aponta para uma felicidade que não exige negar a dor.\n\nChorar não é falta de fé. É reconhecer que algo importava o suficiente para doer. E a promessa não é que o choro nunca venha, e sim que ele não terá a última palavra. Haverá consolo.\n\nSe hoje você precisa chorar, não há vergonha nisso. Há até uma bênção escondida em permitir a dor em vez de fingir que ela não existe. O consolo costuma encontrar quem não esconde a ferida."
+  },
+  {
+    verse: "Eu sou a luz do mundo; quem me segue não andará em trevas.",
+    ref: "João 8:12",
+    title: "Luz para o próximo passo",
+    text: "Andar no escuro deixa qualquer um inseguro. A gente avança devagar, com medo de tropeçar. Jesus se apresenta como luz justamente para quem precisa enxergar o caminho.\n\nVale notar que a luz não costuma iluminar a estrada inteira de uma vez. Ela mostra o próximo passo, e depois o próximo. Seguir a luz é confiar no que dá para ver agora, sem exigir ver tudo de antemão.\n\nSe hoje o futuro parece escuro demais, talvez você não precise enxergar o fim para começar a andar. Basta enxergar o suficiente para dar o próximo passo com mais firmeza."
+  },
+  {
+    verse: "Eu vos deixo a paz, a minha paz vos dou; não vo-la dou como o mundo a dá.",
+    ref: "João 14:27",
+    title: "Outra qualidade de paz",
+    text: "A paz que o mundo oferece costuma depender das circunstâncias. Está tudo bem, então estou em paz. Jesus fala de uma paz diferente, que não nasce da ausência de problemas.\n\nEle disse isso pouco antes de ser preso e morto, ou seja, no pior cenário possível. A paz que ele deixa não é ingenuidade sobre a realidade, é uma firmeza interior que atravessa a realidade.\n\nHoje, se a sua paz está totalmente refém do que acontece ao redor, talvez exista um tipo de tranquilidade mais profunda disponível, que não some quando o cenário muda."
+  },
+  {
+    verse: "Portanto, agora, nenhuma condenação há para os que estão em Cristo Jesus.",
+    ref: "Romanos 8:1",
+    title: "Livre do peso da condenação",
+    text: "Existe uma diferença entre culpa e condenação. A culpa pode até ser saudável quando aponta um erro real para ser corrigido. A condenação é outra coisa: é a voz que diz que você, no fundo, não presta.\n\nPaulo afirma que essa segunda voz perdeu a autoridade sobre quem está em Cristo. Não porque os erros sumiram, mas porque a identidade da pessoa não é mais definida por eles.\n\nHoje, se você vive carregando uma sentença interna que não para de te acusar, vale lembrar que existe um veredito mais alto. E ele não é de condenação."
+  },
+  {
+    verse: "E sabemos que todas as coisas contribuem juntamente para o bem daqueles que amam a Deus.",
+    ref: "Romanos 8:28",
+    title: "Sentido que aparece depois",
+    text: "Esse versículo é fácil de usar mal, virando um clichê jogado em cima de quem sofre. Ele não diz que tudo que acontece é bom. Diz que todas as coisas contribuem para o bem, o que é diferente.\n\nNem tudo é bom, mas Deus tem o costume de tecer até os fios ruins em algo com sentido. Esse sentido raramente aparece no meio da dor. Costuma se revelar depois, olhando para trás.\n\nHoje, se você está num trecho que não faz sentido nenhum, talvez ainda não seja a hora de entender. Dá para confiar que a história não terminou e que esse fio também será usado."
+  },
+  {
+    verse: "Não devais nada a ninguém, a não ser o amor com que vos ameis uns aos outros.",
+    ref: "Romanos 13:8",
+    title: "Uma dívida que não acaba",
+    text: "Paulo usa uma imagem curiosa: o amor como dívida permanente. Toda outra dívida a gente quer quitar e esquecer. Essa, ele diz, nunca está totalmente paga.\n\nNão é uma cobrança pesada, é um jeito de dizer que o amor não funciona como uma tarefa concluída. Sempre há mais um gesto, mais uma paciência, mais uma escuta a oferecer.\n\nHoje, talvez valha olhar para uma relação importante não com a pergunta já fiz o suficiente, e sim com a pergunta o que ainda posso oferecer. Essa dívida, quando assumida com leveza, enriquece quem paga."
+  },
+  {
+    verse: "O amor é paciente, é benigno; não se ufana, não se ensoberbece.",
+    ref: "1 Coríntios 13:4",
+    title: "Amor que se vê na prática",
+    text: "Paulo descreve o amor por verbos, não por sentimentos. Ele não diz que o amor é uma emoção intensa, diz que o amor faz coisas: tem paciência, é gentil, não se enche de si mesmo.\n\nIsso é libertador e desafiador ao mesmo tempo. Libertador porque não depende de sentir sempre algo bonito. Desafiador porque cobra atitude mesmo nos dias em que o sentimento não ajuda.\n\nHoje, em vez de medir o quanto você sente, talvez valha observar o quanto você pratica. O amor costuma ser mais decisão repetida do que emoção espontânea, e isso está ao alcance até nos dias difíceis."
+  },
+  {
+    verse: "Portanto, se alguém está em Cristo, nova criatura é; as coisas velhas já passaram.",
+    ref: "2 Coríntios 5:17",
+    title: "Começar de novo é possível",
+    text: "Tem gente que se sente presa a uma versão antiga de si mesma, como se o passado fosse uma sentença definitiva. Esse versículo abre uma porta: é possível que o velho passe e algo novo comece.\n\nIsso não significa que a história anterior some ou que tudo fique fácil de repente. Significa que ela deixa de ser a palavra final. A pessoa não é mais definida só pelo que já foi.\n\nHoje, se você se vê preso a um rótulo que carrega há tempo demais, vale considerar que recomeçar não é negar o passado, é não deixar que ele decida sozinho quem você ainda pode ser."
+  },
+  {
+    verse: "A minha graça te basta, porque o meu poder se aperfeiçoa na fraqueza.",
+    ref: "2 Coríntios 12:9",
+    title: "Força que mora na fraqueza",
+    text: "Paulo pediu três vezes para Deus tirar um problema que o incomodava. A resposta não foi a cura que ele queria, foi uma frase que mudou a perspectiva: a graça basta, e o poder aparece justamente onde há fraqueza.\n\nA gente costuma esconder as fraquezas, achando que elas atrapalham. Esse texto sugere o contrário: é nelas que algo maior se revela, porque ali fica claro que a força não veio só de nós.\n\nHoje, se existe uma fragilidade que você queria muito eliminar, talvez ela não seja só um defeito a esconder. Pode ser exatamente o lugar por onde uma graça maior entra."
+  },
+  {
+    verse: "Andai pelo Espírito e jamais satisfareis a concupiscência da carne.",
+    ref: "Gálatas 5:16",
+    title: "Substituir, não só resistir",
+    text: "Lutar contra um mau hábito só pela força de vontade costuma cansar e falhar. Paulo aponta um caminho diferente: andar pelo Espírito. A ideia não é apenas resistir ao errado, é se ocupar com algo melhor.\n\nUm espaço vazio tende a ser preenchido pelo que já estava ali antes. Por isso a estratégia não é só dizer não, é direcionar a vida para outra coisa, deixando menos lugar para o velho padrão.\n\nHoje, se você briga com um hábito que não larga, talvez a pergunta não seja só como parar, e sim com o que substituir. Andar em outra direção costuma funcionar melhor do que ficar parado resistindo."
+  },
+  {
+    verse: "O fruto do Espírito é amor, alegria, paz, longanimidade, benignidade.",
+    ref: "Gálatas 5:22",
+    title: "Fruto leva tempo",
+    text: "Paulo usa a palavra fruto, não produto. A diferença importa. Produto se fabrica rápido. Fruto cresce devagar, em estações, sem que dê para apressar muito.\n\nIsso é um alívio para quem se cobra demais por ainda não ser uma pessoa pronta. Amor, paz e paciência não brotam de um dia para o outro. Eles amadurecem ao longo do tempo, com cuidado e constância.\n\nHoje, se você se frustra por não ver em si toda a maturidade que gostaria, vale lembrar que fruto não se força. Se a árvore está enraizada no lugar certo, o amadurecimento vem na hora dele."
+  },
+  {
+    verse: "Porque pela graça sois salvos, por meio da fé; e isto não vem de vós, é dom de Deus.",
+    ref: "Efésios 2:8",
+    title: "Nada a provar",
+    text: "Existe um cansaço específico em quem vive tentando merecer aceitação. Sempre falta um pouco, sempre dá para fazer mais. Esse versículo desarma essa lógica: a salvação é dom, não pagamento.\n\nDom não se conquista, se recebe. Isso incomoda quem está acostumado a medir o próprio valor pelo desempenho, inclusive o desempenho religioso. Mas também liberta de uma corrida que nunca termina.\n\nHoje, se você se sente sempre devendo, sempre tentando provar que é digno, vale ouvir de novo: é dom. Você pode parar de pagar por algo que já foi oferecido de graça."
+  },
+  {
+    verse: "Sede uns para com os outros benignos, perdoando-vos uns aos outros, como também Deus vos perdoou.",
+    ref: "Efésios 4:32",
+    title: "Perdoar a partir do que se recebeu",
+    text: "Perdoar é difícil quando a gente olha só para o tamanho da ofensa. A conta nunca fecha, a mágoa parece justa demais para soltar. Paulo muda o ponto de partida: perdoe como você foi perdoado.\n\nNão é minimizar o que doeu. É lembrar que você também já foi alvo de um perdão que não merecia. Olhar para o perdão recebido costuma amolecer o coração endurecido pela ofensa.\n\nHoje, se há alguém que você não consegue perdoar, talvez ajude começar por outro lugar. Não pela pessoa que te feriu, mas pela memória de ter sido perdoado quando também errou."
+  },
+  {
+    verse: "Não andeis ansiosos por coisa alguma; antes, em tudo, com ação de graças, sejam conhecidas a Deus as vossas petições.",
+    ref: "Filipenses 4:6",
+    title: "O que fazer com a ansiedade",
+    text: "Esse versículo não manda simplesmente parar de se preocupar, como se fosse fácil desligar a ansiedade no grito. Ele oferece um destino para a preocupação: levar tudo a Deus, em oração.\n\nA ansiedade quer ficar girando dentro da cabeça, repetindo o mesmo medo. A oração tira o problema desse circuito fechado e o coloca diante de Alguém. Não resolve magicamente, mas muda o lugar onde o peso é depositado.\n\nHoje, em vez de tentar só não pensar no que te aflige, experimente transformar essa aflição em conversa. Falar com Deus sobre o medo costuma aliviar mais do que tentar calá-lo sozinho."
+  },
+  {
+    verse: "Tudo posso naquele que me fortalece.",
+    ref: "Filipenses 4:13 (contexto)",
+    title: "Contentamento em qualquer situação",
+    text: "Esse versículo é famoso, mas costuma ser tirado do contexto. Paulo não está falando de conquistar tudo o que quiser. Logo antes, ele fala de ter aprendido a viver contente tanto na fartura quanto na escassez.\n\nO tudo posso é, na verdade, posso atravessar qualquer situação, a de cima e a de baixo, sem perder o chão. A força não é para vencer sempre, é para permanecer firme em qualquer cenário.\n\nHoje, se você está num momento de escassez, esse texto não promete que ele vai virar fartura amanhã. Promete algo melhor: forças para viver bem, com sentido, mesmo enquanto a situação não muda."
+  },
+  {
+    verse: "Tudo quanto fizerdes, fazei-o de todo o coração, como ao Senhor e não aos homens.",
+    ref: "Colossenses 3:23",
+    title: "Trabalho com outro sentido",
+    text: "Paulo escreve isso para pessoas em trabalhos comuns, muitas vezes duros e sem reconhecimento. A proposta dele não é mudar de emprego, é mudar o destinatário do esforço: fazer como ao Senhor.\n\nQuando o trabalho é feito só para impressionar pessoas, ele fica refém do humor e da gratidão dos outros, que nem sempre vêm. Fazer como ao Senhor dá um sentido que não depende de aplauso.\n\nHoje, se o seu esforço anda sem reconhecimento, talvez valha lembrar para quem, no fundo, você trabalha. Isso não tira o cansaço, mas costuma devolver dignidade ao que parecia invisível."
+  },
+  {
+    verse: "Orai sem cessar. Em tudo dai graças, porque esta é a vontade de Deus.",
+    ref: "1 Tessalonicenses 5:17-18",
+    title: "Gratidão mesmo no incompleto",
+    text: "Dar graças em tudo soa quase impossível em dias difíceis. Mas repare que o texto diz em tudo, não por tudo. Não é agradecer pelo que machuca, é encontrar motivo de gratidão mesmo dentro do que machuca.\n\nSempre há algo, por menor que seja, que segue de pé. Treinar o olhar para enxergar isso não nega a dor, apenas impede que ela ocupe o campo de visão inteiro.\n\nHoje, se o dia parece pesado, experimente achar uma coisa pequena para agradecer. Não para fingir que está tudo bem, mas para lembrar que nem tudo desabou junto."
+  },
+  {
+    verse: "Porque Deus não nos deu espírito de covardia, mas de poder, de amor e de moderação.",
+    ref: "2 Timóteo 1:7",
+    title: "O medo não é a última palavra",
+    text: "Timóteo era jovem e, ao que tudo indica, tímido. Paulo escreve para encorajá-lo lembrando o que Deus deu: não um espírito de covardia, mas de poder, amor e bom senso.\n\nIsso não significa que o medo desaparece. Significa que ele não precisa ditar as decisões. Coragem não é ausência de medo, é não entregar o volante a ele.\n\nHoje, se o medo está tentando te paralisar, vale lembrar do que já foi colocado dentro de você. Há recursos aí que o medo prefere que você esqueça. Eles continuam disponíveis, mesmo quando você não os sente."
+  },
+  {
+    verse: "Ora, a fé é a certeza de coisas que se esperam, a convicção de fatos que se não veem.",
+    ref: "Hebreus 11:1",
+    title: "Confiar no que ainda não se vê",
+    text: "Fé, nesse texto, não é acreditar em coisas absurdas sem motivo. É uma postura de confiança em relação ao que ainda não se concretizou, mas se espera.\n\nTodo mundo vive um pouco assim, mesmo sem perceber. A gente planta sem ver o fruto, investe num relacionamento sem garantias, planeja um futuro que não chegou. A fé bíblica leva essa confiança até Deus.\n\nHoje, se você está esperando algo que ainda não apareceu, isso não é prova de que não vai vir. A espera faz parte da própria fé. Confiar no invisível é, em parte, o que a mantém viva."
+  },
+  {
+    verse: "Tende por motivo de grande gozo o passardes por várias provações.",
+    ref: "Tiago 1:2",
+    title: "O que a dificuldade pode formar",
+    text: "Tiago não pede que a gente goste de sofrer, o que seria estranho. Ele aponta para algo que a provação pode produzir: perseverança, e com ela, um amadurecimento que o conforto sozinho não dá.\n\nNinguém escolhe dificuldades de propósito. Mas, já que elas vêm, vale perguntar o que estão formando. Algumas qualidades só crescem em terreno difícil, como certas plantas que precisam de pressão para criar raiz.\n\nHoje, se você atravessa uma fase dura, talvez não dê para celebrar a dor em si. Mas dá para confiar que ela não é totalmente perdida, que algo está sendo formado por dentro enquanto você resiste."
+  },
+  {
+    verse: "Toda boa dádiva e todo dom perfeito vêm do alto, descendo do Pai das luzes.",
+    ref: "Tiago 1:17",
+    title: "Reconhecer a origem",
+    text: "É fácil olhar para o que temos de bom e atribuir tudo ao próprio esforço. Tiago propõe outra leitura: por trás de cada coisa boa, há uma origem que vem de cima.\n\nIsso não diminui o seu trabalho. Apenas o coloca dentro de um quadro maior, em que nem o talento, nem a oportunidade, nem a saúde para agir foram totalmente fabricados por você.\n\nHoje, ao olhar para o que você tem, vale um exercício simples de gratidão. Reconhecer a origem das coisas boas costuma trocar o orgulho por algo mais leve, e a posse por um senso de presente recebido."
+  },
+  {
+    verse: "Humilhai-vos sob a poderosa mão de Deus, para que a seu tempo vos exalte.",
+    ref: "1 Pedro 5:6",
+    title: "A seu tempo",
+    text: "Existe uma impaciência que vem do orgulho: querer ser reconhecido agora, do meu jeito, na minha hora. Pedro fala de humildade e de um tempo que não é o nosso, mas que chega.\n\nHumilhar-se aqui não é se diminuir nem aceitar abuso. É confiar que não preciso forçar o meu lugar à força, porque existe Alguém que cuida do tempo certo das coisas.\n\nHoje, se você se sente passado para trás ou não reconhecido, talvez o convite não seja brigar por espaço a qualquer custo. Pode ser confiar que há um tempo, e que ele não está nas suas mãos apenas."
+  },
+  {
+    verse: "Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar.",
+    ref: "1 João 1:9",
+    title: "Trazer para a luz",
+    text: "Esconder o erro parece mais seguro, mas costuma sair caro. O que fica escondido cresce no escuro, vira vergonha, distância, peso. João aponta um caminho diferente: confessar.\n\nConfessar não é se humilhar diante de um Deus pronto para punir. É trazer para a luz o que já estava ali, na presença de Alguém que se descreve como fiel e justo para perdoar.\n\nHoje, se há algo que você vem carregando em segredo, talvez o passo de cura não seja se afundar mais na culpa, e sim falar. Trazer para a luz costuma tirar do erro o poder que ele só tem no escuro."
+  },
+  {
+    verse: "Nós amamos porque ele nos amou primeiro.",
+    ref: "1 João 4:19",
+    title: "Amar a partir de um amor recebido",
+    text: "É difícil dar o que a gente não tem. Quem nunca se sentiu amado costuma ter dificuldade de amar com liberdade. João aponta a fonte: a gente ama porque foi amado primeiro.\n\nIsso muda a ordem das coisas. O amor não começa como esforço para conquistar aprovação. Começa como resposta a algo já recebido. Você não ama para ser aceito, ama porque já foi.\n\nHoje, se amar tem sido pesado, como se você precisasse produzir do nada um carinho que não sente, talvez valha voltar à fonte. É mais fácil amar quando se sabe amado antes de tentar."
+  },
+  {
+    verse: "Eis que estou à porta e bato; se alguém ouvir a minha voz e abrir a porta, entrarei.",
+    ref: "Apocalipse 3:20",
+    title: "Uma porta que se abre por dentro",
+    text: "A imagem é delicada: Deus do lado de fora, batendo, esperando. Não arromba a porta, não força a entrada. Bate e aguarda que alguém abra.\n\nIsso diz algo sobre como Deus se relaciona. Há um respeito pela liberdade humana. O convite é real, mas a maçaneta está do lado de dentro. Cabe à pessoa abrir.\n\nHoje, se você sente uma distância de Deus, talvez não seja porque ele foi embora. Pode ser que ele esteja batendo, paciente, esperando uma abertura que só você pode dar do lado de dentro."
+  },
+  {
+    verse: "Mas buscai primeiro o reino de Deus, e a sua justiça.",
+    ref: "Lucas 12:31",
+    title: "Onde está o tesouro",
+    text: "Pouco antes dessa frase, Jesus fala das aves que não plantam e mesmo assim são sustentadas. Não é um elogio à preguiça, é um convite a desafogar o coração de uma ansiedade que consome.\n\nBuscar primeiro o reino é uma questão de tesouro. Onde a gente coloca o que mais valoriza, para lá o coração vai junto. Reorganizar a busca é, no fundo, reorganizar o coração.\n\nHoje, vale perguntar com sinceridade o que ocupa o centro das suas preocupações. Não para sentir culpa, mas para conferir se o que você busca em primeiro lugar realmente merece esse lugar."
+  },
+  {
+    verse: "Em verdade vos digo que, se não vos converterdes e não vos tornardes como crianças, de modo nenhum entrareis no reino.",
+    ref: "Mateus 18:3",
+    title: "A humildade de quem depende",
+    text: "Jesus aponta para a criança não por inocência idealizada, mas por algo mais concreto: a criança sabe que depende. Ela não finge autossuficiência, ela pede, confia, recebe.\n\nA vida adulta costuma ensinar o contrário: mostre que você dá conta, não peça ajuda, resolva sozinho. Esse texto sugere que, diante de Deus, a postura que abre a porta é justamente a de quem reconhece que precisa.\n\nHoje, se você está exausto de bancar a pessoa que aguenta tudo sozinha, talvez a saída não seja ficar mais forte. Pode ser reaprender a depender, com a simplicidade de quem não tem vergonha de pedir."
+  },
+  {
+    verse: "A resposta branda desvia o furor, mas a palavra dura suscita a ira.",
+    ref: "Provérbios 15:1",
+    title: "O poder de uma resposta calma",
+    text: "Esse provérbio é quase um manual prático de convivência. Diante de um conflito, a forma da resposta muda o rumo da conversa. Palavra dura acende, resposta branda apaga.\n\nResponder com calma não é fraqueza nem submissão. Muitas vezes exige mais força do que revidar, porque pede domínio sobre o impulso de devolver na mesma moeda.\n\nHoje, se você vai entrar numa conversa difícil, vale lembrar desse princípio simples. A escolha da primeira resposta costuma decidir se o diálogo vai esfriar ou explodir. E essa escolha está, em boa parte, com você."
+  },
+  {
+    verse: "Melhor é serem dois do que um, porque têm melhor paga do seu trabalho.",
+    ref: "Eclesiastes 4:9-10",
+    title: "Ninguém foi feito para o isolamento",
+    text: "O autor observa algo simples: dois conseguem mais que um, e quando um cai, o outro o levanta. Ele até lamenta a sorte de quem cai estando sozinho, sem ninguém para ajudar a erguer.\n\nA cultura atual valoriza muito a independência, e ela tem seu lugar. Mas levada ao extremo vira isolamento, e isolamento costuma cobrar caro nos momentos de queda.\n\nHoje, se você tem se afastado das pessoas, talvez valha reabrir alguma porta. Não dá para evitar todas as quedas da vida, mas dá para não enfrentá-las completamente sozinho. Companhia muda o peso da queda."
+  },
 ];
 
 if (typeof module !== 'undefined' && module.exports) {
