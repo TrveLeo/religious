@@ -510,6 +510,246 @@ const DEVOTIONALS = [
     title: "Ninguém foi feito para o isolamento",
     text: "O autor observa algo simples: dois conseguem mais que um, e quando um cai, o outro o levanta. Ele até lamenta a sorte de quem cai estando sozinho, sem ninguém para ajudar a erguer.\n\nA cultura atual valoriza muito a independência, e ela tem seu lugar. Mas levada ao extremo vira isolamento, e isolamento costuma cobrar caro nos momentos de queda.\n\nHoje, se você tem se afastado das pessoas, talvez valha reabrir alguma porta. Não dá para evitar todas as quedas da vida, mas dá para não enfrentá-las completamente sozinho. Companhia muda o peso da queda."
   },
+  {
+    verse: "Aquele que habita no esconderijo do Altíssimo descansará à sombra do Onipotente.",
+    ref: "Salmos 91:1",
+    title: "Um lugar de abrigo",
+    text: "O salmo descreve um esconderijo, um lugar onde dá para descansar mesmo quando a tempestade segue lá fora. Não é uma promessa de que nada vai acontecer, é a oferta de um abrigo no meio do que acontece.\n\nA gente costuma procurar abrigo em coisas que não sustentam: aprovação, dinheiro, controle. Funcionam por um tempo, até a primeira rajada mais forte. O salmo aponta para um refúgio que não cede.\n\nHoje, se você se sente exposto, sem proteção, vale lembrar que existe um lugar de descanso que não depende de o problema sumir. Habitar nesse abrigo é uma escolha que dá para fazer mesmo agora."
+  },
+  {
+    verse: "Eu te louvarei, porque de um modo assombroso e maravilhoso fui feito.",
+    ref: "Salmos 139:14",
+    title: "Feito com intenção",
+    text: "É fácil olhar no espelho e listar defeitos. A cultura ao redor reforça isso o tempo todo, sempre apontando o que falta. Esse salmo oferece outra leitura: você foi feito de modo assombroso e com propósito.\n\nIsso não é autoajuda barata. É a afirmação de que sua existência não é acidente nem erro. Há intenção por trás de quem você é, inclusive nas partes que você ainda não aprendeu a aceitar.\n\nHoje, se a voz interna anda dura demais com você, experimente trocá-la por essa perspectiva. Olhar para si como obra feita com cuidado muda a forma de se tratar ao longo do dia."
+  },
+  {
+    verse: "O choro pode durar uma noite, mas a alegria vem pela manhã.",
+    ref: "Salmos 30:5",
+    title: "A noite não é o fim",
+    text: "O salmo não nega a noite de choro. Ele a reconhece como real, às vezes longa. O que ele afirma é que a noite tem um limite, que ela não é o estado permanente das coisas.\n\nQuando a gente está no meio do escuro, é difícil acreditar que a manhã virá. A dor convence de que será sempre assim. Esse versículo é um lembrete de que sentimentos, por mais intensos, não são profecias.\n\nHoje, se você está numa noite dessas, talvez não dê para apressar o amanhecer. Mas dá para resistir lembrando que o choro tem duração, e que a alegria, mesmo demorada, costuma encontrar o caminho de volta."
+  },
+  {
+    verse: "Ainda que a minha carne e o meu coração desfaleçam, Deus é a força do meu coração.",
+    ref: "Salmos 73:26",
+    title: "Força quando a sua acaba",
+    text: "Esse salmo é honesto sobre o limite humano. Ele admite que a carne e o coração podem desfalecer, que existe um ponto em que a própria força simplesmente acaba.\n\nO interessante é o que vem depois do mas. Quando a força pessoal termina, ainda há uma força disponível, que não é a sua. O versículo não finge que você é incansável, ele aponta para onde recorrer quando você não é.\n\nHoje, se você chegou ao fim das suas energias, isso não é fracasso espiritual. Pode ser exatamente o lugar onde se descobre uma força que só aparece quando a nossa se esgota."
+  },
+  {
+    verse: "Tu me farás ver a vereda da vida; na tua presença há plenitude de alegria.",
+    ref: "Salmos 16:11",
+    title: "Alegria que tem endereço",
+    text: "A busca por alegria costuma virar uma caça a experiências, posses, conquistas. A gente persegue, alcança, e a sensação some rápido, exigindo a próxima dose. O salmo aponta a alegria para outro lugar: a presença de Deus.\n\nNão é uma alegria que depende de tudo dar certo. É uma plenitude ligada a estar perto da fonte, não aos resultados que conseguimos acumular.\n\nHoje, se você anda correndo atrás de algo que satisfaça e nunca chega, talvez valha mudar a direção da busca. Há uma alegria que não está no próximo objetivo, e sim numa presença que já está disponível."
+  },
+  {
+    verse: "Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento.",
+    ref: "Provérbios 3:6",
+    title: "Os limites do meu entendimento",
+    text: "Esse provérbio não despreza a razão. Ele só reconhece um limite: meu entendimento, por mais afiado, não enxerga tudo. Confiar de todo o coração é admitir que existe o que escapa à minha análise.\n\nQuem se estriba apenas no próprio entendimento acaba ansioso, porque carrega o peso de prever e controlar o que não dá para prever nem controlar. Confiar alivia esse peso.\n\nHoje, diante de uma decisão difícil, vale usar a cabeça sem transformá-la em deus. Pensar bem e, ao mesmo tempo, confiar que há uma sabedoria maior do que a sua costuma trazer mais paz do que tentar entender tudo sozinho."
+  },
+  {
+    verse: "Sobre tudo o que se deve guardar, guarda o teu coração, porque dele procedem as fontes da vida.",
+    ref: "Provérbios 4:23",
+    title: "Cuidar da raiz",
+    text: "O provérbio chama o coração de fonte da vida. Tudo o que a gente faz e fala brota dali. Por isso o conselho não é cuidar primeiro da aparência ou do desempenho, e sim do interior.\n\nA gente costuma fazer o oposto: caprichar na fachada e negligenciar o que vai por dentro. Mas uma fonte contaminada acaba contaminando tudo o que dela sai, por mais que a superfície pareça em ordem.\n\nHoje, vale uma pergunta honesta sobre o que você tem deixado entrar e crescer no coração. Cuidar dessa raiz, mesmo sem aplauso, costuma mudar mais a vida do que ajustar o que aparece por fora."
+  },
+  {
+    verse: "Como o ferro com o ferro se afia, assim o homem afia o rosto do seu amigo.",
+    ref: "Provérbios 27:17",
+    title: "Crescer no atrito certo",
+    text: "Ferro afiando ferro produz atrito, faísca, calor. O provérbio usa essa imagem para falar de amizade. Boas relações nem sempre são confortáveis, às vezes elas nos confrontam e nos fazem crescer.\n\nIsso desafia a ideia de que amigo é só quem concorda com tudo. Quem te afia também te questiona, aponta pontos cegos, segura você quando está prestes a errar. Esse atrito é diferente de hostilidade, é cuidado.\n\nHoje, vale valorizar as pessoas que te dizem verdades difíceis com amor. E vale também ser esse tipo de presença para alguém. Crescer raramente acontece no isolamento confortável, costuma exigir um pouco de faísca."
+  },
+  {
+    verse: "Tudo fez Deus formoso em seu tempo; também pôs a eternidade no coração do homem.",
+    ref: "Eclesiastes 3:11",
+    title: "Inquietos por algo maior",
+    text: "Esse versículo explica uma inquietação que quase todo mundo sente em algum momento: a sensação de que nada aqui satisfaz por completo. O autor sugere que isso não é defeito, é design. Há eternidade plantada no coração.\n\nPor isso conquistas, por maiores que sejam, deixam um resto de vazio. Não porque sejam ruins, mas porque foram feitas para apontar além de si mesmas, não para preencher tudo.\n\nHoje, se você sente que falta algo mesmo tendo bastante, talvez não seja sinal de ingratidão. Pode ser a marca da eternidade dentro de você, lembrando que fomos feitos para mais do que o tempo presente oferece."
+  },
+  {
+    verse: "Tu conservarás em perfeita paz aquele cujo pensamento está firme em ti.",
+    ref: "Isaías 26:3",
+    title: "Para onde a mente aponta",
+    text: "Isaías liga a paz à direção dos pensamentos. Não é uma paz mágica, é uma paz relacionada a onde a mente se fixa. Pensamento firme em Deus, paz firme; pensamento solto no medo, paz instável.\n\nA gente nem sempre escolhe o primeiro pensamento que aparece, mas escolhe onde demora. Ruminar o medo o alimenta. Voltar a atenção para algo maior aos poucos reorganiza o interior.\n\nHoje, repare em que sua mente tem se fixado. Se ela vive presa no pior cenário, talvez a paz esteja faltando não por acaso. Redirecionar o foco, com paciência, costuma ser o começo de uma calma mais firme."
+  },
+  {
+    verse: "Quando passares pelas águas, estarei contigo; e quando pelos rios, eles não te submergirão.",
+    ref: "Isaías 43:2",
+    title: "Atravessar, não evitar",
+    text: "Repare na palavra quando, não se. O texto não promete uma vida sem águas profundas nem rios difíceis. Ele assume que eles virão. A promessa não é evitar a travessia, é não atravessar sozinho.\n\nIsso é mais realista do que a fé fácil que promete só dias bons. A vida tem rios. A diferença que a fé faz não é eliminar a correnteza, é a presença de Alguém enquanto você passa por ela.\n\nHoje, se você está no meio de uma água funda, talvez a oração não seja só tira isso de mim. Pode ser atravessa comigo. E essa companhia muda completamente a experiência da travessia."
+  },
+  {
+    verse: "Porque os meus pensamentos não são os vossos pensamentos, nem os vossos caminhos os meus caminhos.",
+    ref: "Isaías 55:8",
+    title: "Quando não dá para entender",
+    text: "Há momentos em que a vida não fecha a conta. A gente faz o certo e mesmo assim dá errado, ou vê o injusto prosperar. Esse versículo não resolve o mistério, mas oferece uma humildade: os caminhos de Deus são mais altos que os nossos.\n\nIsso pode frustrar quem quer respostas imediatas. Mas também alivia, porque significa que a falta de entendimento não é prova de abandono. Existe uma lógica maior que a nossa visão limitada.\n\nHoje, se algo não faz sentido por mais que você tente, talvez a paz não venha de entender, e sim de confiar que há um caminho mais alto, mesmo invisível daqui de baixo."
+  },
+  {
+    verse: "As misericórdias do Senhor são a causa de não sermos consumidos; renovam-se cada manhã.",
+    ref: "Lamentações 3:22-23",
+    title: "Misericórdia que recomeça",
+    text: "Esse texto nasce de um livro de lamento, escrito em meio à destruição. No fundo do poço, o autor lembra de algo: a misericórdia de Deus se renova cada manhã. Não é um saldo que acaba, é uma fonte que reabre todo dia.\n\nIsso fala direto a quem sente que já gastou todas as chances, que errou demais para merecer recomeço. A misericórdia descrita aqui não funciona assim. Cada manhã traz uma nova porção.\n\nHoje, se você acordou com o peso de ontem, vale ouvir isso: a manhã trouxe misericórdia nova. O erro de ontem não esgotou a graça de hoje. Dá para começar de novo, mais uma vez."
+  },
+  {
+    verse: "Já te foi declarado o que é bom: que pratiques a justiça, e ames a misericórdia, e andes humildemente com o teu Deus.",
+    ref: "Miqueias 6:8",
+    title: "O essencial é simples",
+    text: "Diante da pergunta sobre o que Deus quer, Miqueias responde com uma simplicidade quase desconcertante: justiça, misericórdia e humildade. Não uma lista interminável de exigências, mas três direções claras.\n\nA religião às vezes complica o que é essencial, enchendo a vida de regras e aparências. Esse versículo poda tudo isso até o osso. No fim, o que importa é como você trata os outros e como anda diante de Deus.\n\nHoje, se a vida espiritual parece pesada e confusa, talvez valha voltar ao básico. Praticar justiça onde você está, escolher a misericórdia, andar sem arrogância. O essencial costuma ser mais simples do que a gente faz parecer."
+  },
+  {
+    verse: "O Senhor, teu Deus, está no meio de ti; ele se regozija em ti com alegria.",
+    ref: "Sofonias 3:17",
+    title: "Deus se alegra em você",
+    text: "Muita gente imagina Deus como um juiz de cara fechada, sempre decepcionado. Esse versículo apresenta uma imagem diferente e surpreendente: Deus que se regozija, que se alegra em você como quem canta de contente.\n\nIsso muda a forma de se aproximar dele. Não como quem vai prestar contas a um chefe irritado, mas como quem é recebido por alguém genuinamente feliz com a sua presença.\n\nHoje, se a sua imagem de Deus anda mais de cobrança do que de afeto, vale deixar esse versículo corrigir um pouco a lente. Ser alvo da alegria de Deus, e não só do julgamento, muda o tom da relação inteira."
+  },
+  {
+    verse: "Bom é o Senhor, uma fortaleza no dia da angústia, e conhece os que nele confiam.",
+    ref: "Naum 1:7",
+    title: "Conhecido no aperto",
+    text: "Esse versículo aparece num livro pesado, cheio de juízo. No meio dele, surge essa afirmação: Deus é bom, é fortaleza no dia da angústia, e conhece quem nele confia. A bondade não fica de fora nos dias difíceis.\n\nRepare na palavra conhece. Não é um Deus distante que observa de longe. É alguém que conhece de perto quem nele se refugia, que sabe o nome e a situação de cada um.\n\nHoje, se você está num dia de angústia, vale lembrar dessas duas coisas juntas: há uma fortaleza para se abrigar, e há um cuidado que conhece você pessoalmente. Você não é um número no aperto, é conhecido."
+  },
+  {
+    verse: "Vós sois a luz do mundo; não se pode esconder uma cidade edificada sobre um monte.",
+    ref: "Mateus 5:14",
+    title: "Feito para ser visto",
+    text: "Jesus chama seus seguidores de luz do mundo. Não diz que eles deveriam tentar ser, diz que são. A identidade já está dada. O risco não é deixar de ser luz, é escondê-la.\n\nÀs vezes, por timidez ou medo de julgamento, a gente apaga o que tem de bom para oferecer. Mas luz escondida não cumpre sua função. Ela foi feita para iluminar o ambiente ao redor.\n\nHoje, talvez o convite não seja se esforçar para brilhar mais, e sim parar de esconder o que você já tem. Sua gentileza, sua fé, seu jeito de cuidar, podem ser exatamente a luz que falta no lugar onde você está."
+  },
+  {
+    verse: "Não vos inquieteis com o dia de amanhã, pois o amanhã terá os seus cuidados; basta a cada dia o seu mal.",
+    ref: "Mateus 6:34",
+    title: "Viver o dia de hoje",
+    text: "A ansiedade quase sempre mora no futuro. Ela pega cenários que nem aconteceram e os vive antecipadamente, sofrendo hoje por um amanhã imaginado. Jesus aponta para outro foco: basta a cada dia o seu próprio cuidado.\n\nIsso não é descuido nem falta de planejamento. É reconhecer que carregar de uma vez o peso de hoje somado ao de todos os amanhãs é mais do que qualquer um aguenta.\n\nHoje, se a sua mente vive correndo para frente, antecipando problemas, experimente trazê-la de volta. Lidar só com o que o dia de hoje pede já é suficiente. O amanhã terá graça própria quando chegar."
+  },
+  {
+    verse: "Para os homens é impossível, mas não para Deus, porque para Deus todas as coisas são possíveis.",
+    ref: "Marcos 10:27",
+    title: "Onde o impossível esbarra",
+    text: "Jesus diz isso depois de uma afirmação dura, que deixou os discípulos perplexos. A reação deles foi quem pode então? A resposta não nega a dificuldade, ela reposiciona: o que é impossível para nós não é o limite de Deus.\n\nIsso não é um cheque em branco para qualquer desejo. É um lembrete de que o cálculo humano de possibilidades não é a palavra final. Há coisas que travam na nossa lógica e se abrem na de Deus.\n\nHoje, se você olha para uma situação e só vê impossibilidade, vale segurar essa frase. O fim da sua capacidade não é necessariamente o fim das possibilidades. Onde a sua conta trava, a de Deus pode seguir."
+  },
+  {
+    verse: "Tudo é possível ao que crê.",
+    ref: "Marcos 9:23",
+    title: "Fé com espaço para a dúvida",
+    text: "Logo depois dessa frase, o pai do menino responde algo profundamente humano: creio, ajuda a minha incredulidade. Ele não tinha uma fé perfeita, tinha uma fé misturada com dúvida, e mesmo assim foi acolhido.\n\nIsso é libertador. A fé que Jesus recebe não é a que finge certeza absoluta. É a que se aproxima mesmo trêmula, admitindo as próprias dúvidas e pedindo ajuda com elas.\n\nHoje, se a sua fé anda fraca, cheia de perguntas, isso não te desqualifica. Dá para chegar exatamente assim, dizendo creio e ao mesmo tempo ajuda a minha incredulidade. Esse tipo de honestidade costuma ser o começo, não o fim, da fé."
+  },
+  {
+    verse: "Estando ele ainda longe, viu-o o seu pai, e, movido de íntima compaixão, correu, e lançou-se-lhe ao pescoço.",
+    ref: "Lucas 15:20",
+    title: "Recebido antes da explicação",
+    text: "Na história do filho que volta para casa, o detalhe mais marcante é o pai correndo. O filho ensaiou um discurso de desculpas, mas o pai o abraça antes mesmo de ele terminar de falar. A acolhida vem antes da explicação.\n\nIsso desmonta a ideia de um Deus que cruza os braços esperando você se humilhar o suficiente. A imagem aqui é de alguém que avista de longe e corre ao encontro, movido de compaixão.\n\nHoje, se você sente que se afastou e nem sabe como voltar, talvez o caminho seja mais curto do que imagina. Você ainda está longe, e já há Alguém correndo na sua direção."
+  },
+  {
+    verse: "Porque para Deus nada é impossível.",
+    ref: "Lucas 1:37",
+    title: "Promessa no improvável",
+    text: "Essas palavras foram ditas a Maria, diante de um anúncio que parecia impossível. Não era uma frase solta, vinha amarrada a uma situação concreta e improvável. A fé dela não foi entender tudo, foi confiar no que parecia fora de alcance.\n\nA gente costuma reservar Deus para o que cabe na nossa lógica e descartar o resto como impossível. Esse versículo amplia o campo: o improvável não está fora do alcance de Deus.\n\nHoje, se há algo que você já riscou da lista por achar impossível demais, vale reabrir essa porta. Não como ilusão, mas como confiança de que o limite das suas possibilidades não é o limite de Deus."
+  },
+  {
+    verse: "A luz resplandece nas trevas, e as trevas não a prevaleceram contra ela.",
+    ref: "João 1:5",
+    title: "A escuridão não vence a luz",
+    text: "Esse versículo descreve um embate antigo entre luz e trevas. E faz uma afirmação importante: a escuridão, por mais densa, não consegue apagar a luz. Basta uma chama pequena para que o escuro deixe de ser total.\n\nIsso muda a forma de encarar as trevas da vida. Elas são reais, às vezes assustadoras, mas não têm o poder que aparentam. A luz não precisa ser grande para resistir, ela só precisa não se apagar.\n\nHoje, se tudo ao redor parece escuro, lembre que a escuridão não tem a palavra final. Uma luz pequena, mantida acesa, já é mais forte do que toda a treva que tenta engoli-la."
+  },
+  {
+    verse: "O ladrão vem para roubar, matar e destruir; eu vim para que tenham vida, e a tenham com abundância.",
+    ref: "João 10:10",
+    title: "Vida em abundância",
+    text: "Jesus contrasta dois projetos. Um que rouba, mata e destrói, e o dele, que oferece vida em abundância. Vale notar que abundância aqui não é acúmulo de bens, é uma qualidade de vida, plena e com sentido.\n\nMuita coisa promete vida e entrega o contrário: vícios, comparações, correrias que esvaziam. Elas prometem mais e roubam aos poucos. O projeto de Jesus vai na direção oposta, do que enche em vez de esvaziar.\n\nHoje, vale olhar para o que tem ocupado o seu tempo e perguntar: isso me dá vida ou me drena? Buscar o que verdadeiramente enche, e não só o que entretém, é caminhar na direção dessa abundância."
+  },
+  {
+    verse: "Eu sou a ressurreição e a vida; quem crê em mim, ainda que esteja morto, viverá.",
+    ref: "João 11:25",
+    title: "Esperança diante da perda",
+    text: "Jesus diz isso diante de um túmulo, para uma mulher que acabara de perder o irmão. Não é uma teoria distante sobre a morte, é uma palavra dita no meio do luto, para alguém de coração partido.\n\nA fé cristã não promete que a perda não dói. Ela promete que a morte não é o ponto final. Há uma vida que atravessa até o que parece definitivo, uma esperança que não termina no túmulo.\n\nHoje, se você carrega uma perda, essa palavra não apaga a saudade. Mas oferece um horizonte além dela. A despedida, por mais dura, não é a última cena. Há vida que vence até a morte."
+  },
+  {
+    verse: "No mundo tereis aflições, mas tende bom ânimo; eu venci o mundo.",
+    ref: "João 16:33",
+    title: "Ânimo apesar da aflição",
+    text: "Jesus é honesto: no mundo haverá aflições. Ele não vende uma fé que isenta de problemas. Mas, no mesmo fôlego, manda ter bom ânimo, porque ele venceu o mundo. As duas verdades convivem.\n\nIsso evita dois extremos. Não é o otimismo ingênuo que finge que está tudo bem, nem o pessimismo que só vê o problema. É um realismo com esperança: a aflição é real, e ainda assim não tem a última palavra.\n\nHoje, se você está no meio de uma aflição, não precisa fingir que ela não existe nem se afundar nela. Dá para encarar o problema de frente e, ao mesmo tempo, manter o ânimo de quem confia em quem já venceu."
+  },
+  {
+    verse: "Sabemos que a tribulação produz perseverança; e a perseverança, experiência; e a experiência, esperança.",
+    ref: "Romanos 5:3-4",
+    title: "Uma corrente que termina em esperança",
+    text: "Paulo descreve uma sequência inesperada. Ele começa pela tribulação, algo que ninguém quer, e mostra como ela pode produzir perseverança, depois experiência, e por fim esperança. A dor, bem atravessada, leva a algum lugar.\n\nIsso não romantiza o sofrimento. Não diz que a tribulação é boa, diz que ela pode ser usada, transformada em algo que fortalece em vez de só destruir.\n\nHoje, se você está numa fase difícil, talvez não dê para ver o fim dessa corrente ainda. Mas vale lembrar que o sofrimento, quando enfrentado com fé, costuma terminar formando justamente o que mais falta nos dias duros: esperança."
+  },
+  {
+    verse: "Não vos conformeis com este mundo, mas transformai-vos pela renovação da vossa mente.",
+    ref: "Romanos 12:2",
+    title: "Mudança começa por dentro",
+    text: "Paulo aponta a mente como ponto de partida da transformação. Não é mudar primeiro o comportamento pela força, é renovar a forma de pensar, e deixar que isso reoriente o resto.\n\nConformar-se com o mundo costuma ser automático: a gente absorve valores, ritmos e desejos do ambiente sem nem perceber. Transformar-se exige atenção, escolher conscientemente com o que alimentar a mente.\n\nHoje, vale observar o que tem moldado o seu pensamento: o que você consome, ouve, repete. A mudança que você procura talvez não comece com mais esforço de vontade, e sim com uma renovação paciente do que ocupa a sua mente."
+  },
+  {
+    verse: "Ora, o Deus de esperança vos encha de todo o gozo e paz, para que abundeis em esperança.",
+    ref: "Romanos 15:13",
+    title: "Encher para transbordar",
+    text: "Paulo chama Deus de Deus de esperança e ora para que ele encha as pessoas de alegria e paz. Repare na lógica: primeiro se é enchido, depois se abunda em esperança. O transbordo vem de estar cheio.\n\nA gente às vezes tenta espremer esperança de dentro de um tanque vazio, na base do esforço. Mas esperança que dura não é fabricada, é recebida. Ela transborda de quem foi preenchido por uma fonte maior.\n\nHoje, se a sua esperança anda em baixa, talvez o caminho não seja se forçar a ser otimista. Pode ser buscar de novo a fonte, deixar-se encher, e confiar que a esperança volta a transbordar quando o tanque é reabastecido."
+  },
+  {
+    verse: "Não veio sobre vós tentação, senão humana; mas Deus dará também o meio de saída.",
+    ref: "1 Coríntios 10:13",
+    title: "Sempre há uma saída",
+    text: "Paulo afirma duas coisas que aliviam. Primeira: o que você enfrenta não é único nem sobre-humano, outras pessoas já passaram por isso. Segunda: junto da pressão, há um meio de saída, mesmo quando você não o enxerga.\n\nNo meio da tentação ou da dificuldade, a sensação é de estar encurralado, sem opção. Esse versículo insiste que existe saída, ainda que ela não seja óbvia no calor do momento.\n\nHoje, se você se sente sem escapatória, vale segurar essa promessa. A pressão é real, mas não é uma prisão sem porta. Existe um caminho de saída, e parte da fé é procurar por ele em vez de se entregar à ideia de que não há."
+  },
+  {
+    verse: "Todas as vossas coisas sejam feitas com amor.",
+    ref: "1 Coríntios 16:14",
+    title: "O filtro de tudo",
+    text: "Paulo resume um capítulo inteiro de instruções com uma frase curta: tudo, com amor. É quase um filtro para passar cada ação pela mesma pergunta. Não importa só o que se faz, importa o como.\n\nDá para fazer a coisa certa de um jeito frio, que machuca. Dá para ter razão e ainda assim ferir. Esse versículo lembra que o amor não é um detalhe a mais, é o modo que deveria atravessar tudo.\n\nHoje, antes de uma conversa, uma decisão ou uma resposta, vale passar pelo filtro: isso está sendo feito com amor? Não é sobre ser perfeito, é sobre deixar que o amor molde a forma das suas ações, mesmo nas pequenas."
+  },
+  {
+    verse: "Por isso não desfalecemos; mas, ainda que o nosso homem exterior se corrompa, o interior se renova de dia em dia.",
+    ref: "2 Coríntios 4:16",
+    title: "Renovação por dentro",
+    text: "Paulo reconhece que o exterior se desgasta. O corpo cansa, as forças mudam, o tempo cobra. Mas ele aponta para um processo paralelo: enquanto o de fora se gasta, o de dentro pode se renovar dia após dia.\n\nA cultura ao redor foca quase tudo no exterior, no que aparece e no que dura pouco. Esse versículo desloca a atenção para o interior, que pode crescer justamente enquanto o resto enfraquece.\n\nHoje, se você sente o cansaço do desgaste, vale lembrar que essa não é a única história em curso. Há uma renovação interior disponível, silenciosa, acontecendo de dia em dia para quem permite que ela aconteça."
+  },
+  {
+    verse: "Já estou crucificado com Cristo; e vivo, não mais eu, mas Cristo vive em mim.",
+    ref: "Gálatas 2:20",
+    title: "Uma nova fonte de identidade",
+    text: "Paulo descreve uma troca profunda de centro. O eu antigo, com suas tentativas de se provar, foi crucificado. O que vive agora tem outra fonte: Cristo nele. A identidade deixa de depender só do próprio desempenho.\n\nIsso fala a quem vive exausto de sustentar uma imagem, de carregar nas costas o peso de ser suficiente. A proposta não é melhorar o eu antigo até ficar bom, é viver de uma fonte que não é a sua força.\n\nHoje, se você está cansado de tentar segurar tudo pela própria conta, talvez exista um descanso aqui. A vida não precisa brotar só do seu esforço. Há uma fonte maior disponível para sustentar quem você é."
+  },
+  {
+    verse: "Levai as cargas uns dos outros, e assim cumprireis a lei de Cristo.",
+    ref: "Gálatas 6:2",
+    title: "Cargas divididas",
+    text: "Paulo dá uma instrução simples e contracultural: carregar a carga um do outro. Numa época que exalta o cada um por si, ele aponta para a interdependência como algo bom, não como fraqueza.\n\nIsso tem dois lados. Significa estar disposto a ajudar a carregar o peso de alguém, e também ter a humildade de deixar que ajudem a carregar o seu. Os dois exigem coragem.\n\nHoje, talvez você seja a pessoa que pode aliviar a carga de alguém com um gesto simples. Ou talvez você seja quem precisa parar de carregar tudo sozinho e deixar alguém entrar. Cargas foram feitas para serem divididas, não suportadas em silêncio."
+  },
+  {
+    verse: "Àquele que é poderoso para fazer tudo muito mais abundantemente além daquilo que pedimos ou pensamos.",
+    ref: "Efésios 3:20",
+    title: "Maior do que a sua imaginação",
+    text: "Paulo descreve um Deus que age além do que pedimos ou sequer pensamos. Isso é interessante porque a gente costuma limitar Deus ao tamanho dos próprios pedidos, como se a imaginação humana fosse o teto do possível.\n\nNão é uma promessa de que todo desejo será atendido do jeito que você quer. É um lembrete de que a ação de Deus não está presa à pequenez das nossas expectativas. Às vezes a resposta vem diferente, e maior, do que se pediu.\n\nHoje, se as suas orações andam tímidas, encolhidas pelo medo de pedir demais, vale lembrar com quem você fala. O poder dele não cabe no tamanho da sua imaginação, e isso é motivo para esperar com mais ousadia."
+  },
+  {
+    verse: "Aquele que em vós começou a boa obra a aperfeiçoará até ao dia de Cristo Jesus.",
+    ref: "Filipenses 1:6",
+    title: "Obra ainda em andamento",
+    text: "Paulo confia que a obra começada em alguém não fica pela metade. Quem iniciou também se compromete a terminar. Isso significa que você é um trabalho em andamento, não um produto final que deveria já estar pronto.\n\nA gente se cobra como se devesse ter chegado lá ontem, e se frustra com cada recaída. Esse versículo oferece paciência: o processo está em curso, e quem o conduz não desiste no meio.\n\nHoje, se você se decepciona com o seu ritmo de mudança, vale lembrar que está inacabado de propósito. A obra continua. Os pontos que ainda incomodam não são prova de fracasso, são partes que ainda estão sendo trabalhadas."
+  },
+  {
+    verse: "Nada façais por contenda ou vanglória, mas cada um considere os outros superiores a si mesmo.",
+    ref: "Filipenses 2:3",
+    title: "Sair do centro",
+    text: "Paulo propõe algo que vai contra o instinto: considerar o outro acima de si. Não é se diminuir nem aceitar ser maltratado, é largar a obsessão de estar sempre no centro, sempre competindo por reconhecimento.\n\nMuito do nosso cansaço vem dessa disputa silenciosa por aparecer, vencer, provar. Considerar os outros desarma essa competição interna e abre espaço para relações mais leves, menos baseadas em ego.\n\nHoje, numa conversa ou num grupo, experimente sair do centro por um momento. Ouvir de verdade, valorizar o outro, ceder sem precisar vencer. Costuma ser mais libertador do que parece deixar de carregar a necessidade de estar sempre acima."
+  },
+  {
+    verse: "Suportando-vos uns aos outros e perdoando-vos, como também Cristo vos perdoou.",
+    ref: "Colossenses 3:13",
+    title: "Suportar faz parte",
+    text: "Paulo usa uma palavra honesta: suportar. Ele reconhece que conviver inclui atrito, que pessoas, inclusive as queridas, às vezes irritam e decepcionam. Suportar uns aos outros não é fingir que está tudo perfeito.\n\nO modelo do perdão aqui é alto: como Cristo perdoou. Não é um perdão calculado, na medida exata do que o outro merece, é um perdão generoso, lembrando do que você mesmo recebeu.\n\nHoje, se alguém perto de você anda difícil de suportar, talvez o convite não seja se afastar de imediato, e sim exercitar uma paciência maior. Toda relação que dura passa por trechos de suportar e perdoar. Faz parte, não é falha."
+  },
+  {
+    verse: "Cheguemos com confiança ao trono da graça, para que alcancemos misericórdia e achemos graça.",
+    ref: "Hebreus 4:16",
+    title: "Chegar com confiança",
+    text: "O texto convida a chegar ao trono de Deus com confiança, não com medo. Isso é surpreendente, porque a gente costuma imaginar que se aproximar de Deus exige primeiro estar limpo, ajeitado, digno.\n\nMas o versículo diz que se chega justamente para alcançar misericórdia e graça, ou seja, para receber o que ainda falta. Não se vai ao trono por já ter tudo resolvido, vai-se por precisar.\n\nHoje, se você tem evitado a oração por se sentir indigno, vale reler isso. O convite é chegar com confiança, mesmo bagunçado, mesmo em falta. O trono da graça existe exatamente para quem precisa de graça."
+  },
+  {
+    verse: "Corramos com paciência a carreira que nos está proposta, olhando para Jesus.",
+    ref: "Hebreus 12:1-2",
+    title: "Correr olhando para frente",
+    text: "O autor compara a vida a uma corrida e dá duas dicas. A primeira é correr com paciência, porque é uma prova longa, não um tiro de cem metros. A segunda é para onde olhar: para Jesus, não para os próprios pés nem para os corredores ao lado.\n\nQuem corre olhando para baixo tropeça. Quem corre comparando-se aos outros perde o ritmo. O foco no alvo certo sustenta o movimento quando as forças fraquejam.\n\nHoje, se você está cansado no meio da sua corrida, vale checar para onde está olhando. Talvez a exaustão venha de fixar o olhar no lugar errado. Reorientar a vista para frente costuma devolver fôlego para seguir."
+  },
 ];
 
 if (typeof module !== 'undefined' && module.exports) {
