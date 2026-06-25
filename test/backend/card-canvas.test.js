@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { SIZE, PALETTE, baseBackground, drawHeader, drawFooter, wrapText } from '../../scripts/lib/card-canvas.js';
+import { SIZE, PALETTE, baseBackground, drawHeader, drawFooter, drawEngagementBadge, stripEmoji, wrapText } from '../../scripts/lib/card-canvas.js';
 
 // ctx falso que registra as chamadas, evitando depender do canvas nativo.
 function fakeCtx() {
@@ -41,6 +41,20 @@ describe('card-canvas', () => {
     const ctx = fakeCtx();
     drawFooter(ctx, 'rodapé');
     expect(ctx.calls.some(c => c[0] === 'fillText' && c[1] === 'rodapé')).toBe(true);
+  });
+
+  it('stripEmoji remove emojis e normaliza espaços', () => {
+    expect(stripEmoji('Marca quem precisa ler isso agora 👇')).toBe('Marca quem precisa ler isso agora');
+    expect(stripEmoji('Comenta 🙏 se quer oração')).toBe('Comenta se quer oração');
+    expect(stripEmoji('sem emoji')).toBe('sem emoji');
+  });
+
+  it('drawEngagementBadge escreve as chamadas sem emoji', () => {
+    const ctx = fakeCtx();
+    drawEngagementBadge(ctx, 'Comenta aqui 👇', 'Salva esse post');
+    const texts = ctx.calls.filter(c => c[0] === 'fillText').map(c => c[1]);
+    expect(texts).toContain('Comenta aqui');
+    expect(texts).toContain('Salva esse post');
   });
 
   it('wrapText quebra texto longo em múltiplas linhas', () => {

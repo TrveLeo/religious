@@ -22,6 +22,9 @@ export default defineConfig({
         'webhook/src/**/*.js',
         'webhook-redirect/src/**/*.js'
       ],
+      // publish.js é só glue de publicação/rede (igual aos post-*), sem lógica
+      // pura testável unitariamente; não conta pra não diluir a cobertura.
+      exclude: ['scripts/lib/publish.js'],
       thresholds: {
         statements: 80,
         lines: 80,
