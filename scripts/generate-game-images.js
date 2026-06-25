@@ -145,6 +145,7 @@ function buildTermoCaption(date) {
     '',
     cta,
     'Arrasta até o fim e veja como apoiar este projeto via Pix.',
+    'Chave Pix (e-mail): diariod777@gmail.com',
     '',
     '#termo #jogodaspalavras #biblia #devocional #fe'
   ].join('\n');
@@ -165,6 +166,7 @@ function buildConexoCaption(date) {
     '',
     cta,
     'Arrasta até o fim e veja como apoiar este projeto via Pix.',
+    'Chave Pix (e-mail): diariod777@gmail.com',
     '',
     '#conexoes #jogodaspalavras #biblia #devocional #fe'
   ].join('\n');

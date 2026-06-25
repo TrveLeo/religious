@@ -193,3 +193,83 @@ footer {
     padding: 12px 16px;
   }
 }
+
+/* ---- Página de doação (doar.html) e CTA de apoio ---- */
+.donate-card { text-align: center; }
+
+.donate-lead {
+  font-size: 1.05rem;
+  color: #5a4631;
+  margin-bottom: 24px;
+}
+
+.pix-qr {
+  display: inline-block;
+  background: #fffaf0;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid #e3cfa3;
+  box-shadow: 0 4px 12px rgba(107, 66, 38, 0.12);
+}
+
+.pix-qr img { display: block; width: 280px; height: 280px; }
+
+.pix-label {
+  margin-top: 22px;
+  font-weight: bold;
+  color: #6b4226;
+}
+
+.copy-button {
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.copy-status {
+  font-size: 0.8rem;
+  font-weight: normal;
+  opacity: 0.85;
+  border-left: 1px solid rgba(255,250,240,0.45);
+  padding-left: 10px;
+}
+
+.transparency-card h2 {
+  font-family: 'Playfair Display', serif;
+  color: #6b4226;
+  margin-bottom: 14px;
+}
+
+.transparency-list {
+  list-style: none;
+  text-align: left;
+  max-width: 420px;
+  margin: 0 auto 16px;
+}
+
+.transparency-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #efe1c2;
+  font-size: 1.02rem;
+}
+
+.transparency-list li:last-child { border-bottom: none; }
+
+.transparency-note {
+  font-style: italic;
+  color: #9c7a4e;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+/* CTA de apoio na home */
+.support-card {
+  text-align: center;
+  background: linear-gradient(135deg, rgba(160,82,45,0.07), rgba(212,160,23,0.07));
+}
+
+.support-card p { margin-bottom: 14px; color: #5a4631; }

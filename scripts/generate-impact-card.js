@@ -78,6 +78,7 @@ function buildCaption(date) {
     '',
     cta,
     'Arrasta até o fim e veja como apoiar via Pix, se Deus colocar isso no seu coração.',
+    'Chave Pix (e-mail): diariod777@gmail.com',
     '',
     '#fe #biblia #devocional #apoie #comunidade'
   ].join('\n');

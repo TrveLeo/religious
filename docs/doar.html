@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apoie o Devocional Diário</title>
+<meta name="description" content="Ajude a manter o Devocional Diário no ar com uma contribuição via Pix.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Apoie este trabalho</h1>
+      <p class="data">O Devocional Diário é mantido por contribuições</p>
+    </header>
+
+    <main>
+      <section class="card donate-card">
+        <p class="donate-lead">Se algum versículo ou devocional te abençoou, considere ajudar a manter o projeto no ar com uma contribuição via Pix. Qualquer valor faz diferença.</p>
+
+        <div class="pix-qr">
+          <img src="assets/pix-qrcode.png" alt="QR Code Pix para doação" width="280" height="280">
+        </div>
+
+        <p class="pix-label">Chave Pix (e-mail)</p>
+        <button id="copy-pix" class="play-button copy-button" type="button" data-key="diariod777@gmail.com">
+          <span id="pix-key">diariod777@gmail.com</span>
+          <span id="copy-status" class="copy-status">copiar</span>
+        </button>
+      </section>
+
+      <section class="card transparency-card">
+        <h2>Para onde vai sua contribuição</h2>
+        <ul class="transparency-list">
+          <li>🌐 Hospedagem e domínio do site</li>
+          <li>🛠️ Ferramentas de publicação e automação</li>
+          <li>✍️ Tempo dedicado a escrever os devocionais todos os dias</li>
+        </ul>
+        <p class="transparency-note">Projeto pessoal, sem fins comerciais. Toda contribuição é voluntária e ajuda este conteúdo a continuar gratuito para todo mundo.</p>
+      </section>
+    </main>
+
+    <div class="back-link">
+      <a href="index.html">← Voltar ao devocional de hoje</a>
+    </div>
+  </div>
+
+  <script>
+    const btn = document.getElementById('copy-pix');
+    const status = document.getElementById('copy-status');
+    btn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(btn.dataset.key);
+        status.textContent = 'copiado!';
+        setTimeout(() => { status.textContent = 'copiar'; }, 2000);
+      } catch (e) {
+        status.textContent = 'selecione e copie';
+      }
+    });
+  </script>
+</body>
+</html>

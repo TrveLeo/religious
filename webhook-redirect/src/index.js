@@ -1,9 +1,7 @@
 const SITE_URL = 'https://trveleo.github.io/religious/';
 
-// Não existe hoje uma página dedicada ao Pix em docs/ (só o QR Code em
-// docs/assets/pix-qrcode.png). Por isso /pix redireciona para a home por
-// enquanto; se um dia existir uma página específica, é só trocar PIX_URL.
-const PIX_URL = 'https://trveleo.github.io/religious/';
+// Página dedicada de doação (QR Pix + chave copiável + transparência).
+const PIX_URL = 'https://trveleo.github.io/religious/doar.html';
 
 function todayKey() {
   return new Date().toISOString().slice(0, 10);
