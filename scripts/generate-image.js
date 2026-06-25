@@ -62,9 +62,36 @@ function drawDevotionalCard(entry, date) {
   ctx.font = 'bold 34px Georgia, serif';
   ctx.fillText(entry.title, centerX, y);
 
+  // CTA de engajamento na própria arte (não só na legenda): a maioria não
+  // lê a legenda, então o pedido de comentar/salvar precisa estar na imagem.
+  const dayIndex = dayOfYear(date);
+  drawEngagementBadge(ctx, pickByDay(COMMENT_BAIT, dayIndex), pickByDay(SAVE_BAIT, dayIndex));
+
   drawFooter(ctx, 'Devocional completo no link da bio');
 
   return canvas;
+}
+
+// Caixinha discreta com chamada pra comentar e salvar, desenhada acima do
+// rodapé. Reaproveitada pelo card diário.
+function drawEngagementBadge(ctx, commentBait, saveBait) {
+  const centerX = SIZE / 2;
+  const y = SIZE - 175;
+
+  ctx.fillStyle = '#a0522d';
+  ctx.font = 'bold 27px Georgia, serif';
+  ctx.textAlign = 'center';
+  ctx.fillText(stripEmoji(commentBait), centerX, y);
+
+  ctx.fillStyle = '#6b4226';
+  ctx.font = 'italic 25px Georgia, serif';
+  ctx.fillText(stripEmoji(saveBait), centerX, y + 38);
+}
+
+// O canvas não renderiza emoji colorido (vira glyph quebrado), então removemos
+// os emojis ao desenhar na imagem. Nas legendas eles continuam.
+function stripEmoji(text) {
+  return text.replace(/[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{FE0F}]/gu, '').replace(/\s+/g, ' ').trim();
 }
 
 function buildCaption(entry, date) {
