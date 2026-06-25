@@ -22,7 +22,7 @@ jobs:
           node-version: "20"
 
       - name: Instalar dependências
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Buscar insights
         run: node scripts/fetch-insights.js
