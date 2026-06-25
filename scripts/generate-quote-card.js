@@ -3,9 +3,9 @@ const fs = require('fs');
 const path = require('path');
 const DEVOTIONALS = require('../docs/content.js');
 const { dayOfYear, dateKey } = require('./lib/dates.js');
-const { SIZE, baseBackground, wrapText } = require('./lib/card-canvas.js');
+const { SIZE, baseBackground, drawEngagementBadge, wrapText } = require('./lib/card-canvas.js');
 const { drawDonationCard } = require('./lib/donation-card.js');
-const { HOOKS, CTAS, pickByDay } = require('./lib/engagement.js');
+const { HOOKS, CTAS, COMMENT_BAIT, SAVE_BAIT, pickByDay } = require('./lib/engagement.js');
 const { buildHashtags } = require('./lib/hashtags.js');
 
 const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
@@ -18,7 +18,7 @@ function todayEntry(date) {
   return DEVOTIONALS[index];
 }
 
-function drawQuoteCard(entry) {
+function drawQuoteCard(entry, date) {
   const canvas = createCanvas(SIZE, SIZE);
   const ctx = canvas.getContext('2d');
   baseBackground(ctx);
@@ -51,6 +51,9 @@ function drawQuoteCard(entry) {
   ctx.fillStyle = '#6b4226';
   ctx.font = 'bold 36px Georgia, serif';
   ctx.fillText(entry.ref, centerX, refY);
+
+  const dayIndex = dayOfYear(date);
+  drawEngagementBadge(ctx, pickByDay(COMMENT_BAIT, dayIndex + 3), pickByDay(SAVE_BAIT, dayIndex + 3));
 
   ctx.fillStyle = '#9c7a4e';
   ctx.font = '26px Georgia, serif';
@@ -87,7 +90,7 @@ async function main() {
   const key = dateKey(date);
   const entry = todayEntry(date);
 
-  const quoteCanvas = drawQuoteCard(entry);
+  const quoteCanvas = drawQuoteCard(entry, date);
   const donationCanvas = await drawDonationCard();
 
   const quotePath = path.join(OUTPUT_DIR, `quote-${key}-1.png`);

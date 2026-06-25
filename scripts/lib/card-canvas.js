@@ -42,6 +42,28 @@ function drawFooter(ctx, text) {
   ctx.fillText(text, SIZE / 2, SIZE - 90);
 }
 
+// O canvas não renderiza emoji colorido (vira glyph quebrado), então removemos
+// os emojis ao desenhar na imagem. Nas legendas eles continuam.
+function stripEmoji(text) {
+  return text.replace(/[\u{1F000}-\u{1FFFF}\u{2600}-\u{27BF}\u{FE0F}]/gu, '').replace(/\s+/g, ' ').trim();
+}
+
+// Caixinha discreta com chamada pra comentar e salvar, desenhada acima do
+// rodapé. Reaproveitada pelos cards quadrados (devocional, citação).
+function drawEngagementBadge(ctx, commentBait, saveBait) {
+  const centerX = SIZE / 2;
+  const y = SIZE - 175;
+
+  ctx.fillStyle = '#a0522d';
+  ctx.font = 'bold 27px Georgia, serif';
+  ctx.textAlign = 'center';
+  ctx.fillText(stripEmoji(commentBait), centerX, y);
+
+  ctx.fillStyle = '#6b4226';
+  ctx.font = 'italic 25px Georgia, serif';
+  ctx.fillText(stripEmoji(saveBait), centerX, y + 38);
+}
+
 function wrapText(ctx, text, maxWidth) {
   const words = text.split(' ');
   const lines = [];
@@ -59,4 +81,4 @@ function wrapText(ctx, text, maxWidth) {
   return lines;
 }
 
-module.exports = { SIZE, PALETTE, baseBackground, drawHeader, drawFooter, wrapText };
+module.exports = { SIZE, PALETTE, baseBackground, drawHeader, drawFooter, drawEngagementBadge, stripEmoji, wrapText };
