@@ -9,6 +9,8 @@
     "test:frontend": "vitest run --config vitest.frontend.config.js",
     "test:backend:cov": "vitest run --config vitest.backend.config.js --coverage",
     "test:frontend:cov": "vitest run --config vitest.frontend.config.js --coverage",
+    "generate-site": "node scripts/generate-site.js",
+    "generate-og-image": "node scripts/generate-og-image.js",
     "generate-image": "node scripts/generate-image.js",
     "post-instagram": "node scripts/post-instagram.js",
     "generate-game-images": "node scripts/generate-game-images.js",
