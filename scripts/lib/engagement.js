@@ -41,8 +41,30 @@ const SAVE_BAIT = [
   'Dá um salvar pra ter sempre por perto.'
 ];
 
+// Um único pedido forte por post, rotacionando entre os três sinais que o
+// algoritmo mais valoriza (save > share > comment > like). Empilhar 3 CTAs
+// na legenda diluía o pedido e a semana 1 fechou com 0 save/share/comment;
+// um pedido só, claro, converte melhor. O tipo é deterministico pela data,
+// então o relatório semanal consegue cruzar qual sinal cada post pediu.
+const CTA_VARIANTS = [
+  { type: 'save', text: 'Salva esse post pra reler num dia difícil. 🔖' },
+  { type: 'comment', text: 'Comenta "amém" se essa palavra falou com você hoje. 🙏' },
+  { type: 'share', text: 'Manda pra alguém que precisa ler isso agora. 💬' }
+];
+
 function pickByDay(list, dayIndex) {
   return list[dayIndex % list.length];
 }
 
-module.exports = { HOOKS, CTAS, COMMENT_BAIT, SAVE_BAIT, pickByDay };
+// Retorna { type, text } — use .text na legenda/arte e .type pra A/B no relatório.
+function pickCtaVariant(dayIndex) {
+  return CTA_VARIANTS[dayIndex % CTA_VARIANTS.length];
+}
+
+// Reconstrói qual CTA um post pediu, a partir da data de publicação. Espelha
+// pickCtaVariant para o relatório correlacionar tipo de pedido x resultado.
+function ctaTypeForDayIndex(dayIndex) {
+  return CTA_VARIANTS[dayIndex % CTA_VARIANTS.length].type;
+}
+
+module.exports = { HOOKS, CTAS, COMMENT_BAIT, SAVE_BAIT, CTA_VARIANTS, pickByDay, pickCtaVariant, ctaTypeForDayIndex };

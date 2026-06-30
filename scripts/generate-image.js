@@ -5,7 +5,7 @@ const DEVOTIONALS = require('../docs/content.js');
 const { dayOfYear, dateKey, capitalize } = require('./lib/dates.js');
 const { SIZE, baseBackground, drawFooter, drawEngagementBadge, wrapText } = require('./lib/card-canvas.js');
 const { drawDonationCard } = require('./lib/donation-card.js');
-const { HOOKS, CTAS, COMMENT_BAIT, SAVE_BAIT, pickByDay } = require('./lib/engagement.js');
+const { HOOKS, pickByDay, pickCtaVariant } = require('./lib/engagement.js');
 const { buildHashtags } = require('./lib/hashtags.js');
 
 const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
@@ -65,9 +65,9 @@ function drawDevotionalCard(entry, date) {
   // CTA de engajamento na própria arte (não só na legenda): a maioria não
   // lê a legenda, então o pedido de comentar/salvar precisa estar na imagem.
   const dayIndex = dayOfYear(date);
-  drawEngagementBadge(ctx, pickByDay(COMMENT_BAIT, dayIndex), pickByDay(SAVE_BAIT, dayIndex));
+  drawEngagementBadge(ctx, pickCtaVariant(dayIndex).text, '');
 
-  drawFooter(ctx, 'Devocional completo no link da bio');
+  drawFooter(ctx, 'Devocional completo e oração no link da bio 👆');
 
   return canvas;
 }
@@ -76,9 +76,7 @@ function buildCaption(entry, date) {
   const dayIndex = dayOfYear(date);
   const dataStr = capitalize(date.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' }));
   const hook = pickByDay(HOOKS, dayIndex);
-  const cta = pickByDay(CTAS, dayIndex);
-  const commentBait = pickByDay(COMMENT_BAIT, dayIndex);
-  const saveBait = pickByDay(SAVE_BAIT, dayIndex);
+  const cta = pickCtaVariant(dayIndex).text;
 
   return [
     hook,
@@ -91,9 +89,9 @@ function buildCaption(entry, date) {
     '',
     `Devocional de ${dataStr}.`,
     '',
-    commentBait,
-    saveBait,
     cta,
+    '',
+    '➡️ Devocional completo e oração: link na bio.',
     'Arrasta para o lado e veja como apoiar este projeto via Pix.',
     'Chave Pix (e-mail): diariod777@gmail.com',
     '',
