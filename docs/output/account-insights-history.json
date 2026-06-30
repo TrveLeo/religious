@@ -1,0 +1,816 @@
+[
+  {
+    "collected_at": "2026-06-29",
+    "profile": {
+      "username": "dai_lydevocional",
+      "name": "Devocional_Diario",
+      "followers_count": 437,
+      "follows_count": 959,
+      "media_count": 21
+    },
+    "insights": {
+      "range_days": 30,
+      "since": "1780161227",
+      "until": "1782753227",
+      "totals": {
+        "reach": 356,
+        "views": 1928,
+        "accounts_engaged": 24,
+        "total_interactions": 65,
+        "likes": 65,
+        "comments": 0,
+        "saves": 0,
+        "shares": 0,
+        "replies": 0,
+        "follows_and_unfollows": null,
+        "profile_links_taps": 0,
+        "website_clicks": 5,
+        "profile_views": 791
+      },
+      "time_series": {
+        "reach": [
+          {
+            "value": 0,
+            "end_time": "2026-05-31T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-01T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-02T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-03T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-04T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-05T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-06T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-07T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-08T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-09T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-10T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-11T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-12T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-13T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-14T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-15T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-16T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-17T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-18T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-19T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-20T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-21T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-22T07:00:00+0000"
+          },
+          {
+            "value": 52,
+            "end_time": "2026-06-23T07:00:00+0000"
+          },
+          {
+            "value": 87,
+            "end_time": "2026-06-24T07:00:00+0000"
+          },
+          {
+            "value": 141,
+            "end_time": "2026-06-25T07:00:00+0000"
+          },
+          {
+            "value": 98,
+            "end_time": "2026-06-26T07:00:00+0000"
+          },
+          {
+            "value": 62,
+            "end_time": "2026-06-27T07:00:00+0000"
+          },
+          {
+            "value": 57,
+            "end_time": "2026-06-28T07:00:00+0000"
+          },
+          {
+            "value": 15,
+            "end_time": "2026-06-29T07:00:00+0000"
+          }
+        ],
+        "follower_count": [
+          {
+            "value": 0,
+            "end_time": "2026-05-31T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-01T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-02T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-03T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-04T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-05T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-06T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-07T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-08T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-09T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-10T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-11T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-12T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-13T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-14T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-15T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-16T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-17T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-18T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-19T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-20T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-21T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-22T07:00:00+0000"
+          },
+          {
+            "value": 126,
+            "end_time": "2026-06-23T07:00:00+0000"
+          },
+          {
+            "value": 147,
+            "end_time": "2026-06-24T07:00:00+0000"
+          },
+          {
+            "value": 118,
+            "end_time": "2026-06-25T07:00:00+0000"
+          },
+          {
+            "value": 41,
+            "end_time": "2026-06-26T07:00:00+0000"
+          },
+          {
+            "value": 17,
+            "end_time": "2026-06-27T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-28T07:00:00+0000"
+          },
+          {
+            "value": 0,
+            "end_time": "2026-06-29T07:00:00+0000"
+          }
+        ]
+      },
+      "demographics": {
+        "follower_demographics": {
+          "age": {
+            "breakdowns": [
+              {
+                "dimension_keys": [
+                  "age"
+                ],
+                "results": [
+                  {
+                    "dimension_values": [
+                      "13-17"
+                    ],
+                    "value": 32
+                  },
+                  {
+                    "dimension_values": [
+                      "18-24"
+                    ],
+                    "value": 59
+                  },
+                  {
+                    "dimension_values": [
+                      "25-34"
+                    ],
+                    "value": 113
+                  },
+                  {
+                    "dimension_values": [
+                      "35-44"
+                    ],
+                    "value": 112
+                  },
+                  {
+                    "dimension_values": [
+                      "45-54"
+                    ],
+                    "value": 69
+                  },
+                  {
+                    "dimension_values": [
+                      "55-64"
+                    ],
+                    "value": 27
+                  },
+                  {
+                    "dimension_values": [
+                      "65+"
+                    ],
+                    "value": 17
+                  }
+                ]
+              }
+            ]
+          },
+          "gender": {
+            "breakdowns": [
+              {
+                "dimension_keys": [
+                  "gender"
+                ],
+                "results": [
+                  {
+                    "dimension_values": [
+                      "F"
+                    ],
+                    "value": 167
+                  },
+                  {
+                    "dimension_values": [
+                      "M"
+                    ],
+                    "value": 182
+                  },
+                  {
+                    "dimension_values": [
+                      "U"
+                    ],
+                    "value": 80
+                  }
+                ]
+              }
+            ]
+          },
+          "country": {
+            "breakdowns": [
+              {
+                "dimension_keys": [
+                  "country"
+                ],
+                "results": [
+                  {
+                    "dimension_values": [
+                      "CD"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "PT"
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "dimension_values": [
+                      "UZ"
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "dimension_values": [
+                      "IN"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "JP"
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "dimension_values": [
+                      "BJ"
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "dimension_values": [
+                      "IT"
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "dimension_values": [
+                      "MX"
+                    ],
+                    "value": 4
+                  },
+                  {
+                    "dimension_values": [
+                      "AO"
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "dimension_values": [
+                      "ES"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "BR"
+                    ],
+                    "value": 403
+                  },
+                  {
+                    "dimension_values": [
+                      "AR"
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "dimension_values": [
+                      "CV"
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "dimension_values": [
+                      "DZ"
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "dimension_values": [
+                      "NG"
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "dimension_values": [
+                      "GB"
+                    ],
+                    "value": 1
+                  },
+                  {
+                    "dimension_values": [
+                      "PK"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "US"
+                    ],
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          },
+          "city": {
+            "breakdowns": [
+              {
+                "dimension_keys": [
+                  "city"
+                ],
+                "results": [
+                  {
+                    "dimension_values": [
+                      "Arujá, São Paulo (state)"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Ribeirão Prêto, São Paulo (state)"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "São Paulo, São Paulo (state)"
+                    ],
+                    "value": 22
+                  },
+                  {
+                    "dimension_values": [
+                      "Boa Vista, Roraima"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Kinshasa, Kinshasa"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "São Luís, Maranhão"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Araripe, Ceará"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Olinda, Pernambuco"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Rio de Janeiro, Rio de Janeiro (state)"
+                    ],
+                    "value": 14
+                  },
+                  {
+                    "dimension_values": [
+                      "São José dos Campos, São Paulo (state)"
+                    ],
+                    "value": 10
+                  },
+                  {
+                    "dimension_values": [
+                      "Contagem, Minas Gerais"
+                    ],
+                    "value": 4
+                  },
+                  {
+                    "dimension_values": [
+                      "Presidente Prudente, São Paulo (state)"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Arapiraca, Alagoas"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Camaçari, Bahia"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Maceió, Alagoas"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Porto Alegre, Rio Grande do Sul"
+                    ],
+                    "value": 5
+                  },
+                  {
+                    "dimension_values": [
+                      "Tupã, São Paulo (state)"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Alumínio, São Paulo (state)"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Duque de Caxias, Rio de Janeiro (state)"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Ceilândia, Federal District"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Ferraz de Vasconcelos, São Paulo (state)"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Macapá, Amapá"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Bataguaçu, Mato Grosso do Sul"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "São João do Manteninha, Minas Gerais"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Simões Filho, Bahia"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Guarulhos, São Paulo (state)"
+                    ],
+                    "value": 6
+                  },
+                  {
+                    "dimension_values": [
+                      "Palmas, Tocantins"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Natal, Rio Grande do Norte"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Santos, São Paulo (state)"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "São Bernardo do Campo, São Paulo (state)"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Betim, Minas Gerais"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Salvador, Bahia"
+                    ],
+                    "value": 4
+                  },
+                  {
+                    "dimension_values": [
+                      "São João de Meriti, Rio de Janeiro (state)"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Pedro Leopoldo, Minas Gerais"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Fortaleza, Ceará"
+                    ],
+                    "value": 10
+                  },
+                  {
+                    "dimension_values": [
+                      "Indaiatuba, São Paulo (state)"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Florianópolis, Santa Catarina"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Belo Horizonte, Minas Gerais"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Vitória, Espírito Santo"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Curitiba, Paraná"
+                    ],
+                    "value": 3
+                  },
+                  {
+                    "dimension_values": [
+                      "Belém, Pará"
+                    ],
+                    "value": 4
+                  },
+                  {
+                    "dimension_values": [
+                      "Campinas, São Paulo (state)"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Fazenda Rio Grande, Paraná"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Quiririm, São Paulo (state)"
+                    ],
+                    "value": 2
+                  },
+                  {
+                    "dimension_values": [
+                      "Dourados, Mato Grosso do Sul"
+                    ],
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "engaged_audience_demographics": {
+          "age": {
+            "error": "Você poderá conhecer melhor o seu público quando essa métrica tiver mais de 100 pessoas em cada detalhamento."
+          },
+          "gender": {
+            "error": "Você poderá conhecer melhor o seu público quando essa métrica tiver mais de 100 pessoas em cada detalhamento."
+          },
+          "country": {
+            "error": "Você poderá conhecer melhor o seu público quando essa métrica tiver mais de 100 pessoas em cada detalhamento."
+          },
+          "city": {
+            "error": "Você poderá conhecer melhor o seu público quando essa métrica tiver mais de 100 pessoas em cada detalhamento."
+          }
+        },
+        "reached_audience_demographics": {
+          "age": {
+            "breakdowns": [
+              {
+                "dimension_keys": [
+                  "age"
+                ]
+              }
+            ]
+          },
+          "gender": {
+            "breakdowns": [
+              {
+                "dimension_keys": [
+                  "gender"
+                ]
+              }
+            ]
+          },
+          "country": {
+            "breakdowns": [
+              {
+                "dimension_keys": [
+                  "country"
+                ]
+              }
+            ]
+          },
+          "city": {
+            "breakdowns": [
+              {
+                "dimension_keys": [
+                  "city"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+]

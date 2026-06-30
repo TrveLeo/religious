@@ -30,11 +30,14 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
 
+      - name: Gerar relatório semanal
+        run: node scripts/weekly-report.js
+
       - name: Commitar histórico de insights
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/output/insights-history.json
+          git add docs/output/insights-history.json docs/output/account-insights-history.json docs/output/reports
           git diff --staged --quiet || git commit -m "chore(insights): atualiza histórico semanal"
           git pull --rebase origin main
           git push
