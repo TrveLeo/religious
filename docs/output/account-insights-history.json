@@ -4,20 +4,20 @@
     "profile": {
       "username": "dai_lydevocional",
       "name": "Devocional_Diario",
-      "followers_count": 450,
-      "follows_count": 877,
+      "followers_count": 449,
+      "follows_count": 874,
       "media_count": 38
     },
     "insights": {
       "range_days": 30,
-      "since": "1780757364",
-      "until": "1783349364",
+      "since": "1780761254",
+      "until": "1783353254",
       "totals": {
         "reach": 453,
-        "views": 2726,
+        "views": 2731,
         "accounts_engaged": 28,
-        "total_interactions": 117,
-        "likes": 109,
+        "total_interactions": 118,
+        "likes": 110,
         "comments": 0,
         "saves": 0,
         "shares": 0,
@@ -146,7 +146,7 @@
             "end_time": "2026-07-05T07:00:00+0000"
           },
           {
-            "value": 5,
+            "value": 8,
             "end_time": "2026-07-06T07:00:00+0000"
           }
         ],

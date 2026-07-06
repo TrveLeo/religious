@@ -18,7 +18,7 @@
       "profile_visits": 0,
       "profile_activity": 0,
       "follows": 0,
-      "views": 5
+      "views": 8
     },
     "collected_at": "2026-07-06"
   },
@@ -57,15 +57,15 @@
     "like_count": 0,
     "comments_count": 0,
     "insights": {
-      "reach": 5,
+      "reach": 6,
       "saved": 0,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "total_interactions": 0,
-      "views": 7,
-      "ig_reels_avg_watch_time": 2508,
-      "ig_reels_video_view_total_time": 15051,
+      "views": 8,
+      "ig_reels_avg_watch_time": 2661,
+      "ig_reels_video_view_total_time": 18631,
       "profile_visits": {
         "error": "The Media Insights API does not support the profile_visits metric for this media product type."
       },
