@@ -5,7 +5,7 @@ Janela: últimos 7 dias até 2026-07-13 · snapshot de conta: 2026-07-13
 ## Conta
 
 - Seguidores: **455** · Posts: 58
-- Alcance 30d: 553 · Views 30d: 3481 · Contas engajadas: 30
+- Alcance 30d: 553 · Views 30d: 3485 · Contas engajadas: 30
 - Visitas ao perfil: 859 · Cliques no site: 5 (CTR 0.6%)
 - Novos seguidores (7d): **5**
 
@@ -23,8 +23,8 @@ Crescimento diário:
 
 ## Resumo da semana (mídia)
 
-- Posts: **21** · Views: 428 · Alcance: 216
-- Interações: 8 · Likes: 7 · **Salvos: 0** · **Shares: 0** · **Comentários: 0**
+- Posts: **20** · Views: 416 · Alcance: 212
+- Interações: 9 · Likes: 8 · **Salvos: 0** · **Shares: 0** · **Comentários: 0**
 
 > ⚠️ Zero salvos/shares/comentários na semana — sinais que o algoritmo usa pra escalar alcance. Gargalo principal.
 
@@ -32,7 +32,7 @@ Crescimento diário:
 
 | Tipo | n | Reach méd. | Views méd. | Eng% (int/reach) |
 | --- | --- | --- | --- | --- |
-| FEED | 14 | 7.1 | 19.7 | 6.0 |
+| FEED | 13 | 7.4 | 20.3 | 7.3 |
 | REELS | 7 | 16.6 | 21.7 | 1.7 |
 
 ## Por formato de conteúdo
@@ -42,14 +42,14 @@ Eng% normaliza pelo alcance — decoupla do tamanho da audiência. Com n=1 não 
 | Formato | n | Reach méd. | Views méd. | Eng% | Likes méd. |
 | --- | --- | --- | --- | --- | --- |
 | enquete | 1 | 8 | 29 | 12.5 | 1.0 |
-| devocional | 20 | 10 | 20 | 3.4 | 0.3 |
+| devocional | 19 | 11 | 20 | 3.9 | 0.4 |
 
 ## Por faixa de horário (BRT)
 
 | Faixa | n | Views méd. | Reach méd. | Inter. méd. |
 | --- | --- | --- | --- | --- |
-| tarde (12-18) | 14 | 21.9 | 12.1 | 0.43 |
-| manhã (00-12) | 7 | 17.3 | 6.7 | 0.29 |
+| tarde (12-18) | 14 | 22.1 | 12.1 | 0.50 |
+| manhã (00-12) | 6 | 17.7 | 7.0 | 0.33 |
 
 ## A/B de CTA (pedido único por post)
 
@@ -57,9 +57,9 @@ Tipo de CTA reconstruído pela data de publicação. Acompanhar qual sinal conve
 
 | CTA pedido | n posts | Salvos | Shares | Comentários | Eng% |
 | --- | --- | --- | --- | --- | --- |
-| comment | 9 | 0 | 0 | 0 | 2.3 |
+| comment | 8 | 0 | 0 | 0 | 3.6 |
 | save | 6 | 0 | 0 | 0 | 4.9 |
-| share | 6 | 0 | 0 | 0 | 4.3 |
+| share | 6 | 0 | 0 | 0 | 4.2 |
 
 ## Top 5 / Bottom 5 por views
 
@@ -77,7 +77,7 @@ Tipo de CTA reconstruído pela data de publicação. Acompanhar qual sinal conve
 
 | Data | Tipo | Views | Reach | Likes | Legenda |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-12 | FEED | 13 | 4 | 0 | Hoje é daqueles dias que parecem maiores |
+| 2026-07-06 | REELS | 15 | 11 | 1 | Já sentiu que precisava de um sinal pra  |
 | 2026-07-12 | FEED | 7 | 3 | 0 | Tem alguma coisa pesando sobre você hoje |
 | 2026-07-11 | FEED | 5 | 4 | 0 | Já sentiu que precisava de um sinal pra  |
 | 2026-07-12 | REELS | 3 | 3 | 0 | Alguma vez você já duvidou se Deus ainda |

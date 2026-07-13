@@ -10,14 +10,14 @@
     },
     "insights": {
       "range_days": 30,
-      "since": "1781358843",
-      "until": "1783950843",
+      "since": "1781363389",
+      "until": "1783955389",
       "totals": {
         "reach": 553,
-        "views": 3481,
+        "views": 3485,
         "accounts_engaged": 30,
-        "total_interactions": 142,
-        "likes": 133,
+        "total_interactions": 143,
+        "likes": 134,
         "comments": 0,
         "saves": 0,
         "shares": 0,
@@ -146,7 +146,7 @@
             "end_time": "2026-07-12T07:00:00+0000"
           },
           {
-            "value": 3,
+            "value": 5,
             "end_time": "2026-07-13T07:00:00+0000"
           }
         ],
