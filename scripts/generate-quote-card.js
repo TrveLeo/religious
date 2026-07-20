@@ -5,7 +5,7 @@ const DEVOTIONALS = require('../docs/content.js');
 const { dayOfYear, dateKey } = require('./lib/dates.js');
 const { SIZE, baseBackground, drawEngagementBadge, wrapText } = require('./lib/card-canvas.js');
 const { drawDonationCard } = require('./lib/donation-card.js');
-const { HOOKS, CTAS, COMMENT_BAIT, SAVE_BAIT, pickByDay } = require('./lib/engagement.js');
+const { HOOKS, COMMENT_BAIT, SAVE_BAIT, pickByDay, pickCtaVariant } = require('./lib/engagement.js');
 const { buildHashtags } = require('./lib/hashtags.js');
 
 const OUTPUT_DIR = path.join(__dirname, '..', 'docs', 'output');
@@ -65,22 +65,31 @@ function drawQuoteCard(entry, date) {
 function buildCaption(entry, date) {
   const dayIndex = dayOfYear(date);
   const hook = pickByDay(HOOKS, dayIndex + 3);
-  const cta = pickByDay(CTAS, dayIndex + 2);
+  const ctaVariant = pickCtaVariant(dayIndex + 3);
 
-  return [
+  const lines = [
     hook,
     '',
     `"${entry.verse}"`,
     `${entry.ref}`,
     '',
-    'Guarde essa palavra com você hoje.',
-    '',
-    cta,
+  ];
+
+  if (ctaVariant.type === 'share') {
+    lines.push('Tem alguém no seu WhatsApp que precisa dessa palavra hoje?', '');
+  } else {
+    lines.push('Guarde essa palavra com você hoje.', '');
+  }
+
+  lines.push(
+    ctaVariant.text,
     'Arrasta até o fim e veja como apoiar este projeto via Pix.',
     'Chave Pix (e-mail): diariod777@gmail.com',
     '',
     buildHashtags('quote', dayIndex)
-  ].join('\n');
+  );
+
+  return lines.join('\n');
 }
 
 async function main() {

@@ -76,9 +76,9 @@ function buildCaption(entry, date) {
   const dayIndex = dayOfYear(date);
   const dataStr = capitalize(date.toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' }));
   const hook = pickByDay(HOOKS, dayIndex);
-  const cta = pickCtaVariant(dayIndex).text;
+  const ctaVariant = pickCtaVariant(dayIndex);
 
-  return [
+  const lines = [
     hook,
     '',
     `${entry.title}`,
@@ -87,16 +87,25 @@ function buildCaption(entry, date) {
     '',
     entry.text,
     '',
+  ];
+
+  if (ctaVariant.type === 'share') {
+    lines.push('Alguém que você conhece precisa ouvir isso hoje.', '');
+  }
+
+  lines.push(
     `Devocional de ${dataStr}.`,
     '',
-    cta,
+    ctaVariant.text,
     '',
     '➡️ Devocional completo e oração: link na bio.',
     'Arrasta para o lado e veja como apoiar este projeto via Pix.',
     'Chave Pix (e-mail): diariod777@gmail.com',
     '',
     buildHashtags('devotional', dayIndex)
-  ].join('\n');
+  );
+
+  return lines.join('\n');
 }
 
 async function main() {

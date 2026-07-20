@@ -36,7 +36,9 @@
     "generate-ab-story": "node scripts/generate-ab-story.js",
     "post-ab-story-instagram": "node scripts/post-ab-story-instagram.js",
     "post-threads": "node scripts/post-threads.js",
-    "fetch-click-stats": "node scripts/fetch-click-stats.js"
+    "fetch-click-stats": "node scripts/fetch-click-stats.js",
+    "generate-verse-list": "node scripts/generate-verse-list.js",
+    "post-verse-list-instagram": "node scripts/post-verse-list-instagram.js"
   },
   "dependencies": {
     "canvas": "^2.11.2",

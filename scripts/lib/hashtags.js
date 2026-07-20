@@ -36,7 +36,8 @@ const BY_CATEGORY = {
   conexo: ['jogosbiblicos', 'desafiobiblico'],
   trivia: ['triviabiblica', 'quizbiblico', 'vocesabia'],
   impact: ['projetocristao', 'comunidadecrista'],
-  reel: ['reels', 'reelscristaos', 'reelsdefe']
+  reel: ['reels', 'reelscristaos', 'reelsdefe'],
+  'verse-list': ['versiculosbiblicos', 'listadeversiculos', 'devocionalcristao']
 };
 
 // Pega `count` itens de `pool` começando num deslocamento derivado do dia,

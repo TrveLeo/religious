@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       type:
-        description: "Forçar tipo (quote, game, trivia, impact, reveal, poll, weekly). Vazio = rotação por data."
+        description: "Forçar tipo (quote, game, trivia, impact, reveal, poll, weekly, verse-list). Vazio = rotação por data."
         required: false
         default: ""
 
@@ -63,19 +63,19 @@ jobs:
           DAY_MOD=$(( $(date -u +%j) % 14 ))
           case $DAY_MOD in
             0) TYPE="quote" ;;
-            1) TYPE="game" ;;     # Termo / Conexões (alterna dentro do script)
-            2) TYPE="reveal" ;;   # desafio com resposta no swipe
+            1) TYPE="game" ;;         # Termo / Conexões (alterna dentro do script)
+            2) TYPE="verse-list" ;;   # "5 versículos para..." — foco em save
             3) TYPE="trivia" ;;
             4) TYPE="quote" ;;
-            5) TYPE="poll" ;;     # enquete da semana (voto nos comentários)
+            5) TYPE="poll" ;;         # enquete da semana (voto nos comentários)
             6) TYPE="impact" ;;
             7) TYPE="quote" ;;
             8) TYPE="game" ;;
-            9) TYPE="reveal" ;;
+            9) TYPE="verse-list" ;;   # segundo ciclo do verse-list (outro tema)
             10) TYPE="trivia" ;;
             11) TYPE="quote" ;;
-            12) TYPE="weekly" ;;  # plano de leitura salvável da semana
-            13) TYPE="poll" ;;
+            12) TYPE="weekly" ;;      # plano de leitura salvável da semana
+            13) TYPE="reveal" ;;      # desafio com resposta no swipe
           esac
           echo "type=$TYPE" >> "$GITHUB_OUTPUT"
           echo "Tipo escolhido: $TYPE (dia do ano % 14 = $DAY_MOD)"
@@ -90,6 +90,7 @@ jobs:
             reveal) node scripts/generate-reveal.js ;;
             poll) node scripts/generate-poll-card.js && node scripts/generate-ab-story.js ;;
             weekly) node scripts/generate-weekly-plan.js ;;
+            verse-list) node scripts/generate-verse-list.js ;;
           esac
         env:
           PIX_KEY: ${{ secrets.PIX_KEY }}
@@ -114,6 +115,7 @@ jobs:
             reveal) URL="${{ secrets.SITE_BASE_URL }}/output/reveal-${DATE_KEY}-1.png" ;;
             poll) URL="${{ secrets.SITE_BASE_URL }}/output/poll-${DATE_KEY}-1.png" ;;
             weekly) URL="${{ secrets.SITE_BASE_URL }}/output/weekly-${DATE_KEY}-1.png" ;;
+            verse-list) URL="${{ secrets.SITE_BASE_URL }}/output/verse-list-${DATE_KEY}-1.png" ;;
           esac
           for i in $(seq 1 30); do
             if curl -sfI "$URL" > /dev/null; then
@@ -135,6 +137,7 @@ jobs:
             reveal) node scripts/post-reveal-instagram.js ;;
             poll) node scripts/post-poll-instagram.js && node scripts/post-ab-story-instagram.js ;;
             weekly) node scripts/post-weekly-plan-instagram.js ;;
+            verse-list) node scripts/post-verse-list-instagram.js ;;
           esac
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}

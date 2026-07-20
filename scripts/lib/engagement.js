@@ -18,38 +18,42 @@ const CTAS = [
   'Marca alguém que precisa ouvir essa palavra hoje.'
 ];
 
-// Provoca comentário: pergunta direta ou pedido de resposta nos comentários.
-// O comentário pesa mais que o like no alcance do IG, então vale chamar
-// explicitamente por ele.
+// Pergunta de baixo atrito: binária, escala emoji, ou fill-in-the-blank.
+// Não exige reflexão longa — qualquer pessoa responde em 3 segundos.
 const COMMENT_BAIT = [
-  'Comenta "amém" se você crê nisso hoje.',
-  'Marca quem precisa ler isso agora 👇',
-  'Qual versículo te sustenta nos dias difíceis? Conta nos comentários.',
-  'Responde nos comentários: do que você precisa que Deus cuide hoje?',
-  'Comenta 🙏 se quer oração por isso.',
-  'Concorda? Deixa seu "amém" aqui embaixo.',
-  'Conta pra gente: onde você viu Deus agir essa semana?'
+  'Você ora mais de manhã ou à noite? Comenta aqui 👇',
+  'Como está sua fé hoje? 🔥 forte / 🌱 crescendo / 🌧️ precisando de chuva',
+  'Quando estou fraco, eu ____. Completa nos comentários.',
+  'Deus já surpreendeu você essa semana? Conta aqui 👇',
+  'Qual palavra nessa passagem mais falou com você hoje? Comenta.',
+  'Dá pra marcar alguém que precisa dessa palavra agora? 👇',
+  'Do que você está precisando que Deus cuide? Comenta uma palavra.'
 ];
 
-// Provoca salvar: enquadra o post como algo pra guardar e voltar depois.
-// O save é o sinal mais forte de conteúdo "de valor" pro algoritmo.
+// Âncora em situação concreta, não em "reler depois" genérico.
+// Save acontece quando a pessoa visualiza o momento futuro em que vai precisar.
 const SAVE_BAIT = [
-  'Salva esse post pra voltar quando precisar.',
-  'Salva pra orar com isso durante a semana.',
-  'Guarda esse post: é daqueles pra reler num dia difícil.',
-  'Salva agora pra não esquecer dessa palavra.',
-  'Dá um salvar pra ter sempre por perto.'
+  'Salva pra ter por perto quando a ansiedade apertar. 🔖',
+  'Guarda esse post pra aquela madrugada difícil. 🔖',
+  'Salva: você vai querer ter isso por perto na hora da decisão. 🔖',
+  'Salva pra compartilhar com alguém que está passando por isso. 🔖',
+  'Guarda aqui. É pra quando a fé tremer. 🔖'
 ];
 
 // Um único pedido forte por post, rotacionando entre os três sinais que o
-// algoritmo mais valoriza (save > share > comment > like). Empilhar 3 CTAs
-// na legenda diluía o pedido e a semana 1 fechou com 0 save/share/comment;
-// um pedido só, claro, converte melhor. O tipo é deterministico pela data,
-// então o relatório semanal consegue cruzar qual sinal cada post pediu.
+// algoritmo mais valoriza (save > share > comment > like). O tipo é
+// determinístico pela data — o relatório semanal cruza pedido x resultado.
+// 9 variantes (3 por tipo) dão mais diversidade sem quebrar a proporção.
 const CTA_VARIANTS = [
-  { type: 'save', text: 'Salva esse post pra reler num dia difícil. 🔖' },
-  { type: 'comment', text: 'Comenta "amém" se essa palavra falou com você hoje. 🙏' },
-  { type: 'share', text: 'Manda pra alguém que precisa ler isso agora. 💬' }
+  { type: 'save',    text: 'Salva esse post. Da próxima vez que a ansiedade apertar, você vai querer reler isso. 🔖' },
+  { type: 'comment', text: 'Você ora mais de manhã ou à noite? Comenta aqui 👇' },
+  { type: 'share',   text: 'Manda esse post no WhatsApp pra alguém que está passando por algo difícil agora. 💬' },
+  { type: 'save',    text: 'Salva pra ter por perto quando a fé tremer. 🔖' },
+  { type: 'comment', text: 'Como está sua fé hoje? 🔥 forte / 🌱 crescendo / 🌧️ precisando de chuva. Comenta.' },
+  { type: 'share',   text: 'Pensa em alguém que está enfrentando algo difícil. Encaminha isso pra essa pessoa agora. 💬' },
+  { type: 'save',    text: 'Guarda esse post: é pra quando vier aquela madrugada difícil. 🔖' },
+  { type: 'comment', text: 'Quando estou fraco, eu ____. Completa essa frase nos comentários. 👇' },
+  { type: 'share',   text: 'Tem alguém no grupo do WhatsApp que precisa ler isso hoje? Encaminha pra eles. 💬' }
 ];
 
 function pickByDay(list, dayIndex) {
