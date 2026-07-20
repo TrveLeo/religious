@@ -4,8 +4,8 @@ Janela: últimos 7 dias até 2026-07-20 · snapshot de conta: 2026-07-20
 
 ## Conta
 
-- Seguidores: **452** · Posts: 80
-- Alcance 30d: 649 · Views 30d: 4017 · Contas engajadas: 31
+- Seguidores: **450** · Posts: 80
+- Alcance 30d: 649 · Views 30d: 4026 · Contas engajadas: 31
 - Visitas ao perfil: 870 · Cliques no site: 5 (CTR 0.6%)
 - Novos seguidores (7d): **5**
 
@@ -23,15 +23,15 @@ Crescimento diário:
 
 ## Resumo da semana (mídia)
 
-- Posts: **22** · Views: 354 · Alcance: 188
+- Posts: **22** · Views: 358 · Alcance: 190
 - Interações: 3 · Likes: 2 · **Salvos: 1** · **Shares: 0** · **Comentários: 0**
 
 ## Por tipo de mídia
 
 | Tipo | n | Reach méd. | Views méd. | Eng% (int/reach) |
 | --- | --- | --- | --- | --- |
-| FEED | 14 | 4.6 | 12.6 | 3.1 |
-| REELS | 8 | 15.4 | 22.3 | 0.8 |
+| FEED | 14 | 4.8 | 12.8 | 3.0 |
+| REELS | 8 | 15.4 | 22.4 | 0.8 |
 
 ## Por formato de conteúdo
 
@@ -39,18 +39,18 @@ Eng% normaliza pelo alcance — decoupla do tamanho da audiência. Com n=1 não 
 
 | Formato | n | Reach méd. | Views méd. | Eng% | Likes méd. |
 | --- | --- | --- | --- | --- | --- |
-| devocional | 18 | 10 | 18 | 1.8 | 0.1 |
+| devocional | 18 | 10 | 18 | 1.7 | 0.1 |
 | complete-versiculo | 1 | 4 | 7 | 0.0 | 0.0 |
 | jogo-grupos | 1 | 3 | 6 | 0.0 | 0.0 |
-| enquete | 1 | 7 | 14 | 0.0 | 0.0 |
+| enquete | 1 | 8 | 16 | 0.0 | 0.0 |
 | plano-semana | 1 | 3 | 6 | 0.0 | 0.0 |
 
 ## Por faixa de horário (BRT)
 
 | Faixa | n | Views méd. | Reach méd. | Inter. méd. |
 | --- | --- | --- | --- | --- |
-| manhã (00-12) | 7 | 14.4 | 4.7 | 0.29 |
-| tarde (12-18) | 15 | 16.9 | 10.3 | 0.07 |
+| manhã (00-12) | 7 | 14.4 | 4.9 | 0.29 |
+| tarde (12-18) | 15 | 17.1 | 10.4 | 0.07 |
 
 ## A/B de CTA (pedido único por post)
 
@@ -58,7 +58,7 @@ Tipo de CTA reconstruído pela data de publicação. Acompanhar qual sinal conve
 
 | CTA pedido | n posts | Salvos | Shares | Comentários | Eng% |
 | --- | --- | --- | --- | --- | --- |
-| save | 7 | 0 | 0 | 0 | 2.6 |
+| save | 7 | 0 | 0 | 0 | 2.5 |
 | share | 8 | 1 | 0 | 0 | 2.4 |
 | comment | 7 | 0 | 0 | 0 | 0.0 |
 
@@ -82,7 +82,7 @@ Tipo de CTA reconstruído pela data de publicação. Acompanhar qual sinal conve
 | 2026-07-16 | FEED | 6 | 3 | 0 | Consegue achar os 4 grupos antes de rola |
 | 2026-07-13 | FEED | 6 | 3 | 0 | Plano de leitura da semana 📖 |
 | 2026-07-19 | REELS | 5 | 3 | 0 | Já se pegou pensando que está enfrentand |
-| 2026-07-20 | FEED | 2 | 0 | 0 | Tem alguma coisa pesando sobre você hoje |
+| 2026-07-20 | FEED | 2 | 1 | 0 | Tem alguma coisa pesando sobre você hoje |
 
 ## Funil de conversão
 

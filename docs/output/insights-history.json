@@ -18,7 +18,7 @@
       "profile_visits": 0,
       "profile_activity": 0,
       "follows": 0,
-      "views": 4
+      "views": 6
     },
     "collected_at": "2026-07-20"
   },
@@ -33,7 +33,7 @@
     "like_count": 0,
     "comments_count": 0,
     "insights": {
-      "reach": 0,
+      "reach": 1,
       "saved": 0,
       "likes": 0,
       "comments": 0,
@@ -175,7 +175,7 @@
       "comments": 0,
       "shares": 0,
       "total_interactions": 0,
-      "views": 20,
+      "views": 21,
       "ig_reels_avg_watch_time": 2115,
       "ig_reels_video_view_total_time": 31736,
       "profile_visits": {
@@ -207,7 +207,7 @@
       "comments": 0,
       "shares": 0,
       "total_interactions": 0,
-      "views": 19,
+      "views": 20,
       "profile_visits": 0,
       "profile_activity": 0,
       "follows": 0
@@ -521,13 +521,13 @@
     "like_count": 0,
     "comments_count": 0,
     "insights": {
-      "reach": 7,
+      "reach": 8,
       "saved": 0,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "total_interactions": 0,
-      "views": 14,
+      "views": 16,
       "profile_visits": 0,
       "profile_activity": 0,
       "follows": 0
