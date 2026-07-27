@@ -1,5 +1,588 @@
 [
   {
+    "id": "18010310906921794",
+    "timestamp": "2026-07-27T13:39:11+0000",
+    "media_type": "IMAGE",
+    "media_product_type": "STORY",
+    "is_story": true,
+    "caption_preview": "(sem legenda)",
+    "permalink": "https://www.instagram.com/stories/dai_lydevocional/3950527042253726887",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 0,
+      "replies": 0,
+      "shares": 0,
+      "total_interactions": 1,
+      "navigation": 0,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0,
+      "views": 1
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "17965906938124563",
+    "timestamp": "2026-07-27T13:38:57+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Você já passou por um dia em que nada parecia fazer sentido?",
+    "permalink": "https://www.instagram.com/p/DbTF02BG-mP/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 0,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 1,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18108101501023096",
+    "timestamp": "2026-07-26T20:13:24+0000",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "is_story": false,
+    "caption_preview": "Tem alguma coisa pesando sobre você hoje?",
+    "permalink": "https://www.instagram.com/reel/DbROJxdDxSX/",
+    "like_count": 1,
+    "comments_count": 0,
+    "insights": {
+      "reach": 1,
+      "saved": 0,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 2,
+      "views": 2,
+      "ig_reels_avg_watch_time": 2389,
+      "ig_reels_video_view_total_time": 7167,
+      "profile_visits": {
+        "error": "The Media Insights API does not support the profile_visits metric for this media product type."
+      },
+      "profile_activity": {
+        "error": "The Media Insights API does not support the profile_activity metric for this media product type."
+      },
+      "follows": {
+        "error": "The Media Insights API does not support the follows metric for this media product type."
+      }
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18120804241830037",
+    "timestamp": "2026-07-26T18:58:44+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Já se pegou pensando que está enfrentando tudo sozinho?",
+    "permalink": "https://www.instagram.com/p/DbRFoD6AQze/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 2,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 3,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18105809414027921",
+    "timestamp": "2026-07-26T12:02:30+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Já se perguntou se está esperando demais por uma resposta?",
+    "permalink": "https://www.instagram.com/p/DbQV_cDlnL6/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 3,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 9,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18058987892751539",
+    "timestamp": "2026-07-25T20:14:17+0000",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "is_story": false,
+    "caption_preview": "Você já passou por um dia em que nada parecia fazer sentido?",
+    "permalink": "https://www.instagram.com/reel/DbOpcBED3nP/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 4,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 8,
+      "ig_reels_avg_watch_time": 3303,
+      "ig_reels_video_view_total_time": 16516,
+      "profile_visits": {
+        "error": "The Media Insights API does not support the profile_visits metric for this media product type."
+      },
+      "profile_activity": {
+        "error": "The Media Insights API does not support the profile_activity metric for this media product type."
+      },
+      "follows": {
+        "error": "The Media Insights API does not support the follows metric for this media product type."
+      }
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "17923744713391332",
+    "timestamp": "2026-07-25T18:54:50+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Alguma vez você já duvidou se Deus ainda estava prestando at...",
+    "permalink": "https://www.instagram.com/p/DbOgYwmnx1S/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 2,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 8,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "17960177352167129",
+    "timestamp": "2026-07-25T12:10:52+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Tem algo que você tem evitado encarar de frente?",
+    "permalink": "https://www.instagram.com/p/DbNyJ4oG-NK/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 2,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 5,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18326828848272694",
+    "timestamp": "2026-07-24T20:24:27+0000",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "is_story": false,
+    "caption_preview": "Já se perguntou se está esperando demais por uma resposta?",
+    "permalink": "https://www.instagram.com/reel/DbMFzeWjG5t/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 6,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 11,
+      "ig_reels_avg_watch_time": 4126,
+      "ig_reels_video_view_total_time": 33014,
+      "profile_visits": {
+        "error": "The Media Insights API does not support the profile_visits metric for this media product type."
+      },
+      "profile_activity": {
+        "error": "The Media Insights API does not support the profile_activity metric for this media product type."
+      },
+      "follows": {
+        "error": "The Media Insights API does not support the follows metric for this media product type."
+      }
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18612972274035600",
+    "timestamp": "2026-07-24T19:14:58+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "5 versículos para quando você precisa de direção 🔖",
+    "permalink": "https://www.instagram.com/p/DbL95LzH1_e/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 3,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 10,
+      "profile_visits": 2,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18009707531746552",
+    "timestamp": "2026-07-24T12:18:57+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Já sentiu que precisava de um sinal pra continuar?",
+    "permalink": "https://www.instagram.com/p/DbLOSf7FrP1/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 4,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 10,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18011547989924117",
+    "timestamp": "2026-07-23T20:16:51+0000",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "is_story": false,
+    "caption_preview": "Tem algo que você tem evitado encarar de frente?",
+    "permalink": "https://www.instagram.com/reel/DbJgJLJiDw0/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 5,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 8,
+      "ig_reels_avg_watch_time": 2152,
+      "ig_reels_video_view_total_time": 17223,
+      "profile_visits": {
+        "error": "The Media Insights API does not support the profile_visits metric for this media product type."
+      },
+      "profile_activity": {
+        "error": "The Media Insights API does not support the profile_activity metric for this media product type."
+      },
+      "follows": {
+        "error": "The Media Insights API does not support the follows metric for this media product type."
+      }
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18179568556408157",
+    "timestamp": "2026-07-23T19:01:48+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Quantas tentativas você precisaria pra acertar essa?",
+    "permalink": "https://www.instagram.com/p/DbJXmdcoP3L/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 3,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 11,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "17862686502631364",
+    "timestamp": "2026-07-23T12:23:49+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Hoje é daqueles dias que parecem maiores que sua fé?",
+    "permalink": "https://www.instagram.com/p/DbIqDbSGiAa/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 3,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 12,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18360438040209870",
+    "timestamp": "2026-07-22T20:15:30+0000",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "is_story": false,
+    "caption_preview": "Já sentiu que precisava de um sinal pra continuar?",
+    "permalink": "https://www.instagram.com/reel/DbG7MfwHe7S/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 31,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 44,
+      "ig_reels_avg_watch_time": 3176,
+      "ig_reels_video_view_total_time": 108004,
+      "profile_visits": {
+        "error": "The Media Insights API does not support the profile_visits metric for this media product type."
+      },
+      "profile_activity": {
+        "error": "The Media Insights API does not support the profile_activity metric for this media product type."
+      },
+      "follows": {
+        "error": "The Media Insights API does not support the follows metric for this media product type."
+      }
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "17866520322636816",
+    "timestamp": "2026-07-22T19:00:44+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Tem algo que você tem evitado encarar de frente?",
+    "permalink": "https://www.instagram.com/p/DbGyr0ADw1n/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 6,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 18,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18098100017206467",
+    "timestamp": "2026-07-22T12:25:48+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Alguma vez você já duvidou se Deus ainda estava prestando at...",
+    "permalink": "https://www.instagram.com/p/DbGFelwkQ1l/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 5,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 14,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18026664377667043",
+    "timestamp": "2026-07-21T20:23:21+0000",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "is_story": false,
+    "caption_preview": "Hoje é daqueles dias que parecem maiores que sua fé?",
+    "permalink": "https://www.instagram.com/reel/DbEXS-Wgteb/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 4,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 8,
+      "ig_reels_avg_watch_time": 3633,
+      "ig_reels_video_view_total_time": 14533,
+      "profile_visits": {
+        "error": "The Media Insights API does not support the profile_visits metric for this media product type."
+      },
+      "profile_activity": {
+        "error": "The Media Insights API does not support the profile_activity metric for this media product type."
+      },
+      "follows": {
+        "error": "The Media Insights API does not support the follows metric for this media product type."
+      }
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18110253784984795",
+    "timestamp": "2026-07-21T19:06:51+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Tem alguma coisa pesando sobre você hoje?",
+    "permalink": "https://www.instagram.com/p/DbEOliGFMlN/",
+    "like_count": 1,
+    "comments_count": 0,
+    "insights": {
+      "reach": 2,
+      "saved": 0,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 1,
+      "views": 7,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "17991349817817663",
+    "timestamp": "2026-07-21T12:23:51+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Já se pegou pensando que está enfrentando tudo sozinho?",
+    "permalink": "https://www.instagram.com/p/DbDgdn8lsRJ/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 5,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 7,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "17872437024553579",
+    "timestamp": "2026-07-20T20:25:56+0000",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "is_story": false,
+    "caption_preview": "Alguma vez você já duvidou se Deus ainda estava prestando at...",
+    "permalink": "https://www.instagram.com/reel/DbByzJ8kzna/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 8,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 18,
+      "ig_reels_avg_watch_time": 3087,
+      "ig_reels_video_view_total_time": 27790,
+      "profile_visits": {
+        "error": "The Media Insights API does not support the profile_visits metric for this media product type."
+      },
+      "profile_activity": {
+        "error": "The Media Insights API does not support the profile_activity metric for this media product type."
+      },
+      "follows": {
+        "error": "The Media Insights API does not support the follows metric for this media product type."
+      }
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
+    "id": "18087546824370517",
+    "timestamp": "2026-07-20T19:27:18+0000",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "is_story": false,
+    "caption_preview": "Enquete da semana: Sua fé cresce mais...",
+    "permalink": "https://www.instagram.com/p/DbBsID7lhpn/",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+      "reach": 2,
+      "saved": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "views": 4,
+      "profile_visits": 0,
+      "profile_activity": 0,
+      "follows": 0
+    },
+    "collected_at": "2026-07-27"
+  },
+  {
     "id": "18006997052938968",
     "timestamp": "2026-07-20T13:05:45+0000",
     "media_type": "IMAGE",
@@ -33,18 +616,18 @@
     "like_count": 0,
     "comments_count": 0,
     "insights": {
-      "reach": 1,
+      "reach": 3,
       "saved": 0,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "total_interactions": 0,
-      "views": 2,
+      "views": 9,
       "profile_visits": 0,
       "profile_activity": 0,
       "follows": 0
     },
-    "collected_at": "2026-07-20"
+    "collected_at": "2026-07-27"
   },
   {
     "id": "18081061634668401",
@@ -57,15 +640,15 @@
     "like_count": 0,
     "comments_count": 0,
     "insights": {
-      "reach": 3,
+      "reach": 6,
       "saved": 0,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "total_interactions": 0,
-      "views": 5,
-      "ig_reels_avg_watch_time": 4334,
-      "ig_reels_video_view_total_time": 21672,
+      "views": 9,
+      "ig_reels_avg_watch_time": 3764,
+      "ig_reels_video_view_total_time": 30115,
       "profile_visits": {
         "error": "The Media Insights API does not support the profile_visits metric for this media product type."
       },
@@ -76,7 +659,7 @@
         "error": "The Media Insights API does not support the follows metric for this media product type."
       }
     },
-    "collected_at": "2026-07-20"
+    "collected_at": "2026-07-27"
   },
   {
     "id": "18096419774204805",
@@ -89,18 +672,18 @@
     "like_count": 0,
     "comments_count": 0,
     "insights": {
-      "reach": 2,
+      "reach": 14,
       "saved": 0,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "total_interactions": 0,
-      "views": 7,
+      "views": 37,
       "profile_visits": 0,
       "profile_activity": 0,
       "follows": 0
     },
-    "collected_at": "2026-07-20"
+    "collected_at": "2026-07-27"
   },
   {
     "id": "18073223801349254",
@@ -124,7 +707,7 @@
       "profile_activity": 0,
       "follows": 0
     },
-    "collected_at": "2026-07-20"
+    "collected_at": "2026-07-27"
   },
   {
     "id": "18066885578467317",
