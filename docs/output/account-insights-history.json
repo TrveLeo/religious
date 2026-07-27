@@ -10,11 +10,11 @@
     },
     "insights": {
       "range_days": 30,
-      "since": "1782569040",
-      "until": "1785161040",
+      "since": "1782573082",
+      "until": "1785165082",
       "totals": {
         "reach": 419,
-        "views": 2800,
+        "views": 2801,
         "accounts_engaged": 15,
         "total_interactions": 124,
         "likes": 113,
@@ -25,7 +25,7 @@
         "follows_and_unfollows": null,
         "profile_links_taps": 0,
         "website_clicks": 0,
-        "profile_views": 109
+        "profile_views": 110
       },
       "time_series": {
         "reach": [
@@ -146,7 +146,7 @@
             "end_time": "2026-07-26T07:00:00+0000"
           },
           {
-            "value": 3,
+            "value": 4,
             "end_time": "2026-07-27T07:00:00+0000"
           }
         ],

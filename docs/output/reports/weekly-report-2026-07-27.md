@@ -5,8 +5,8 @@ Janela: últimos 7 dias até 2026-07-27 · snapshot de conta: 2026-07-27
 ## Conta
 
 - Seguidores: **455** · Posts: 101
-- Alcance 30d: 419 · Views 30d: 2800 · Contas engajadas: 15
-- Visitas ao perfil: 109 · Cliques no site: 0 (CTR 0.0%)
+- Alcance 30d: 419 · Views 30d: 2801 · Contas engajadas: 15
+- Visitas ao perfil: 110 · Cliques no site: 0 (CTR 0.0%)
 - Novos seguidores (7d): **10**
 
 Crescimento diário:
@@ -23,7 +23,7 @@ Crescimento diário:
 
 ## Resumo da semana (mídia)
 
-- Posts: **21** · Views: 218 · Alcance: 101
+- Posts: **21** · Views: 218 · Alcance: 102
 - Interações: 3 · Likes: 2 · **Salvos: 0** · **Shares: 0** · **Comentários: 0**
 
 > ⚠️ Zero salvos/shares/comentários na semana — sinais que o algoritmo usa pra escalar alcance. Gargalo principal.
@@ -33,7 +33,7 @@ Crescimento diário:
 | Tipo | n | Reach méd. | Views méd. | Eng% (int/reach) |
 | --- | --- | --- | --- | --- |
 | REELS | 7 | 8.4 | 14.1 | 3.4 |
-| FEED | 14 | 3.0 | 8.5 | 2.4 |
+| FEED | 14 | 3.1 | 8.5 | 2.3 |
 
 ## Por formato de conteúdo
 
@@ -48,7 +48,7 @@ Eng% normaliza pelo alcance — decoupla do tamanho da audiência. Com n=1 não 
 
 | Faixa | n | Views méd. | Reach méd. | Inter. méd. |
 | --- | --- | --- | --- | --- |
-| manhã (00-12) | 7 | 8.3 | 3.1 | 0.00 |
+| manhã (00-12) | 7 | 8.3 | 3.3 | 0.00 |
 | tarde (12-18) | 14 | 11.4 | 5.6 | 0.21 |
 
 ## A/B de CTA (pedido único por post)
@@ -57,7 +57,7 @@ Tipo de CTA reconstruído pela data de publicação. Acompanhar qual sinal conve
 
 | CTA pedido | n posts | Salvos | Shares | Comentários | Eng% |
 | --- | --- | --- | --- | --- | --- |
-| comment | 7 | 0 | 0 | 0 | 4.2 |
+| comment | 7 | 0 | 0 | 0 | 4.0 |
 | save | 8 | 0 | 0 | 0 | 7.4 |
 | share | 6 | 0 | 0 | 0 | 0.0 |
 
@@ -81,11 +81,11 @@ Tipo de CTA reconstruído pela data de publicação. Acompanhar qual sinal conve
 | 2026-07-20 | FEED | 4 | 2 | 0 | Enquete da semana: Sua fé cresce mais... |
 | 2026-07-26 | FEED | 3 | 2 | 0 | Já se pegou pensando que está enfrentand |
 | 2026-07-26 | REELS | 2 | 1 | 1 | Tem alguma coisa pesando sobre você hoje |
-| 2026-07-27 | FEED | 1 | 0 | 0 | Você já passou por um dia em que nada pa |
+| 2026-07-27 | FEED | 1 | 1 | 0 | Você já passou por um dia em que nada pa |
 
 ## Funil de conversão
 
-- Perfil → site (Instagram): 109 visitas → 0 cliques (0.0%)
+- Perfil → site (Instagram): 110 visitas → 0 cliques (0.0%)
 - Cliques rastreados (Worker): sem `click-stats.json` (rode `npm run fetch-click-stats`).
 
 ## Demografia de seguidores
