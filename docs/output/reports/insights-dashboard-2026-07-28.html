@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<title>Insights @dai_lydevocional — Semana pós-mudança · 28 jul 2026</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root {
+  --bg: #faf9f7;
+  --surface: #ffffff;
+  --border: #e8e2d9;
+  --text: #1a1714;
+  --muted: #7a6e64;
+  --accent: #a0522d;
+  --accent-light: #f5ede6;
+  --good: #2d7a4a;
+  --good-bg: #e8f5ee;
+  --warn: #b05c00;
+  --warn-bg: #fef3e6;
+  --bad: #c0392b;
+  --bad-bg: #fdecea;
+  --neutral: #4a6fa5;
+  --neutral-bg: #edf2fa;
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1714;
+    --surface: #241f1b;
+    --border: #3a342d;
+    --text: #f0ebe4;
+    --muted: #9c8e82;
+    --accent-light: #2d1f14;
+    --good-bg: #0f2018;
+    --warn-bg: #221508;
+    --bad-bg: #220f0d;
+    --neutral-bg: #111e30;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1a1714; --surface: #241f1b; --border: #3a342d;
+  --text: #f0ebe4; --muted: #9c8e82; --accent-light: #2d1f14;
+  --good-bg: #0f2018; --warn-bg: #221508; --bad-bg: #220f0d; --neutral-bg: #111e30;
+}
+:root[data-theme="light"] {
+  --bg: #faf9f7; --surface: #ffffff; --border: #e8e2d9;
+  --text: #1a1714; --muted: #7a6e64; --accent-light: #f5ede6;
+  --good-bg: #e8f5ee; --warn-bg: #fef3e6; --bad-bg: #fdecea; --neutral-bg: #edf2fa;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.6; font-size: 15px; }
+a { color: var(--accent); }
+
+/* Layout */
+.page { max-width: 960px; margin: 0 auto; padding: 32px 20px 80px; }
+header { border-bottom: 2px solid var(--accent); padding-bottom: 20px; margin-bottom: 32px; }
+header h1 { font-family: var(--serif); font-size: 26px; color: var(--accent); }
+header .meta { color: var(--muted); font-size: 13px; margin-top: 4px; }
+
+section { margin-bottom: 40px; }
+h2 { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+h3 { font-size: 15px; font-weight: 600; margin-bottom: 10px; }
+
+/* KPI strip */
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 32px; }
+.kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px 18px; }
+.kpi .label { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 4px; }
+.kpi .value { font-size: 28px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1; }
+.kpi .delta { font-size: 12px; margin-top: 4px; }
+.kpi.good { border-left: 3px solid var(--good); }
+.kpi.warn { border-left: 3px solid var(--warn); }
+.kpi.bad  { border-left: 3px solid var(--bad); }
+.kpi.neutral { border-left: 3px solid var(--neutral); }
+.up   { color: var(--good); }
+.down { color: var(--bad); }
+.flat { color: var(--muted); }
+
+/* Alerta de diagnóstico */
+.alert { border-radius: 8px; padding: 16px 20px; margin-bottom: 20px; font-size: 14px; line-height: 1.6; }
+.alert.bad  { background: var(--bad-bg);  border-left: 4px solid var(--bad); }
+.alert.warn { background: var(--warn-bg); border-left: 4px solid var(--warn); }
+.alert.good { background: var(--good-bg); border-left: 4px solid var(--good); }
+.alert strong { display: block; margin-bottom: 4px; }
+
+/* Comparação pre/pós */
+.compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 560px) { .compare-grid { grid-template-columns: 1fr; } }
+.compare-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 18px; }
+.compare-card h3 { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: 12px; }
+.compare-card h3 span { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; margin-left: 6px; }
+.compare-card h3 .pre-tag  { background: var(--neutral-bg); color: var(--neutral); }
+.compare-card h3 .post-tag { background: var(--accent-light); color: var(--accent); }
+.stat-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border); font-size: 14px; }
+.stat-row:last-child { border-bottom: none; }
+.stat-row .metric { color: var(--muted); }
+.stat-row .val { font-weight: 600; font-variant-numeric: tabular-nums; }
+
+/* Charts */
+.chart-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 18px 18px 8px; }
+canvas { display: block; width: 100% !important; height: 200px !important; }
+
+/* Tabela */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 600px; }
+th { background: var(--accent-light); color: var(--accent); font-weight: 600; text-align: left; padding: 8px 12px; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; position: sticky; top: 0; }
+td { padding: 7px 12px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+tr:hover td { background: var(--accent-light); }
+.badge { display: inline-block; padding: 1px 7px; border-radius: 10px; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+.badge-reel { background: var(--neutral-bg); color: var(--neutral); }
+.badge-feed { background: var(--accent-light); color: var(--accent); }
+.badge-new { background: var(--good-bg); color: var(--good); }
+
+/* Sugestões */
+.reco { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.reco-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+.reco-card .priority { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 6px; }
+.priority-1 { color: var(--bad); }
+.priority-2 { color: var(--warn); }
+.priority-3 { color: var(--neutral); }
+.reco-card p { font-size: 13px; line-height: 1.55; color: var(--muted); margin-top: 4px; }
+
+.theme-toggle { position: fixed; top: 16px; right: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 6px 12px; font-size: 12px; cursor: pointer; color: var(--text); }
+</style>
+
+<body>
+<button class="theme-toggle" onclick="toggleTheme()">☀ / ☾</button>
+<div class="page">
+
+<header>
+  <h1>@dai_lydevocional — Relatório pós-mudança</h1>
+  <p class="meta">Período: 21–27 jul 2026 · Comparação: lançamento até 20 jul · Gerado em 28 jul 2026</p>
+</header>
+
+<!-- DIAGNÓSTICO PRINCIPAL -->
+<section>
+  <h2>Diagnóstico</h2>
+
+  <div class="alert bad">
+    <strong>Alcance colapsou 77% pós-mudança</strong>
+    Média de reach por post caiu de 22,5 para 5,2. Não é efeito dos novos CTAs — o colapso reflete acúmulo de 5 semanas sem sinal de engajamento (saves/comments/shares = 0), que leva o algoritmo a distribuir cada vez menos.
+  </div>
+
+  <div class="alert warn">
+    <strong>CTAs melhoraram, mas distribuição é o bloqueador real</strong>
+    Com 2–6 pessoas alcançadas por post, mesmo CTAs perfeitos não geram volume de ação. O problema é chegar a mais gente, não o que está escrito na legenda.
+  </div>
+
+  <div class="alert good">
+    <strong>Primeiro save em 5 semanas</strong>
+    O relatório de conta 30 dias registra 1 save — o primeiro desde o lançamento. Pode ter sido o carrossel "5 versículos" (24/jul) ou um dos posts com novo CTA situacional.
+  </div>
+</section>
+
+<!-- KPIs -->
+<section>
+  <h2>Indicadores principais (30 dias)</h2>
+  <div class="kpis">
+    <div class="kpi neutral">
+      <div class="label">Seguidores</div>
+      <div class="value">455</div>
+      <div class="delta flat">estável</div>
+    </div>
+    <div class="kpi bad">
+      <div class="label">Alcance 30d</div>
+      <div class="value">392</div>
+      <div class="delta down">↓ vs 453 (jul13)</div>
+    </div>
+    <div class="kpi bad">
+      <div class="label">Contas engajadas</div>
+      <div class="value">15</div>
+      <div class="delta down">↓ vs 143 (jul13)</div>
+    </div>
+    <div class="kpi bad">
+      <div class="label">Reach/post (pós)</div>
+      <div class="value">5,2</div>
+      <div class="delta down">↓ de 22,5 (pré)</div>
+    </div>
+    <div class="kpi good">
+      <div class="label">Saves 30d</div>
+      <div class="value">1</div>
+      <div class="delta up">↑ de 0</div>
+    </div>
+    <div class="kpi warn">
+      <div class="label">Comments 30d</div>
+      <div class="value">0</div>
+      <div class="delta flat">sem mudança</div>
+    </div>
+    <div class="kpi warn">
+      <div class="label">Shares 30d</div>
+      <div class="value">0</div>
+      <div class="delta flat">sem mudança</div>
+    </div>
+    <div class="kpi neutral">
+      <div class="label">Views 30d</div>
+      <div class="value">2.742</div>
+      <div class="delta flat">—</div>
+    </div>
+  </div>
+</section>
+
+<!-- ALCANCE DIÁRIO -->
+<section>
+  <h2>Alcance diário — últimas 2 semanas</h2>
+  <div class="chart-wrap">
+    <canvas id="dailyChart"></canvas>
+  </div>
+  <p style="font-size:12px;color:var(--muted);margin-top:8px;padding-left:4px">Linha vertical tracejada: início dos novos CTAs (21 jul). Alcance continua baixo; sem recuperação visível ainda.</p>
+</section>
+
+<!-- ALCANCE SEMANAL -->
+<section>
+  <h2>Alcance semanal (total)</h2>
+  <div class="chart-wrap">
+    <canvas id="weeklyChart"></canvas>
+  </div>
+  <p style="font-size:12px;color:var(--muted);margin-top:8px;padding-left:4px">Semana de 26/jul está incompleta (3 dias). Tendência de queda contínua desde lançamento.</p>
+</section>
+
+<!-- COMPARAÇÃO PRÉ/PÓS -->
+<section>
+  <h2>Comparação pré × pós mudança de CTAs</h2>
+  <div class="compare-grid">
+    <div class="compare-card">
+      <h3>Pré-mudança <span class="pre-tag">até 20/jul · n=62</span></h3>
+      <div class="stat-row"><span class="metric">Reach médio/post</span><span class="val">22,5</span></div>
+      <div class="stat-row"><span class="metric">Views médio/post</span><span class="val">43,0</span></div>
+      <div class="stat-row"><span class="metric">Likes total</span><span class="val">72</span></div>
+      <div class="stat-row"><span class="metric">Saves total</span><span class="val">0</span></div>
+      <div class="stat-row"><span class="metric">Comments total</span><span class="val">0</span></div>
+      <div class="stat-row"><span class="metric">Shares total</span><span class="val">0</span></div>
+      <div class="stat-row"><span class="metric">Taxa de eng.</span><span class="val">5,16%</span></div>
+    </div>
+    <div class="compare-card">
+      <h3>Pós-mudança <span class="post-tag">21–27/jul · n=21</span></h3>
+      <div class="stat-row"><span class="metric">Reach médio/post</span><span class="val down">5,2 ↓77%</span></div>
+      <div class="stat-row"><span class="metric">Views médio/post</span><span class="val down">12,3 ↓71%</span></div>
+      <div class="stat-row"><span class="metric">Likes total</span><span class="val down">2 ↓97%</span></div>
+      <div class="stat-row"><span class="metric">Saves total</span><span class="val up">0 (1 via conta)</span></div>
+      <div class="stat-row"><span class="metric">Comments total</span><span class="val flat">0</span></div>
+      <div class="stat-row"><span class="metric">Shares total</span><span class="val flat">0</span></div>
+      <div class="stat-row"><span class="metric">Taxa de eng.</span><span class="val down">1,82% ↓65%</span></div>
+    </div>
+  </div>
+  <p style="font-size:12px;color:var(--muted);margin-top:12px">⚠ A queda reflete o ciclo de supressão algorítmica, não os novos CTAs. Os posts pré-mudança tinham boost de lançamento; os pós já não têm.</p>
+</section>
+
+<!-- TABELA DE POSTS RECENTES -->
+<section>
+  <h2>Posts recentes (14–27 jul)</h2>
+  <div class="table-wrap">
+    <table id="postsTable">
+      <thead>
+        <tr>
+          <th>Data</th>
+          <th>Tipo</th>
+          <th>Legenda</th>
+          <th>Reach</th>
+          <th>Views</th>
+          <th>Likes</th>
+          <th>Saves</th>
+        </tr>
+      </thead>
+      <tbody id="postsBody"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- DIAGNÓSTICO DO CICLO -->
+<section>
+  <h2>Por que o alcance colapsou</h2>
+  <div class="alert warn">
+    <strong>Loop de supressão algorítmica</strong>
+    O Instagram avalia cada post nas primeiras horas com base no engajamento dos seguidores. 5 semanas de posts com 0 saves/shares/comments → o algoritmo parou de mostrar o conteúdo até mesmo para os 455 seguidores. Com 2–6 alcançados por post (taxa de distribuição &lt; 1,5%), é impossível sair desse ciclo só com melhora de CTA.
+  </div>
+  <p style="font-size:13px;color:var(--muted);line-height:1.7">
+    O ciclo só quebra com <strong>tráfego externo</strong> que gere engajamento real: alguém compartilhar um post fora do IG, um perfil maior mencionar a conta, ou interação ativa em outros perfis do nicho que tráfego de volta.
+  </p>
+</section>
+
+<!-- RECOMENDAÇÕES -->
+<section>
+  <h2>Próximos passos prioritários</h2>
+  <div class="reco">
+    <div class="reco-card">
+      <div class="priority priority-1">Prioridade 1 — Distribuição</div>
+      <h3>Interação ativa no nicho</h3>
+      <p>Comentar com substância em 5–10 perfis cristãos por dia (sem spam). Seguidores desses perfis vêem o comentário e visitam o perfil. Único canal de tráfego que não depende do algoritmo.</p>
+    </div>
+    <div class="reco-card">
+      <div class="priority priority-1">Prioridade 1 — Distribuição</div>
+      <h3>Reels como motor de descoberta</h3>
+      <p>Reels alcançam 8,3 pessoas vs 3,7 do feed. Aumentar frequência de Reels e experimentar hooks visuais mais fortes nos primeiros 2 segundos.</p>
+    </div>
+    <div class="reco-card">
+      <div class="priority priority-2">Prioridade 2 — Engajamento</div>
+      <h3>Stories com enquete/pergunta</h3>
+      <p>Stories de enquete geram interação sem depender de alcance orgânico — só os seguidores atuais veem, mas a resposta de tap é o engajamento mais fácil de obter.</p>
+    </div>
+    <div class="reco-card">
+      <div class="priority priority-2">Prioridade 2 — Engajamento</div>
+      <h3>Manter verse-list (1 save registrado)</h3>
+      <p>O carrossel de versículos gerou o primeiro save em 5 semanas. Sinal fraco mas único positivo da semana. Continuar e testar temas com maior apelo emocional (ansiedade, luto).</p>
+    </div>
+    <div class="reco-card">
+      <div class="priority priority-3">Prioridade 3 — Otimização</div>
+      <h3>Horário do post secundário</h3>
+      <p>Post-game roda às 15h. Análise anterior mostrou slot 9-12h com 47% mais alcance. Considerar mover para manhã.</p>
+    </div>
+    <div class="reco-card">
+      <div class="priority priority-3">Prioridade 3 — Estrutura</div>
+      <h3>Renovação do token (~22 ago)</h3>
+      <p>IG_ACCESS_TOKEN expira por volta de 22 ago 2026 (60 dias do setup). Renovar antes dessa data para não interromper as publicações automáticas.</p>
+    </div>
+  </div>
+</section>
+
+</div><!-- .page -->
+
+<script>
+// Dados embutidos
+const daily = [
+  {date:'2026-07-14',v:24},{date:'2026-07-15',v:23},{date:'2026-07-16',v:46},
+  {date:'2026-07-17',v:58},{date:'2026-07-18',v:37},{date:'2026-07-19',v:23},
+  {date:'2026-07-20',v:23},{date:'2026-07-21',v:24},{date:'2026-07-22',v:38},
+  {date:'2026-07-23',v:21},{date:'2026-07-24',v:23},{date:'2026-07-25',v:24},
+  {date:'2026-07-26',v:19},{date:'2026-07-27',v:16}
+];
+const weekly = [
+  {week:'28/jun',sum:234,days:7},{week:'05/jul',sum:245,days:7},
+  {week:'12/jul',sum:213,days:7},{week:'19/jul',sum:176,days:7},
+  {week:'26/jul (parcial)',sum:36,days:3}
+];
+const posts = [
+  {date:'2026-07-14',type:'REELS',caption:'Há uma força que vai além do que você enxerga',reach:4,views:13,likes:0,saves:0,isNew:false},
+  {date:'2026-07-14',type:'FEED',caption:'Existe uma palavra que você precisa ouvir hoje?',reach:4,views:12,likes:0,saves:0,isNew:false},
+  {date:'2026-07-15',type:'REELS',caption:'Alguma vez você já duvidou se Deus ainda estava...',reach:5,views:10,likes:0,saves:0,isNew:false},
+  {date:'2026-07-15',type:'FEED',caption:'Já sentiu que precisava de um sinal pra continuar?',reach:3,views:7,likes:0,saves:0,isNew:false},
+  {date:'2026-07-16',type:'REELS',caption:'Tem algo que você tem evitado encarar de frente?',reach:8,views:18,likes:0,saves:0,isNew:false},
+  {date:'2026-07-16',type:'FEED',caption:'Hoje é daqueles dias que parecem maiores que sua fé?',reach:5,views:12,likes:0,saves:0,isNew:false},
+  {date:'2026-07-17',type:'REELS',caption:'Já se perguntou se está esperando demais por uma r...',reach:15,views:28,likes:0,saves:0,isNew:false},
+  {date:'2026-07-17',type:'FEED',caption:'Você já passou por um dia em que nada parecia...',reach:7,views:16,likes:0,saves:0,isNew:false},
+  {date:'2026-07-18',type:'REELS',caption:'Tem alguma coisa pesando sobre você hoje?',reach:5,views:10,likes:0,saves:0,isNew:false},
+  {date:'2026-07-18',type:'FEED',caption:'Já se pegou pensando que está enfrentando tudo...',reach:4,views:8,likes:0,saves:0,isNew:false},
+  {date:'2026-07-19',type:'REELS',caption:'Já se pegou pensando que está enfrentando tudo...',reach:6,views:9,likes:0,saves:0,isNew:false},
+  {date:'2026-07-20',type:'FEED',caption:'Enquete da semana: Sua fé cresce mais...',reach:2,views:4,likes:0,saves:0,isNew:false},
+  {date:'2026-07-20',type:'FEED',caption:'Tem alguma coisa pesando sobre você hoje?',reach:3,views:9,likes:0,saves:0,isNew:false},
+  {date:'2026-07-21',type:'REELS',caption:'Hoje é daqueles dias que parecem maiores que sua fé?',reach:4,views:8,likes:0,saves:0,isNew:true},
+  {date:'2026-07-21',type:'FEED',caption:'Tem alguma coisa pesando sobre você hoje?',reach:2,views:7,likes:1,saves:0,isNew:true},
+  {date:'2026-07-21',type:'FEED',caption:'Já se pegou pensando que está enfrentando tudo...',reach:5,views:7,likes:0,saves:0,isNew:true},
+  {date:'2026-07-22',type:'REELS',caption:'Já sentiu que precisava de um sinal pra continuar?',reach:31,views:44,likes:0,saves:0,isNew:true},
+  {date:'2026-07-22',type:'FEED',caption:'Tem algo que você tem evitado encarar de frente?',reach:9,views:30,likes:0,saves:0,isNew:true},
+  {date:'2026-07-22',type:'FEED',caption:'Alguma vez você já duvidou se Deus ainda estava...',reach:5,views:16,likes:0,saves:0,isNew:true},
+  {date:'2026-07-23',type:'REELS',caption:'Tem algo que você tem evitado encarar de frente?',reach:5,views:8,likes:0,saves:0,isNew:true},
+  {date:'2026-07-23',type:'FEED',caption:'Quantas tentativas você precisaria pra acertar...',reach:3,views:12,likes:0,saves:0,isNew:true},
+  {date:'2026-07-23',type:'FEED',caption:'Hoje é daqueles dias que parecem maiores que sua fé?',reach:3,views:13,likes:0,saves:0,isNew:true},
+  {date:'2026-07-24',type:'REELS',caption:'Já se perguntou se está esperando demais por uma r...',reach:6,views:11,likes:0,saves:0,isNew:true},
+  {date:'2026-07-24',type:'FEED',caption:'5 versículos para quando você precisa de direção 🔖',reach:3,views:10,likes:0,saves:0,isNew:true},
+  {date:'2026-07-24',type:'FEED',caption:'Já sentiu que precisava de um sinal pra continuar?',reach:4,views:10,likes:0,saves:0,isNew:true},
+  {date:'2026-07-25',type:'REELS',caption:'Você já passou por um dia em que nada parecia...',reach:5,views:10,likes:0,saves:0,isNew:true},
+  {date:'2026-07-25',type:'FEED',caption:'Alguma vez você já duvidou se Deus ainda estava...',reach:3,views:11,likes:0,saves:0,isNew:true},
+  {date:'2026-07-25',type:'FEED',caption:'Tem algo que você tem evitado encarar de frente?',reach:2,views:6,likes:0,saves:0,isNew:true},
+  {date:'2026-07-26',type:'REELS',caption:'Tem alguma coisa pesando sobre você hoje?',reach:3,views:8,likes:1,saves:0,isNew:true},
+  {date:'2026-07-26',type:'FEED',caption:'Já se perguntou se está esperando demais...',reach:2,views:4,likes:0,saves:0,isNew:true},
+  {date:'2026-07-26',type:'FEED',caption:'Já se perguntou se está esperando demais...',reach:3,views:10,likes:0,saves:0,isNew:true},
+  {date:'2026-07-27',type:'REELS',caption:'Já se pegou pensando que está enfrentando tudo...',reach:4,views:13,likes:0,saves:0,isNew:true},
+  {date:'2026-07-27',type:'FEED',caption:'Plano de leitura da semana 📖',reach:2,views:5,likes:0,saves:0,isNew:true},
+  {date:'2026-07-27',type:'FEED',caption:'Você já passou por um dia em que nada parecia...',reach:6,views:15,likes:0,saves:0,isNew:true},
+];
+
+// Preenche tabela
+const tbody = document.getElementById('postsBody');
+posts.forEach(p => {
+  const tr = document.createElement('tr');
+  const typeClass = p.type === 'REELS' ? 'badge-reel' : 'badge-feed';
+  const typeLabel = p.type === 'REELS' ? 'Reel' : 'Feed';
+  const newBadge = p.isNew ? '<span class="badge badge-new" style="margin-left:4px">novo</span>' : '';
+  tr.innerHTML = `
+    <td>${p.date.slice(5)}</td>
+    <td><span class="badge ${typeClass}">${typeLabel}</span></td>
+    <td>${p.caption}${newBadge}</td>
+    <td style="font-variant-numeric:tabular-nums">${p.reach}</td>
+    <td style="font-variant-numeric:tabular-nums">${p.views}</td>
+    <td style="font-variant-numeric:tabular-nums">${p.likes || '—'}</td>
+    <td style="font-variant-numeric:tabular-nums;color:${p.saves>0?'var(--good)':'var(--muted)'}">${p.saves || '—'}</td>
+  `;
+  tbody.appendChild(tr);
+});
+
+// Helpers de canvas
+function getColors() {
+  const s = getComputedStyle(document.documentElement);
+  return {
+    accent: s.getPropertyValue('--accent').trim(),
+    muted:  s.getPropertyValue('--muted').trim(),
+    border: s.getPropertyValue('--border').trim(),
+    text:   s.getPropertyValue('--text').trim(),
+    bad:    s.getPropertyValue('--bad').trim(),
+    good:   s.getPropertyValue('--good').trim(),
+  };
+}
+
+function drawBarChart(canvasId, labels, values, opts = {}) {
+  const canvas = document.getElementById(canvasId);
+  const dpr = window.devicePixelRatio || 1;
+  const W = canvas.parentElement.clientWidth - 36;
+  const H = 200;
+  canvas.width  = W * dpr;
+  canvas.height = H * dpr;
+  canvas.style.width  = W + 'px';
+  canvas.style.height = H + 'px';
+  const ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+
+  const c = getColors();
+  const pad = { t: 12, r: 10, b: 36, l: 36 };
+  const cw = W - pad.l - pad.r;
+  const ch = H - pad.t - pad.b;
+  const maxV = Math.max(...values, 1);
+
+  // grid
+  ctx.strokeStyle = c.border;
+  ctx.lineWidth = 1;
+  [0, 0.25, 0.5, 0.75, 1].forEach(f => {
+    const y = pad.t + ch * (1 - f);
+    ctx.beginPath(); ctx.moveTo(pad.l, y); ctx.lineTo(pad.l + cw, y); ctx.stroke();
+    ctx.fillStyle = c.muted;
+    ctx.font = '10px system-ui';
+    ctx.textAlign = 'right';
+    ctx.fillText(Math.round(maxV * f), pad.l - 4, y + 3);
+  });
+
+  const bw = Math.max(4, cw / values.length - 3);
+  const gap = (cw - bw * values.length) / (values.length + 1);
+
+  values.forEach((v, i) => {
+    const x = pad.l + gap + i * (bw + gap);
+    const bh = (v / maxV) * ch;
+    const y = pad.t + ch - bh;
+    const isPost = opts.cutoffIndex !== undefined && i >= opts.cutoffIndex;
+    ctx.fillStyle = isPost ? c.good : c.accent;
+    ctx.beginPath();
+    ctx.roundRect(x, y, bw, bh, [3, 3, 0, 0]);
+    ctx.fill();
+
+    // label
+    if (i % Math.ceil(values.length / 14) === 0 || values.length <= 14) {
+      ctx.fillStyle = c.muted;
+      ctx.font = '9px system-ui';
+      ctx.textAlign = 'center';
+      ctx.fillText(labels[i], x + bw / 2, H - 8);
+    }
+  });
+
+  // corte linha
+  if (opts.cutoffIndex !== undefined) {
+    const cx2 = pad.l + gap + opts.cutoffIndex * (bw + gap) - gap / 2;
+    ctx.strokeStyle = c.bad;
+    ctx.setLineDash([4, 3]);
+    ctx.lineWidth = 1.5;
+    ctx.beginPath();
+    ctx.moveTo(cx2, pad.t - 4);
+    ctx.lineTo(cx2, pad.t + ch + 4);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle = c.bad;
+    ctx.font = 'bold 9px system-ui';
+    ctx.textAlign = 'left';
+    ctx.fillText('novos CTAs →', cx2 + 3, pad.t + 10);
+  }
+}
+
+function drawWeeklyBars(canvasId, weeks) {
+  const canvas = document.getElementById(canvasId);
+  const dpr = window.devicePixelRatio || 1;
+  const W = canvas.parentElement.clientWidth - 36;
+  const H = 200;
+  canvas.width  = W * dpr;
+  canvas.height = H * dpr;
+  canvas.style.width  = W + 'px';
+  canvas.style.height = H + 'px';
+  const ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+
+  const c = getColors();
+  const pad = { t: 12, r: 10, b: 36, l: 40 };
+  const cw = W - pad.l - pad.r;
+  const ch = H - pad.t - pad.b;
+  const maxV = Math.max(...weeks.map(w => w.sum));
+  const bw = Math.max(20, cw / weeks.length - 12);
+  const gap = (cw - bw * weeks.length) / (weeks.length + 1);
+
+  [0, 0.25, 0.5, 0.75, 1].forEach(f => {
+    const y = pad.t + ch * (1 - f);
+    ctx.strokeStyle = c.border; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(pad.l, y); ctx.lineTo(pad.l + cw, y); ctx.stroke();
+    ctx.fillStyle = c.muted; ctx.font = '10px system-ui'; ctx.textAlign = 'right';
+    ctx.fillText(Math.round(maxV * f), pad.l - 4, y + 3);
+  });
+
+  weeks.forEach((w, i) => {
+    const x = pad.l + gap + i * (bw + gap);
+    const bh = (w.sum / maxV) * ch;
+    const y = pad.t + ch - bh;
+    const isPartial = w.days < 7;
+    ctx.fillStyle = i === weeks.length - 1 ? c.muted : (i >= 3 ? c.good : c.accent);
+    ctx.globalAlpha = isPartial ? 0.5 : 1;
+    ctx.beginPath();
+    ctx.roundRect(x, y, bw, bh, [3, 3, 0, 0]);
+    ctx.fill();
+    ctx.globalAlpha = 1;
+
+    // value label on bar
+    if (bh > 18) {
+      ctx.fillStyle = '#fff';
+      ctx.font = 'bold 11px system-ui';
+      ctx.textAlign = 'center';
+      ctx.fillText(w.sum, x + bw / 2, y + 14);
+    }
+
+    ctx.fillStyle = c.muted;
+    ctx.font = '10px system-ui';
+    ctx.textAlign = 'center';
+    ctx.fillText(w.week, x + bw / 2, H - 8);
+  });
+}
+
+function renderCharts() {
+  const labels = daily.map(d => d.date.slice(5));
+  const values = daily.map(d => d.v);
+  const cutoff = daily.findIndex(d => d.date >= '2026-07-21');
+  drawBarChart('dailyChart', labels, values, { cutoffIndex: cutoff });
+  drawWeeklyBars('weeklyChart', weekly);
+}
+
+renderCharts();
+window.addEventListener('resize', renderCharts);
+
+function toggleTheme() {
+  const root = document.documentElement;
+  const current = root.getAttribute('data-theme');
+  root.setAttribute('data-theme', current === 'dark' ? 'light' : 'dark');
+  setTimeout(renderCharts, 50);
+}
+</script>
+</body>
+</html>
