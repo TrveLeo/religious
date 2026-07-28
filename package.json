@@ -38,11 +38,13 @@
     "post-threads": "node scripts/post-threads.js",
     "fetch-click-stats": "node scripts/fetch-click-stats.js",
     "generate-verse-list": "node scripts/generate-verse-list.js",
-    "post-verse-list-instagram": "node scripts/post-verse-list-instagram.js"
+    "post-verse-list-instagram": "node scripts/post-verse-list-instagram.js",
+    "prospect-comments": "node scripts/prospect-comments.js"
   },
   "dependencies": {
     "canvas": "^2.11.2",
-    "dotenv": "^16.6.1"
+    "dotenv": "^16.6.1",
+    "nodemailer": "^9.0.3"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^4.1.9",

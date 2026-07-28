@@ -1,0 +1,29 @@
+name: Prospecção diária de perfis para comentar
+
+on:
+  schedule:
+    - cron: "0 10 * * *" # 07:00 no horário de Brasília (UTC-3)
+  workflow_dispatch: {}
+
+jobs:
+  prospect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalar dependências
+        run: npm install --legacy-peer-deps
+
+      - name: Prospectar e enviar e-mail
+        run: node scripts/prospect-comments.js
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
