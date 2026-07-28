@@ -26,23 +26,42 @@
       </section>
 
       <section class="card">
-        <h2>Integração com o Instagram</h2>
-        <p class="devotional-text">Usamos a API do Instagram (Meta) apenas para: publicar conteúdo automaticamente no perfil do projeto, e responder automaticamente a comentários que contenham palavras específicas (como "amém"), como forma de engajamento simples. Não coletamos, armazenamos ou compartilhamos dados pessoais de quem comenta. O conteúdo do comentário é processado apenas no momento da resposta automática e não é salvo em banco de dados.</p>
+        <h2>Integração com o Instagram (API da Meta)</h2>
+        <p class="devotional-text">Usamos a API do Instagram (Meta) exclusivamente para:</p>
+        <ul style="margin:12px 0 0 20px;line-height:2">
+          <li>Publicar conteúdo automaticamente no perfil do projeto (imagens, carrosséis e reels).</li>
+          <li>Ler notificações de novos comentários via webhook para identificar comentários com palavras como "amém" e enviar uma resposta automática de agradecimento.</li>
+          <li>Coletar métricas de alcance e engajamento dos próprios posts (insights), para uso interno de análise de desempenho.</li>
+        </ul>
+        <p class="devotional-text" style="margin-top:14px"><strong>Dados acessados:</strong> texto do comentário (processado em memória apenas para verificar a presença da palavra-gatilho), ID do comentário (usado para postar a resposta) e métricas agregadas dos posts (alcance, curtidas, visualizações).</p>
+        <p class="devotional-text" style="margin-top:14px"><strong>Retenção:</strong> o texto dos comentários não é armazenado em nenhum banco de dados. O processamento ocorre em memória no momento do recebimento do webhook e o dado é descartado imediatamente. As métricas de insights são armazenadas localmente em arquivos JSON no repositório do projeto, sem identificação de usuários individuais.</p>
+        <p class="devotional-text" style="margin-top:14px"><strong>Compartilhamento:</strong> nenhum dado é vendido, compartilhado ou transferido a terceiros para fins comerciais.</p>
+      </section>
+
+      <section class="card">
+        <h2>Infraestrutura e terceiros</h2>
+        <p class="devotional-text">O webhook de resposta automática a comentários é executado via <strong>Cloudflare Workers</strong> (Cloudflare, Inc.). O código processa o evento recebido e faz a chamada à API da Meta para postar a resposta. Nenhum dado do evento é armazenado pelo worker. A política de privacidade da Cloudflare está disponível em <a href="https://www.cloudflare.com/privacypolicy/" style="color:#a0522d">cloudflare.com/privacypolicy</a>.</p>
+        <p class="devotional-text" style="margin-top:10px">O site é hospedado via <strong>GitHub Pages</strong> (GitHub, Inc. / Microsoft). Nenhum dado de visitantes é coletado pelo projeto nessa camada.</p>
       </section>
 
       <section class="card">
         <h2>Cookies e rastreamento</h2>
-        <p class="devotional-text">Este site não usa cookies, não possui sistema de login, e não realiza rastreamento de visitantes.</p>
+        <p class="devotional-text">Este site não usa cookies, não possui sistema de login e não realiza rastreamento de visitantes.</p>
+      </section>
+
+      <section class="card">
+        <h2>Exclusão de dados</h2>
+        <p class="devotional-text">Como não armazenamos dados pessoais de usuários do Instagram, não há dados a excluir. Caso tenha dúvidas ou queira confirmar que nenhum dado seu está armazenado, envie um e-mail para <strong>diariod777@gmail.com</strong>. Para instruções detalhadas sobre como solicitar a exclusão de dados, acesse nossa <a href="data-deletion.html" style="color:#a0522d">página de exclusão de dados</a>.</p>
       </section>
 
       <section class="card">
         <h2>Contato</h2>
-        <p class="devotional-text">Dúvidas sobre esta política podem ser enviadas para o e-mail de contato do projeto: diariod777@gmail.com.</p>
+        <p class="devotional-text">Dúvidas sobre esta política podem ser enviadas para: <strong>diariod777@gmail.com</strong>.</p>
       </section>
     </main>
 
     <footer>
-      <p>Última atualização: junho de 2026.</p>
+      <p>Última atualização: julho de 2026.</p>
     </footer>
   </div>
 </body>
