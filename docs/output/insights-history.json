@@ -33,13 +33,13 @@
     "like_count": 0,
     "comments_count": 0,
     "insights": {
-      "reach": 0,
+      "reach": 1,
       "saved": 0,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "total_interactions": 0,
-      "views": 0,
+      "views": 1,
       "profile_visits": 0,
       "profile_activity": 0,
       "follows": 0
@@ -57,15 +57,15 @@
     "like_count": 0,
     "comments_count": 0,
     "insights": {
-      "reach": 78,
+      "reach": 79,
       "saved": 0,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "total_interactions": 0,
-      "views": 96,
-      "ig_reels_avg_watch_time": 1731,
-      "ig_reels_video_view_total_time": 142015,
+      "views": 97,
+      "ig_reels_avg_watch_time": 1727,
+      "ig_reels_video_view_total_time": 143405,
       "profile_visits": {
         "error": "The Media Insights API does not support the profile_visits metric for this media product type."
       },
@@ -199,7 +199,7 @@
       "comments": 0,
       "shares": 0,
       "total_interactions": 1,
-      "views": 12,
+      "views": 13,
       "profile_visits": 0,
       "profile_activity": 0,
       "follows": 0
@@ -409,7 +409,7 @@
     "like_count": 0,
     "comments_count": 0,
     "insights": {
-      "reach": 10,
+      "reach": 11,
       "saved": 0,
       "likes": 0,
       "comments": 0,
@@ -696,7 +696,7 @@
     "like_count": 1,
     "comments_count": 0,
     "insights": {
-      "reach": 5,
+      "reach": 6,
       "saved": 0,
       "likes": 1,
       "comments": 0,
