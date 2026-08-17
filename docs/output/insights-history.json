@@ -10,15 +10,15 @@
     "like_count": 0,
     "comments_count": 0,
     "insights": {
-      "reach": 0,
+      "reach": 5,
       "replies": 0,
       "shares": 0,
       "total_interactions": 0,
-      "navigation": 0,
+      "navigation": 5,
       "profile_visits": 0,
       "profile_activity": 0,
       "follows": 0,
-      "views": 3
+      "views": 5
     },
     "collected_at": "2026-08-17"
   },

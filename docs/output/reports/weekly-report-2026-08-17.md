@@ -5,7 +5,7 @@ Janela: últimos 7 dias até 2026-08-17 · snapshot de conta: 2026-08-17
 ## Conta
 
 - Seguidores: **449** · Posts: 165
-- Alcance 30d: 330 · Views 30d: 2332 · Contas engajadas: 8
+- Alcance 30d: 331 · Views 30d: 2335 · Contas engajadas: 8
 - Visitas ao perfil: 54 · Cliques no site: 0 (CTR 0.0%)
 - Novos seguidores (7d): **2**
 
